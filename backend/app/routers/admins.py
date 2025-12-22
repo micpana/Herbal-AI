@@ -1,13 +1,17 @@
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, status, File, UploadFile
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from fastapi import Form
 from sqlalchemy.orm import Session
 from typing import List
+from jose import jwt, JWTError
+import shutil
+import uuid
 from ..database import get_db
 from ..models import Admin, Product, UsageLog
 from ..schemas import Admin, AdminBase, AdminLogin, Token, Product, ProductBase, UsageStat
 from ..services.auth_service import verify_password, get_password_hash, create_access_token
-from jose import jwt
+from ..config import settings
+import os
 
 # Helper to save files and get filenames
 def save_uploaded_files(files: List[UploadFile], product_id: int = None) -> str:
@@ -17,7 +21,7 @@ def save_uploaded_files(files: List[UploadFile], product_id: int = None) -> str:
             # Generate unique filename
             ext = file.filename.split('.')[-1]
             filename = f"{uuid.uuid4()}.{ext}"
-            file_path = os.path.join(MEDIA_DIR, filename)
+            file_path = os.path.join(settings.MEDIA_DIR, filename)
             with open(file_path, "wb") as buffer:
                 shutil.copyfileobj(file.file, buffer)
             filenames.append(filename)
@@ -32,7 +36,7 @@ security = HTTPBearer()
 def get_current_admin(credentials: HTTPAuthorizationCredentials = Depends(security), db: Session = Depends(get_db)):
     token = credentials.credentials
     try:
-        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+        payload = jwt.decode(token, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])
         username: str = payload.get("sub")
         if username is None:
             raise HTTPException(status_code=401, detail="Invalid token")

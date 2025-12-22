@@ -3,7 +3,7 @@ from datetime import datetime
 import json
 import os
 from sqlalchemy.orm import Session
-from ..models import UsageLog
+from ..models import UsageLog, Product
 from ..utils.herbs_loader import load_herbs
 from ..schemas import UserInput, RecommendationResponse
 from dotenv import load_dotenv
