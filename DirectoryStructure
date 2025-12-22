@@ -1,5 +1,5 @@
 herbal-ai/
-├── backend/
+├── backend/                  # FastAPI backend
 │   ├── app/
 │   │   ├── __init__.py
 │   │   ├── main.py
@@ -21,7 +21,7 @@ herbal-ai/
 │   ├── requirements.txt
 │   ├── .env
 │   └── Dockerfile
-├── frontend/
+├── frontend/                 # React + TypeScript frontend
 │   ├── src/
 │   │   ├── App.tsx
 │   │   ├── index.tsx
@@ -46,6 +46,7 @@ herbal-ai/
 │   ├── tailwind.config.js
 │   ├── tsconfig.json
 │   ├── vite.config.ts
+│   ├── vite-env.d.ts
 |   ├── .eslintrc.cjs
 |   ├── .prettierrc
 |   ├── postcss.config.js
