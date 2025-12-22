@@ -206,7 +206,6 @@ MIT License
 If you have any questions, need help with setup, want to report a bug, or have feature suggestions for **Herbal-AI**, feel free to reach out!
 
 - **Email**: michaelmudimbu@gmail.com  
-- **GitHub**: [@micpana](https://github.com/micpana) (open an issue or start a discussion)
 
 I'm happy to help! 🌿
 
