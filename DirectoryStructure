@@ -1,0 +1,51 @@
+herbal-ai/
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── database.py
+│   │   ├── models.py
+│   │   ├── schemas.py
+│   │   ├── routers/
+│   │   │   ├── __init__.py
+│   │   │   ├── users.py
+│   │   │   └── admins.py
+│   │   ├── services/
+│   │   │   ├── __init__.py
+│   │   │   ├── ai_service.py
+│   │   │   └── auth_service.py
+│   │   └── utils/
+│   │       └── herbs_loader.py
+│   ├── herbs.json
+│   ├── seed.py
+│   ├── requirements.txt
+│   ├── .env
+│   └── Dockerfile
+├── frontend/
+│   ├── src/
+│   │   ├── App.tsx
+│   │   ├── index.tsx
+│   │   ├── components/
+│   │   │   ├── UserForm.tsx
+│   │   │   ├── RecommendationDisplay.tsx
+│   │   │   ├── ProductCard.tsx
+│   │   │   ├── HerbCard.tsx
+│   │   │   ├── AdminLogin.tsx
+│   │   │   ├── AdminDashboard.tsx
+│   │   │   ├── ProductManager.tsx
+│   │   │   └── AdminManager.tsx
+│   │   ├── pages/
+│   │   │   ├── Home.tsx
+│   │   │   └── Admin.tsx
+│   │   ├── services/
+│   │   │   └── api.ts
+│   │   └── styles/
+│   │       └── tailwind.css
+│   ├── public/
+│   │   └── index.html
+│   ├── tailwind.config.js
+│   ├── tsconfig.json
+│   ├── package.json
+│   └── Dockerfile
+├── docker-compose.yml
+└── README.md
