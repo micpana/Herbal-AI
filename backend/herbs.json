@@ -1,0 +1,102 @@
+[
+  {
+    "id": "ginger",
+    "name": "Ginger",
+    "images": "",
+    "description": "Ginger is a flowering plant whose rhizome is widely used as a spice and folk medicine.",
+    "type": "Root",
+    "known_to_treat": ["nausea", "motion sickness", "morning sickness", "inflammation"],
+    "usage": "Can be consumed fresh, dried, as tea, or in capsules.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "chamomile",
+    "name": "Chamomile",
+    "images": "",
+    "description": "Chamomile is an herb that comes from the daisy-like flowers of the Asteraceae plant family.",
+    "type": "Flower",
+    "known_to_treat": ["anxiety", "insomnia", "digestive issues", "skin irritations"],
+    "usage": "Typically brewed as tea or used in essential oils.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "red_raspberry_leaf",
+    "name": "Red Raspberry Leaf",
+    "images": "",
+    "description": "Leaves from the raspberry plant used in herbal medicine.",
+    "type": "Leaf",
+    "known_to_treat": ["uterine toning", "labor preparation", "menstrual cramps"],
+    "usage": "Brewed as tea.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "echinacea",
+    "name": "Echinacea",
+    "images": "",
+    "description": "A group of flowering plants used to boost the immune system.",
+    "type": "Root/Leaf/Flower",
+    "known_to_treat": ["common cold", "upper respiratory infections", "immune support"],
+    "usage": "Tea, tincture, capsules.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "garlic",
+    "name": "Garlic",
+    "images": "",
+    "description": "A plant in the onion family used for flavoring and medicine.",
+    "type": "Bulb",
+    "known_to_treat": ["colds", "high blood pressure", "infections"],
+    "usage": "Raw, cooked, supplements.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "peppermint",
+    "name": "Peppermint",
+    "images": "",
+    "description": "A hybrid mint used for its cooling effect.",
+    "type": "Leaf",
+    "known_to_treat": ["nausea", "IBS", "headaches"],
+    "usage": "Tea, essential oil.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "dandelion",
+    "name": "Dandelion",
+    "images": "",
+    "description": "A common weed with medicinal properties.",
+    "type": "Root/Leaf",
+    "known_to_treat": ["liver detox", "diuretic", "digestion"],
+    "usage": "Tea, salads.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "lemon_balm",
+    "name": "Lemon Balm",
+    "images": "",
+    "description": "A herb in the mint family with a lemon scent.",
+    "type": "Leaf",
+    "known_to_treat": ["anxiety", "insomnia", "cold sores"],
+    "usage": "Tea, tincture.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "fenugreek",
+    "name": "Fenugreek",
+    "images": "",
+    "description": "An herb used in cooking and medicine.",
+    "type": "Seed",
+    "known_to_treat": ["milk production", "diabetes", "digestion"],
+    "usage": "Seeds in food, tea, capsules.",
+    "pregnancy_friendly": false
+  },
+  {
+    "id": "cranberry",
+    "name": "Cranberry",
+    "images": "",
+    "description": "A berry used for urinary health.",
+    "type": "Fruit",
+    "known_to_treat": ["UTI prevention"],
+    "usage": "Juice, capsules.",
+    "pregnancy_friendly": true
+  }
+]
