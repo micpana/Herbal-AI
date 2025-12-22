@@ -9,7 +9,15 @@ from ..schemas import UserInput, RecommendationResponse
 from dotenv import load_dotenv
 
 load_dotenv()
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+# Initialize OpenAI client... ChatGPT API -----
+# client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# model_name = "gpt-4o"
+# ---------------------------------------------
+# Initialize OpenAI client... HF Inference API -
+client = OpenAI(base_url="https://router.huggingface.co/v1", api_key=os.getenv("HF_TOKEN", ""))
+model_name = "openai/gpt-oss-120b:fastest" # model_name:provider -> openai/gpt-oss-120b:fastest / openai/gpt-oss-120b:cheapest / openai/gpt-oss-120b:sambanova
+# ---------------------------------------------
 
 def get_products(db: Session):
     return db.query(Product).all()
@@ -57,7 +65,7 @@ def get_recommendation(user_input: UserInput, db: Session) -> RecommendationResp
     prompt = build_prompt(user_input, herbs, products)
 
     response = client.chat.completions.create(
-        model="gpt-4o",
+        model=model_name,
         messages=[{"role": "system", "content": "You are a helpful herbal AI assistant."},
                   {"role": "user", "content": prompt}],
         temperature=0.7,
