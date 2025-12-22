@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+body {
+  background: linear-gradient(to right, #e0f7fa, #b9f6ca);
+  font-family: 'Arial', sans-serif;
+}
+
+.card {
+  @apply bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow;
+}
