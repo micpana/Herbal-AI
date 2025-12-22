@@ -1,5 +1,6 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
+from fastapi import Form
 from sqlalchemy.orm import Session
 from typing import List
 from ..database import get_db
@@ -7,6 +8,22 @@ from ..models import Admin, Product, UsageLog
 from ..schemas import Admin, AdminBase, AdminLogin, Token, Product, ProductBase, UsageStat
 from ..services.auth_service import verify_password, get_password_hash, create_access_token
 from jose import jwt
+
+# Helper to save files and get filenames
+def save_uploaded_files(files: List[UploadFile], product_id: int = None) -> str:
+    filenames = []
+    for file in files:
+        if file.content_type.startswith('image/'):
+            # Generate unique filename
+            ext = file.filename.split('.')[-1]
+            filename = f"{uuid.uuid4()}.{ext}"
+            file_path = os.path.join(MEDIA_DIR, filename)
+            with open(file_path, "wb") as buffer:
+                shutil.copyfileobj(file.file, buffer)
+            filenames.append(filename)
+        else:
+            raise HTTPException(status_code=400, detail="Only image files are allowed")
+    return ",".join(filenames)
 
 router = APIRouter(prefix="/api/admins", tags=["admins"])
 
@@ -74,20 +91,73 @@ def read_products(current_admin: Admin = Depends(get_current_admin), db: Session
     return db.query(Product).all()
 
 @router.post("/products", response_model=Product)
-def create_product(product: ProductBase, current_admin: Admin = Depends(get_current_admin), db: Session = Depends(get_db)):
-    db_product = Product(**product.dict())
+async def create_product(
+    name: str = Form(...),
+    description: str = Form(...),
+    type: str = Form(...),
+    ingredients: str = Form(...),
+    age_range: str = Form(...),
+    genders: str = Form(...),
+    pregnancy_friendly: bool = Form(...),
+    product_url: str = Form(""),
+    images: List[UploadFile] = File(None),
+    current_admin: Admin = Depends(get_current_admin),
+    db: Session = Depends(get_db)
+):
+    filenames_str = ""
+    if images:
+        filenames_str = save_uploaded_files(images)
+
+    db_product = Product(
+        name=name,
+        images=filenames_str,
+        description=description,
+        type=type,
+        ingredients=ingredients,
+        age_range=age_range,
+        genders=genders,
+        pregnancy_friendly=pregnancy_friendly,
+        product_url=product_url,
+    )
     db.add(db_product)
     db.commit()
     db.refresh(db_product)
     return db_product
 
 @router.put("/products/{product_id}", response_model=Product)
-def update_product(product_id: int, product: ProductBase, current_admin: Admin = Depends(get_current_admin), db: Session = Depends(get_db)):
+async def update_product(
+    product_id: int,
+    name: str = Form(...),
+    description: str = Form(...),
+    type: str = Form(...),
+    ingredients: str = Form(...),
+    age_range: str = Form(...),
+    genders: str = Form(...),
+    pregnancy_friendly: bool = Form(...),
+    product_url: str = Form(""),
+    images: List[UploadFile] = File(None),
+    current_admin: Admin = Depends(get_current_admin),
+    db: Session = Depends(get_db)
+):
     db_product = db.query(Product).filter(Product.id == product_id).first()
-    if db_product is None:
+    if not db_product:
         raise HTTPException(status_code=404, detail="Product not found")
-    for key, value in product.dict().items():
-        setattr(db_product, key, value)
+
+    # Handle new images (append or replace)
+    if images:
+        new_filenames = save_uploaded_files(images)
+        db_product.images = (db_product.images + "," + new_filenames) if db_product.images else new_filenames
+
+    # Update other fields
+    db_product.name = name
+    db_product.description = description
+    db_product.type = type
+    db_product.ingredients = ingredients
+    db_product.age_range = age_range
+    db_product.genders = genders
+    db_product.pregnancy_friendly = pregnancy_friendly
+    db_product.product_url = product_url
+
     db.commit()
     db.refresh(db_product)
     return db_product
