@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import api from '../services/api';
+import { Plus, Edit, Trash2, X, Image as ImageIcon } from 'lucide-react';
 
 interface Product {
   id: number;
@@ -19,9 +20,9 @@ const ProductManager: React.FC = () => {
   const [formData, setFormData] = useState<Partial<Product>>({
     id: undefined,
     name: '',
-    images: '', // This will be read-only display of current filenames
+    images: '',
     description: '',
-    type: '',
+    type: 'fresh_herbs',
     ingredients: '',
     age_range: '0-100',
     genders: 'Male,Female,Other',
@@ -44,57 +45,10 @@ const ProductManager: React.FC = () => {
     }
   };
 
-  const handleTextChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
-    const { name, value, type } = e.target;
-    setFormData((prev) => ({
-      ...prev,
-      [name]: type === 'checkbox' ? (e.target as HTMLInputElement).checked : value,
-    }));
-  };
-
-  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (e.target.files) {
-      setFiles(Array.from(e.target.files));
-    }
-  };
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-
-    const submitData = new FormData();
-
-    // Append text fields
-    submitData.append('name', formData.name || '');
-    submitData.append('description', formData.description || '');
-    submitData.append('type', formData.type || '');
-    submitData.append('ingredients', formData.ingredients || '');
-    submitData.append('age_range', formData.age_range || '');
-    submitData.append('genders', formData.genders || '');
-    submitData.append('pregnancy_friendly', formData.pregnancy_friendly ? 'true' : 'false');
-    submitData.append('product_url', formData.product_url || '');
-
-    // Append files
-    files.forEach((file) => {
-      submitData.append('images', file);
-    });
-
-    try {
-      if (formData.id) {
-        await api.put(`/admins/products/${formData.id}`, submitData, {
-          headers: { 'Content-Type': 'multipart/form-data' },
-        });
-      } else {
-        await api.post('/admins/products', submitData, {
-          headers: { 'Content-Type': 'multipart/form-data' },
-        });
-      }
-
-      fetchProducts();
-      resetForm();
-    } catch (err) {
-      console.error('Failed to save product', err);
-      alert('Error saving product. Check console for details.');
-    }
+  const handleEdit = (product: Product) => {
+    setFormData(product);
+    setIsEditing(true);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const resetForm = () => {
@@ -102,7 +56,7 @@ const ProductManager: React.FC = () => {
       name: '',
       images: '',
       description: '',
-      type: '',
+      type: 'fresh_herbs',
       ingredients: '',
       age_range: '0-100',
       genders: 'Male,Female,Other',
@@ -113,110 +67,140 @@ const ProductManager: React.FC = () => {
     setIsEditing(false);
   };
 
-  const handleEdit = (product: Product) => {
-    setFormData(product);
-    setFiles([]); // New uploads only
-    setIsEditing(true);
-  };
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    const data = new FormData();
+    Object.keys(formData).forEach((key) => {
+      if (key !== 'id') data.append(key, String((formData as any)[key]));
+    });
+    files.forEach((file) => data.append('files', file));
 
-  const handleDelete = async (id: number) => {
-    if (window.confirm('Delete this product?')) {
-      try {
-        await api.delete(`/admins/products/${id}`);
-        fetchProducts();
-      } catch (err) {
-        console.error('Delete failed', err);
+    try {
+      if (isEditing && formData.id) {
+        await api.put(`/admins/products/${formData.id}`, data);
+      } else {
+        await api.post('/admins/products/', data);
       }
+      resetForm();
+      fetchProducts();
+    } catch (err) {
+      console.error(err);
     }
   };
 
   return (
-    <div className="card mb-8">
-      <h3 className="text-xl font-bold mb-4">{isEditing ? 'Edit Product' : 'Add New Product'}</h3>
-
-      <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {/* Text inputs */}
-        <div>
-          <label className="block mb-1">Name</label>
-          <input name="name" value={formData.name || ''} onChange={handleTextChange} className="border p-2 w-full rounded" required />
-        </div>
-        <div>
-          <label className="block mb-1">Images (upload new)</label>
-          <input
-            type="file"
-            multiple
-            accept="image/*"
-            onChange={handleFileChange}
-            className="border p-2 w-full rounded"
-          />
-          {formData.images && <p className="text-sm text-gray-600 mt-1">Current: {formData.images}</p>}
-        </div>
-        <div className="md:col-span-2">
-          <label className="block mb-1">Description</label>
-          <textarea name="description" value={formData.description || ''} onChange={handleTextChange} className="border p-2 w-full rounded" rows={3} required />
-        </div>
-        {/* Other text fields... */}
-        <div>
-          <label className="block mb-1">Type</label>
-          <input name="type" value={formData.type || ''} onChange={handleTextChange} className="border p-2 w-full rounded" required />
-        </div>
-        <div>
-          <label className="block mb-1">Ingredients</label>
-          <input name="ingredients" value={formData.ingredients || ''} onChange={handleTextChange} className="border p-2 w-full rounded" />
-        </div>
-        <div>
-          <label className="block mb-1">Age Range</label>
-          <input name="age_range" value={formData.age_range || ''} onChange={handleTextChange} className="border p-2 w-full rounded" />
-        </div>
-        <div>
-          <label className="block mb-1">Genders</label>
-          <input name="genders" value={formData.genders || ''} onChange={handleTextChange} className="border p-2 w-full rounded" />
-        </div>
-        <div className="flex items-center">
-          <input
-            type="checkbox"
-            name="pregnancy_friendly"
-            checked={formData.pregnancy_friendly || false}
-            onChange={handleTextChange}
-            className="mr-2"
-          />
-          <label>Pregnancy Friendly</label>
-        </div>
-        <div className="md:col-span-2">
-          <label className="block mb-1">Product URL</label>
-          <input name="product_url" value={formData.product_url || ''} onChange={handleTextChange} className="border p-2 w-full rounded" />
-        </div>
-
-        <div className="md:col-span-2 flex justify-end gap-4">
-          <button type="submit" className="bg-primary text-white px-6 py-2 rounded hover:bg-green-600">
-            {isEditing ? 'Update Product' : 'Add Product'}
-          </button>
-          {isEditing && (
-            <button type="button" onClick={resetForm} className="bg-gray-500 text-white px-6 py-2 rounded hover:bg-gray-600">
-              Cancel
-            </button>
-          )}
-        </div>
-      </form>
-
-      {/* Existing products list */}
-      <h3 className="text-xl font-bold mt-8 mb-4">Existing Products</h3>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {products.map((product) => (
-          <div key={product.id} className="border p-4 rounded-lg shadow">
-            <h4 className="font-bold">{product.name}</h4>
-            <p className="text-sm text-gray-600">{product.type}</p>
-            {product.images && (
-              <div className="mt-2">
-                <p className="text-xs text-gray-500">Images: {product.images}</p>
-              </div>
-            )}
-            <div className="mt-4 flex justify-end gap-3">
-              <button onClick={() => handleEdit(product)} className="text-blue-600 hover:underline">Edit</button>
-              <button onClick={() => handleDelete(product.id)} className="text-red-600 hover:underline">Delete</button>
+    <div className="space-y-12">
+      {/* Form Section */}
+      <div className="card-glass">
+        <h3 className="text-xl font-bold mb-6 flex items-center gap-2">
+          {isEditing ? <Edit className="w-5 h-5 text-emerald-600" /> : <Plus className="w-5 h-5 text-emerald-600" />}
+          {isEditing ? 'Edit Product' : 'Add New Inventory Item'}
+        </h3>
+        
+        <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="space-y-4">
+            <div>
+              <label className="label-text">Product Name</label>
+              <input 
+                type="text" 
+                value={formData.name} 
+                onChange={e => setFormData({...formData, name: e.target.value})} 
+                className="input-field" 
+                required 
+              />
+            </div>
+            <div>
+              <label className="label-text">Type</label>
+              <select 
+                value={formData.type} 
+                onChange={e => setFormData({...formData, type: e.target.value})} 
+                className="input-field"
+              >
+                <option value="fresh_herbs">Fresh Herbs</option>
+                <option value="dried_herbs">Dried Herbs</option>
+                <option value="herbal_capsules">Capsules</option>
+                <option value="herbal_supplements">Supplements</option>
+              </select>
+            </div>
+            <div>
+              <label className="label-text">Description</label>
+              <textarea 
+                value={formData.description} 
+                onChange={e => setFormData({...formData, description: e.target.value})} 
+                className="input-field min-h-[100px]" 
+              />
             </div>
           </div>
-        ))}
+
+          <div className="space-y-4">
+            <div>
+              <label className="label-text">Store URL</label>
+              <input 
+                type="text" 
+                value={formData.product_url} 
+                onChange={e => setFormData({...formData, product_url: e.target.value})} 
+                className="input-field" 
+              />
+            </div>
+            <div>
+              <label className="label-text">Ingredients</label>
+              <input 
+                type="text" 
+                value={formData.ingredients} 
+                onChange={e => setFormData({...formData, ingredients: e.target.value})} 
+                className="input-field" 
+              />
+            </div>
+            <div>
+              <label className="label-text">Upload Images</label>
+              <div className="flex items-center justify-center w-full">
+                <label className="flex flex-col items-center justify-center w-full h-32 border-2 border-slate-200 border-dashed rounded-xl cursor-pointer bg-slate-50 hover:bg-slate-100 transition-colors">
+                  <div className="flex flex-col items-center justify-center pt-5 pb-6">
+                    <ImageIcon className="w-8 h-8 text-slate-400 mb-2" />
+                    <p className="text-xs text-slate-500 font-medium">Click to select files</p>
+                  </div>
+                  <input type="file" multiple className="hidden" onChange={e => setFiles(Array.from(e.target.files || []))} />
+                </label>
+              </div>
+              {files.length > 0 && <p className="text-[10px] mt-2 text-emerald-600 font-bold">{files.length} files staged</p>}
+            </div>
+          </div>
+
+          <div className="md:col-span-2 flex justify-end gap-3 pt-6 border-t border-slate-100">
+            {isEditing && (
+              <button type="button" onClick={resetForm} className="btn-secondary">Cancel</button>
+            )}
+            <button type="submit" className="btn-primary">
+              {isEditing ? 'Save Changes' : 'Create Product'}
+            </button>
+          </div>
+        </form>
+      </div>
+
+      {/* List Section */}
+      <div className="space-y-6">
+        <h3 className="text-xl font-bold">Current Inventory ({products.length})</h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {products.map((product) => (
+            <div key={product.id} className="bg-white border border-slate-100 rounded-2xl p-5 shadow-sm hover:shadow-md transition-all">
+              <div className="flex justify-between items-start mb-4">
+                <div>
+                  <h4 className="font-bold text-slate-800">{product.name}</h4>
+                  <span className="text-[10px] uppercase font-bold text-emerald-600">{product.type.replace('_', ' ')}</span>
+                </div>
+                <div className="flex gap-2">
+                  <button onClick={() => handleEdit(product)} className="p-2 text-slate-400 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-all">
+                    <Edit className="w-4 h-4" />
+                  </button>
+                  <button onClick={async () => { if(confirm('Delete?')) { await api.delete(`/admins/products/${product.id}`); fetchProducts(); } }} className="p-2 text-slate-400 hover:text-red-600 hover:bg-red-50 rounded-lg transition-all">
+                    <Trash2 className="w-4 h-4" />
+                  </button>
+                </div>
+              </div>
+              <p className="text-xs text-slate-500 line-clamp-2">{product.description}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

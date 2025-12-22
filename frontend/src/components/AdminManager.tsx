@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import api from '../services/api';
+import { UserPlus, UserCircle, Edit, Trash2, Shield, Mail } from 'lucide-react';
 
 interface Admin {
   id: number;
@@ -36,6 +37,12 @@ const AdminManager: React.FC = () => {
     setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
+  const handleEdit = (admin: Admin) => {
+    setFormData({ name: admin.name, username: admin.username, email: admin.email, password: '' });
+    setIsEditing(true);
+    setEditingId(admin.id);
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
@@ -44,103 +51,86 @@ const AdminManager: React.FC = () => {
       } else {
         await api.post('/admins/', formData);
       }
-      fetchAdmins();
       setFormData({ name: '', username: '', email: '', password: '' });
       setIsEditing(false);
       setEditingId(null);
+      fetchAdmins();
     } catch (err) {
-      console.error('Failed to save admin', err);
-    }
-  };
-
-  const handleEdit = (admin: Admin) => {
-    setFormData({
-      name: admin.name,
-      username: admin.username,
-      email: admin.email,
-      password: '', // Don't prefill password
-    });
-    setIsEditing(true);
-    setEditingId(admin.id);
-  };
-
-  const handleDelete = async (id: number) => {
-    if (window.confirm('Are you sure you want to delete this admin?')) {
-      try {
-        await api.delete(`/admins/${id}`);
-        fetchAdmins();
-      } catch (err) {
-        console.error('Failed to delete admin', err);
-      }
+      console.error(err);
     }
   };
 
   return (
-    <div className="card">
-      <h3 className="text-xl font-bold mb-4">{isEditing ? 'Edit Admin' : 'Add New Admin'}</h3>
+    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      {/* Sidebar: Form */}
+      <div className="lg:col-span-1">
+        <div className="card-glass sticky top-24">
+          <h3 className="text-xl font-bold mb-6 flex items-center gap-2">
+            <UserPlus className="w-5 h-5 text-emerald-600" />
+            {isEditing ? 'Update User' : 'Add Admin'}
+          </h3>
+          <form onSubmit={handleSubmit} className="space-y-4">
+            <div>
+              <label className="label-text">Full Name</label>
+              <input name="name" value={formData.name} onChange={handleChange} className="input-field" required />
+            </div>
+            <div>
+              <label className="label-text">Username</label>
+              <input name="username" value={formData.username} onChange={handleChange} className="input-field" required />
+            </div>
+            <div>
+              <label className="label-text">Email Address</label>
+              <input name="email" value={formData.email} onChange={handleChange} className="input-field" required />
+            </div>
+            <div>
+              <label className="label-text">Password</label>
+              <input type="password" name="password" value={formData.password} onChange={handleChange} className="input-field" placeholder={isEditing ? 'Leave blank to keep current' : ''} required={!isEditing} />
+            </div>
+            <div className="pt-4 flex flex-col gap-2">
+              <button type="submit" className="btn-primary w-full">
+                {isEditing ? 'Update Credentials' : 'Create Account'}
+              </button>
+              {isEditing && (
+                <button type="button" onClick={() => { setIsEditing(false); setFormData({ name: '', username: '', email: '', password: '' }); }} className="btn-secondary w-full">Cancel</button>
+              )}
+            </div>
+          </form>
+        </div>
+      </div>
 
-      <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div>
-          <label className="block mb-1">Name</label>
-          <input name="name" value={formData.name} onChange={handleChange} className="border p-2 w-full rounded" required />
+      {/* Main: Admin List */}
+      <div className="lg:col-span-2 space-y-6">
+        <h3 className="text-xl font-bold">Authorized Administrators</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {admins.map((admin) => (
+            <div key={admin.id} className="card-glass hover:border-emerald-100 transition-colors">
+              <div className="flex items-start justify-between mb-4">
+                <div className="bg-emerald-50 p-3 rounded-2xl text-emerald-600">
+                  <UserCircle className="w-10 h-10" />
+                </div>
+                <div className="flex gap-1">
+                   <button onClick={() => handleEdit(admin)} className="p-2 text-slate-400 hover:text-emerald-600 hover:bg-emerald-50 rounded-xl transition-all">
+                    <Edit className="w-4 h-4" />
+                  </button>
+                  <button onClick={async () => { if(confirm('Remove access?')) { await api.delete(`/admins/${admin.id}`); fetchAdmins(); } }} className="p-2 text-slate-400 hover:text-red-600 hover:bg-red-50 rounded-xl transition-all">
+                    <Trash2 className="w-4 h-4" />
+                  </button>
+                </div>
+              </div>
+              <h4 className="font-bold text-slate-900">{admin.name}</h4>
+              <div className="mt-3 space-y-2">
+                <div className="flex items-center gap-2 text-xs text-slate-500">
+                  <Shield className="w-3 h-3" />
+                  <span>@{admin.username}</span>
+                </div>
+                <div className="flex items-center gap-2 text-xs text-slate-500">
+                  <Mail className="w-3 h-3" />
+                  <span>{admin.email}</span>
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
-        <div>
-          <label className="block mb-1">Username</label>
-          <input name="username" value={formData.username} onChange={handleChange} className="border p-2 w-full rounded" required />
-        </div>
-        <div>
-          <label className="block mb-1">Email</label>
-          <input name="email" type="email" value={formData.email} onChange={handleChange} className="border p-2 w-full rounded" required />
-        </div>
-        <div>
-          <label className="block mb-1">Password {isEditing && '(leave blank to keep current)'}</label>
-          <input name="password" type="password" value={formData.password} onChange={handleChange} className="border p-2 w-full rounded" required={!isEditing} />
-        </div>
-        <div className="md:col-span-2 flex justify-end gap-4">
-          <button type="submit" className="bg-secondary text-white px-6 py-2 rounded hover:bg-blue-600">
-            {isEditing ? 'Update Admin' : 'Add Admin'}
-          </button>
-          {isEditing && (
-            <button
-              type="button"
-              onClick={() => {
-                setFormData({ name: '', username: '', email: '', password: '' });
-                setIsEditing(false);
-                setEditingId(null);
-              }}
-              className="bg-gray-500 text-white px-6 py-2 rounded hover:bg-gray-600"
-            >
-              Cancel
-            </button>
-          )}
-        </div>
-      </form>
-
-      <h3 className="text-xl font-bold mt-8 mb-4">Existing Admins</h3>
-      <div className="overflow-x-auto">
-        <table className="min-w-full border-collapse">
-          <thead>
-            <tr className="bg-gray-100">
-              <th className="border p-3 text-left">Name</th>
-              <th className="border p-3 text-left">Username</th>
-              <th className="border p-3 text-left">Email</th>
-              <th className="border p-3 text-center">Actions</th>
-            </tr>
-          </thead>
-          <tbody>
-            {admins.map((admin) => (
-              <tr key={admin.id}>
-                <td className="border p-3">{admin.name}</td>
-                <td className="border p-3">{admin.username}</td>
-                <td className="border p-3">{admin.email}</td>
-                <td className="border p-3 text-center">
-                  <button onClick={() => handleEdit(admin)} className="text-blue-600 hover:underline mr-3">Edit</button>
-                  <button onClick={() => handleDelete(admin.id)} className="text-red-600 hover:underline">Delete</button>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
       </div>
     </div>
   );
