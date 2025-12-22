@@ -48,6 +48,7 @@ herbal-ai/
 │   ├── vite.config.ts
 |   ├── .eslintrc.cjs
 |   ├── .prettierrc
+|   ├── postcss.config.js
 │   ├── package.json
 │   └── Dockerfile
 ├── docker-compose.yml
