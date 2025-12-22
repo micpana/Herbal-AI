@@ -45,6 +45,7 @@ herbal-ai/
 │   │   └── index.html
 │   ├── tailwind.config.js
 │   ├── tsconfig.json
+│   ├── vite.config.ts
 │   ├── package.json
 │   └── Dockerfile
 ├── docker-compose.yml
