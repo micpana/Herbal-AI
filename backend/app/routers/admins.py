@@ -36,7 +36,7 @@ security = HTTPBearer()
 def get_current_admin(credentials: HTTPAuthorizationCredentials = Depends(security), db: Session = Depends(get_db)):
     token = credentials.credentials
     try:
-        payload = jwt.decode(token, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])
+        payload = jwt.decode(token, settings.JWT_SECRET, algorithms=[settings.ALGORITHM])
         username: str = payload.get("sub")
         if username is None:
             raise HTTPException(status_code=401, detail="Invalid token")

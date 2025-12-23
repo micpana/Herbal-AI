@@ -7,15 +7,16 @@ from ..models import UsageLog, Product
 from ..utils.herbs_loader import load_herbs
 from ..schemas import UserInput, RecommendationResponse
 from dotenv import load_dotenv
+from ..config import settings
 
 load_dotenv()
 
 # Initialize OpenAI client... ChatGPT API -----
-# client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# client = OpenAI(api_key=setting.OPENAI_API_KEY)
 # model_name = "gpt-4o"
 # ---------------------------------------------
 # Initialize OpenAI client... HF Inference API -
-client = OpenAI(base_url="https://router.huggingface.co/v1", api_key=os.getenv("HF_TOKEN", ""))
+client = OpenAI(base_url="https://router.huggingface.co/v1", api_key=settings.HF_TOKEN)
 model_name = "openai/gpt-oss-120b:fastest" # model_name:provider -> openai/gpt-oss-120b:fastest / openai/gpt-oss-120b:cheapest / openai/gpt-oss-120b:sambanova
 # ---------------------------------------------
 
@@ -25,7 +26,15 @@ def get_products(db: Session):
 def build_prompt(user_input: UserInput, herbs: list, products: list):
     user_str = json.dumps(user_input.dict())
     herbs_str = json.dumps(herbs)
-    products_str = json.dumps([p.__dict__ for p in products])  # Stringify products
+
+    # Serialize only the actual data (exclude _sa_instance_state)
+    products_data = []
+    for p in products:
+        data = p.__dict__.copy() # copy to avoid modifying original
+        data.pop('_sa_instance_state', None)  # Remove internal SQLAlchemy state
+        products_data.append(data)
+
+    products_str = json.dumps(products_data) # Stringify products
 
     prompt = f"""
     User input: {user_str}
@@ -72,6 +81,7 @@ def get_recommendation(user_input: UserInput, db: Session) -> RecommendationResp
     )
 
     content = response.choices[0].message.content
+    print("**CONTENT**", content, flush=True)  # For debugging
     json_response = json.loads(content)  # Assume well-formed
 
     # Log usage
