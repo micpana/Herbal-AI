@@ -40,6 +40,7 @@ herbal-ai/
 │   │   ├── database.py
 │   │   ├── models.py
 │   │   ├── schemas.py
+│   │   ├── config.py
 │   │   ├── routers/
 │   │   │   ├── __init__.py
 │   │   │   ├── users.py
