@@ -57,3 +57,88 @@
         @apply block text-xs font-bold uppercase tracking-wider text-slate-500 mb-2 ml-1;
     }
 }
+
+/* HerbalAI Markdown Theme --------------------------------------------------------------------*/
+.herbalai-markdown {
+    @apply text-slate-600 text-base leading-relaxed;
+}
+
+/* Headings */
+.herbalai-markdown h1,
+.herbalai-markdown h2,
+.herbalai-markdown h3,
+.herbalai-markdown h4 {
+    @apply text-slate-900 font-bold leading-snug mb-4 mt-8 first:mt-0;
+}
+
+.herbalai-markdown h1 { @apply text-3xl border-b border-slate-100 pb-2; }
+.herbalai-markdown h2 { @apply text-2xl; }
+.herbalai-markdown h3 { @apply text-xl; }
+.herbalai-markdown h4 { @apply text-lg; }
+
+/* Paragraphs */
+.herbalai-markdown p {
+    @apply mb-5 text-slate-600;
+}
+
+/* Strong / Highlighted Text */
+.herbalai-markdown strong {
+    @apply text-emerald-700 font-bold;
+}
+
+/* Links */
+.herbalai-markdown a {
+    @apply text-emerald-600 underline font-medium hover:text-emerald-700 transition-colors;
+}
+
+/* Lists */
+.herbalai-markdown ul,
+.herbalai-markdown ol {
+    @apply pl-6 mb-6 space-y-2;
+}
+
+.herbalai-markdown ul {
+    @apply list-disc marker:text-emerald-500;
+}
+
+.herbalai-markdown ol {
+    @apply list-decimal marker:text-emerald-500 marker:font-bold;
+}
+
+.herbalai-markdown li {
+    @apply pl-1;
+}
+
+/* Blockquotes */
+.herbalai-markdown blockquote {
+    @apply border-l-4 border-emerald-500 bg-emerald-50/30 px-6 py-4 italic text-slate-700 rounded-r-2xl my-6;
+}
+
+/* Horizontal Rule */
+.herbalai-markdown hr {
+    @apply border-slate-200 my-8;
+}
+
+/* Code (inline) */
+.herbalai-markdown code {
+    @apply bg-slate-100 px-1.5 py-0.5 rounded text-emerald-700 text-sm font-mono font-medium;
+}
+
+/* Code Blocks */
+.herbalai-markdown pre code {
+    @apply block bg-slate-900 text-slate-100 p-5 rounded-2xl text-sm overflow-x-auto shadow-inner;
+}
+
+/* Tables */
+.herbalai-markdown table {
+    @apply w-full border-collapse my-6 overflow-hidden rounded-xl border border-slate-200;
+}
+
+.herbalai-markdown th {
+    @apply text-left bg-slate-50 text-slate-900 font-bold p-3 border border-slate-200;
+}
+
+.herbalai-markdown td {
+    @apply p-3 border border-slate-200 text-sm;
+}
+/* End of HerbalAI Markdown Theme -------------------------------------------------------------*/

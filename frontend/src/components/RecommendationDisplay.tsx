@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
+import remarkBreaks from 'remark-breaks';
 import ProductCard from './ProductCard';
 import HerbCard from './HerbCard';
 import { Sparkles, Info, Leaf, Package } from 'lucide-react';
@@ -30,8 +32,10 @@ const RecommendationDisplay: React.FC<ResponseProps> = ({ response }) => {
           <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
         </div>
 
-        <div className="p-8 prose prose-slate max-w-none prose-emerald">
-          <ReactMarkdown>{response.recommendations_markdown_string}</ReactMarkdown>
+        <div className="herbalai-markdown">
+          <ReactMarkdown remarkPlugins={[remarkGfm, remarkBreaks]}>
+            {response.recommendations_markdown_string}
+          </ReactMarkdown>
         </div>
       </div>
 
