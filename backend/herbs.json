@@ -1,102 +1,1172 @@
 [
   {
-    "id": "ginger",
-    "name": "Ginger",
-    "images": "",
-    "description": "Ginger is a flowering plant whose rhizome is widely used as a spice and folk medicine.",
+    "id": "agrimony",
+    "name": "Agrimony",
+    "type": "Aerial",
+    "pregnancy_friendly": true,
+    "description": "A traditional healing herb for the digestive system and wound healing.",
+    "known_to_treat": ["Diarrhea", "Sore throat", "Irritable Bowel Syndrome", "Minor cuts"],
+    "usage": "Infusion of leaves; also used as a gargle for throat issues."
+  },
+  {
+    "id": "alfalfa",
+    "name": "Alfalfa",
+    "type": "Aerial",
+    "pregnancy_friendly": true,
+    "description": "Extremely deep roots draw up minerals; acts as a 'vitamin bomb' for the blood.",
+    "known_to_treat": ["Anemia", "Vitamin deficiency", "High cholesterol", "Fluid retention"],
+    "usage": "Consumed as sprouts, leaf tea, or powder."
+  },
+  {
+    "id": "aloe_vera",
+    "name": "Aloe Vera",
+    "type": "Succulent",
+    "pregnancy_friendly": false,
+    "description": "The inner gel is highly cooling and soothing to internal and external tissue.",
+    "known_to_treat": ["Sunburn", "Constipation (latex)", "Gastritis", "Ulcers"],
+    "usage": "Gel applied topically; juice taken internally for gut lining repair."
+  },
+  {
+    "id": "angelica",
+    "name": "Angelica",
     "type": "Root",
-    "known_to_treat": ["nausea", "motion sickness", "morning sickness", "inflammation"],
-    "usage": "Can be consumed fresh, dried, as tea, or in capsules.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": false,
+    "description": "A warming herb that stimulates digestion and circulation in the pelvic region.",
+    "known_to_treat": ["Poor circulation", "Indigestion", "Delayed menstruation", "Flatulence"],
+    "usage": "Decoction of the root; often used in liqueurs for digestion."
+  },
+  {
+    "id": "arnica",
+    "name": "Arnica",
+    "type": "Flower",
+    "pregnancy_friendly": false,
+    "description": "A premier remedy for trauma, bruising, and muscle soreness.",
+    "known_to_treat": ["Bruises", "Sprains", "Muscle aches", "Post-surgery swelling"],
+    "usage": "Applied topically as a cream or oil. NEVER apply to broken skin or ingest (except homeopathically)."
+  },
+  {
+    "id": "ashwagandha",
+    "name": "Ashwagandha",
+    "type": "Root",
+    "pregnancy_friendly": false,
+    "description": "A premier Ayurvedic adaptogen that builds 'ojas' (vitality) and calms the nervous system.",
+    "known_to_treat": ["Chronic stress", "Adrenal fatigue", "Insomnia", "Thyroid imbalance"],
+    "usage": "Powdered root decocted in milk or water; best taken at night for sleep."
+  },
+  {
+    "id": "astragalus",
+    "name": "Astragalus",
+    "type": "Root",
+    "pregnancy_friendly": true,
+    "description": "A deep immune tonic that builds the 'Wei Qi' or protective shield of the body.",
+    "known_to_treat": ["Frequent colds", "Chronic fatigue", "Chemotherapy recovery", "Kidney support"],
+    "usage": "Root slices simmered in soups or teas; best used long-term as a preventative."
+  },
+  {
+    "id": "bacopa",
+    "name": "Bacopa (Brahmi)",
+    "type": "Aerial",
+    "pregnancy_friendly": true,
+    "description": "An ancient brain tonic that improves memory and cognitive function.",
+    "known_to_treat": ["Memory loss", "Anxiety", "ADHD", "Mental exhaustion"],
+    "usage": "Tincture or powder; supports the repair of neurons."
+  },
+  {
+    "id": "barberry",
+    "name": "Barberry",
+    "type": "Bark/Root",
+    "pregnancy_friendly": false,
+    "description": "Contains berberine; acts as a potent liver stimulant and antimicrobial.",
+    "known_to_treat": ["Gallbladder congestion", "Skin eruptions", "Bacterial diarrhea"],
+    "usage": "Decoction of bark or root; excellent for 'damp-heat' conditions."
+  },
+  {
+    "id": "bayberry",
+    "name": "Bayberry",
+    "type": "Bark",
+    "pregnancy_friendly": false,
+    "description": "A powerful circulatory stimulant and astringent.",
+    "known_to_treat": ["Sore throat", "Hemorrhage", "Varicose veins", "Excessive mucus"],
+    "usage": "Often used in a gargle or as a powder in small doses to stimulate blood flow."
+  },
+  {
+    "id": "bee_pollen",
+    "name": "Bee Pollen",
+    "type": "Pollen",
+    "pregnancy_friendly": true,
+    "description": "A complete food containing nearly all nutrients required by humans.",
+    "known_to_treat": ["Allergies (local)", "Low energy", "Prostate health", "Infertility"],
+    "usage": "Taken raw; start with 1 grain to test for allergic reaction, then increase."
+  },
+  {
+    "id": "bilberry",
+    "name": "Bilberry",
+    "type": "Berry/Leaf",
+    "pregnancy_friendly": true,
+    "description": "Rich in anthocyanins that specifically protect the capillaries and eyes.",
+    "known_to_treat": ["Night blindness", "Diabetic retinopathy", "Glaucoma", "Cataracts"],
+    "usage": "Consumed as fresh fruit or standardized extract."
+  },
+  {
+    "id": "birch_leaf",
+    "name": "Birch Leaf",
+    "type": "Leaf",
+    "pregnancy_friendly": true,
+    "description": "A gentle diuretic that helps flush uric acid from the system.",
+    "known_to_treat": ["Gout", "Rheumatism", "Kidney stones", "UTIs"],
+    "usage": "Infusion of leaves; helps reduce water retention without depleting electrolytes."
+  },
+  {
+    "id": "black_cohosh",
+    "name": "Black Cohosh",
+    "type": "Root",
+    "pregnancy_friendly": false,
+    "description": "The specific remedy for 'hot' symptoms of menopause and hormonal imbalance.",
+    "known_to_treat": ["Hot flashes", "Night sweats", "Depression", "Muscle pain"],
+    "usage": "Decoction or tincture; has an estrogen-modulating effect."
+  },
+  {
+    "id": "black_walnut",
+    "name": "Black Walnut",
+    "type": "Hull",
+    "pregnancy_friendly": false,
+    "description": "High iodine and juglone content makes it a potent anti-parasitic.",
+    "known_to_treat": ["Parasites", "Fungal infections", "Warts", "Ringworm"],
+    "usage": "Tincture of the green hulls; usually part of a 'parasite cleanse'."
+  },
+  {
+    "id": "blessed_thistle",
+    "name": "Blessed Thistle",
+    "type": "Aerial",
+    "pregnancy_friendly": false,
+    "description": "A premier digestive bitter and 'galactagogue' (increases milk supply).",
+    "known_to_treat": ["Poor appetite", "Low milk supply", "Liver congestion", "Indigestion"],
+    "usage": "Tea (very bitter) or capsules; stimulates the flow of gastric juices."
+  },
+  {
+    "id": "blue_cohosh",
+    "name": "Blue Cohosh",
+    "type": "Root",
+    "pregnancy_friendly": false,
+    "description": "A powerful uterine tonic used specifically to facilitate labor.",
+    "known_to_treat": ["Delayed labor", "Uterine atony", "Painful menstruation"],
+    "usage": "Used ONLY under expert supervision during late-term pregnancy."
+  },
+  {
+    "id": "boneset",
+    "name": "Boneset",
+    "type": "Aerial",
+    "pregnancy_friendly": false,
+    "description": "Named for its ability to treat 'break-bone fever' (dengue); it is a powerful diaphoretic.",
+    "known_to_treat": ["Deep bone-aching flu", "Fever", "Bronchitis", "Pneumonia"],
+    "usage": "Hot infusion; induces profuse sweating to break a fever."
+  },
+  {
+    "id": "borage",
+    "name": "Borage",
+    "type": "Aerial/Seed",
+    "pregnancy_friendly": false,
+    "description": "The 'herb of courage'; it supports the adrenal glands during prolonged stress.",
+    "known_to_treat": ["Adrenal exhaustion", "Dry skin", "Inflammation", "PMS"],
+    "usage": "Leaf tea or Seed Oil (rich in GLA)."
+  },
+  {
+    "id": "burdock_root",
+    "name": "Burdock Root",
+    "type": "Root",
+    "pregnancy_friendly": true,
+    "description": "A deep blood purifier that moves stagnant lymphatic fluid and clears the skin.",
+    "known_to_treat": ["Eczema", "Psoriasis", "Acne", "Chronic toxicity"],
+    "usage": "Decoction of the root; best used in combination with Dandelion root for liver support."
+  },
+  {
+    "id": "butcher_s_broom",
+    "name": "Butcher's Broom",
+    "type": "Root",
+    "pregnancy_friendly": true,
+    "description": "A vasoconstrictor that improves the integrity of vein walls.",
+    "known_to_treat": ["Hemorrhoids", "Varicose veins", "Lymphedema", "Orthostatic hypotension"],
+    "usage": "Capsules or extract; particularly useful for circulatory issues in the legs."
+  },
+  {
+    "id": "calendula",
+    "name": "Calendula",
+    "type": "Flower",
+    "pregnancy_friendly": true,
+    "description": "The 'sunshine herb' for the skin; highly anti-inflammatory and vulnerary (wound-healing).",
+    "known_to_treat": ["Dermatitis", "Gastric ulcers", "Minor wounds", "Fungal infections"],
+    "usage": "Infused oil for skin; tea for healing the digestive lining."
+  },
+  {
+    "id": "california_poppy",
+    "name": "California Poppy",
+    "type": "Aerial",
+    "pregnancy_friendly": false,
+    "description": "A gentle sedative and analgesic that does not cause dependency.",
+    "known_to_treat": ["Anxiety in children", "Insomnia", "Nervous agitation", "Toothache"],
+    "usage": "Tincture or tea; milder than the Opium Poppy but effective for relaxation."
+  },
+  {
+    "id": "cascara_sagrada",
+    "name": "Cascara Sagrada",
+    "type": "Bark",
+    "pregnancy_friendly": false,
+    "description": "A potent 'stimulant' laxative that tones the muscles of the colon.",
+    "known_to_treat": ["Chronic constipation", "Gallstones", "Liver sluggishness"],
+    "usage": "Capsules or decoction; bark must be aged at least 1 year before use."
+  },
+  {
+    "id": "cat_s_claw",
+    "name": "Cat's Claw (Una de Gato)",
+    "type": "Bark",
+    "pregnancy_friendly": false,
+    "description": "A powerful rainforest immune modulator with anti-inflammatory properties.",
+    "known_to_treat": ["Arthritis", "Lyme disease support", "IBD", "Viral infections"],
+    "usage": "Decoction of the inner bark; works by enhancing phagocytosis (immune engulfing)."
+  },
+  {
+    "id": "catnip",
+    "name": "Catnip",
+    "type": "Aerial",
+    "pregnancy_friendly": true,
+    "description": "A gentle nervine and carminative that is excellent for children's ailments.",
+    "known_to_treat": ["Infant colic", "Fever", "Insomnia", "Nervous stomach"],
+    "usage": "Infusion; makes a very relaxing evening tea."
+  },
+  {
+    "id": "cayenne",
+    "name": "Cayenne Pepper",
+    "type": "Fruit",
+    "pregnancy_friendly": true,
+    "description": "The 'king of stimulants'; it equalizes blood pressure and can stop a heart attack in progress.",
+    "known_to_treat": ["Poor circulation", "Shock", "Indigestion", "Internal/External bleeding"],
+    "usage": "Powder in warm water or tincture; applied topically to stop bleeding (it doesn't sting on open wounds)."
+  },
+  {
+    "id": "celery_seed",
+    "name": "Celery Seed",
+    "type": "Seed",
+    "pregnancy_friendly": false,
+    "description": "Specifically targets the kidneys to excrete uric acid and other metabolic wastes.",
+    "known_to_treat": ["Gout", "Arthritis", "Cystitis", "Edema"],
+    "usage": "Infusion or capsules; a powerful 'alkalizing' herb for the joints."
   },
   {
     "id": "chamomile",
     "name": "Chamomile",
-    "images": "",
-    "description": "Chamomile is an herb that comes from the daisy-like flowers of the Asteraceae plant family.",
     "type": "Flower",
-    "known_to_treat": ["anxiety", "insomnia", "digestive issues", "skin irritations"],
-    "usage": "Typically brewed as tea or used in essential oils.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": true,
+    "description": "A gentle, apple-scented flower that acts as a mild sedative and powerful digestive nervine.",
+    "known_to_treat": ["Insomnia", "Anxiety", "Colic", "Skin irritation", "Stomach cramps"],
+    "usage": "Infusion of dried flowers for tea, or used in a compress for localized skin inflammation."
   },
   {
-    "id": "red_raspberry_leaf",
-    "name": "Red Raspberry Leaf",
-    "images": "",
-    "description": "Leaves from the raspberry plant used in herbal medicine.",
+    "id": "chaparral",
+    "name": "Chaparral",
     "type": "Leaf",
-    "known_to_treat": ["uterine toning", "labor preparation", "menstrual cramps"],
-    "usage": "Brewed as tea.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": false,
+    "description": "One of the oldest plants on Earth; a powerful antioxidant and anti-tumor agent.",
+    "known_to_treat": ["Cancer support", "Arthritis", "Venereal disease", "Parasites"],
+    "usage": "Tincture or tea; has a very strong 'creosote' taste. Use with caution for liver health."
+  },
+  {
+    "id": "chasteberry",
+    "name": "Chasteberry (Vitex)",
+    "type": "Berry",
+    "pregnancy_friendly": false,
+    "description": "A primary hormonal regulator that acts on the pituitary gland to balance progesterone.",
+    "known_to_treat": ["PMS", "Infertility", "Acne (hormonal)", "Menopause"],
+    "usage": "Tincture or capsules taken in the morning; requires 3-6 months for full effect."
+  },
+  {
+    "id": "chickweed",
+    "name": "Chickweed",
+    "type": "Aerial",
+    "pregnancy_friendly": true,
+    "description": "A cooling, nutrient-rich herb that 'dissolves' fats and soothes itchy skin.",
+    "known_to_treat": ["Itchy eczema", "Weight loss support", "Cysts", "Inflammation"],
+    "usage": "Salves for skin; fresh in salads or tea for internal 'cooling'."
+  },
+  {
+    "id": "chicory_root",
+    "name": "Chicory Root",
+    "type": "Root",
+    "pregnancy_friendly": true,
+    "description": "A prebiotic rich in inulin that supports healthy gut flora and liver function.",
+    "known_to_treat": ["Constipation", "Liver congestion", "Gallstones", "Diabetes"],
+    "usage": "Roasted root used as a coffee substitute; decoction for medicinal use."
+  },
+  {
+    "id": "cleavers",
+    "name": "Cleavers",
+    "type": "Aerial",
+    "pregnancy_friendly": true,
+    "description": "The premier lymphatic 'sweep'; it clears congestion in the lymph nodes.",
+    "known_to_treat": ["Swollen glands", "Cystitis", "Psoriasis", "Eczema"],
+    "usage": "Fresh juice is best; cold infusion or tea also effective."
+  },
+  {
+    "id": "clove",
+    "name": "Clove",
+    "type": "Bud",
+    "pregnancy_friendly": true,
+    "description": "Highest antioxidant score of any plant; contains eugenol, a powerful numbing agent.",
+    "known_to_treat": ["Toothache", "Parasites", "Nausea", "Fungal infections"],
+    "usage": "Oil applied to gums for pain; powder in capsules for parasites."
+  },
+  {
+    "id": "coltsfoot",
+    "name": "Coltsfoot",
+    "type": "Leaf/Flower",
+    "pregnancy_friendly": false,
+    "description": "Used for centuries as a premier remedy for chronic, spasmodic coughs.",
+    "known_to_treat": ["Asthma", "Emphysema", "Whooping cough", "Laryngitis"],
+    "usage": "Infusion or smoking the leaves (historically) to open airways."
+  },
+  {
+    "id": "comfrey",
+    "name": "Comfrey (Knitbone)",
+    "type": "Leaf/Root",
+    "pregnancy_friendly": false,
+    "description": "Contains allantoin, which causes cells to multiply rapidly, speeding the healing of bones and skin.",
+    "known_to_treat": ["Broken bones", "Sprains", "Gastric ulcers", "Torn ligaments"],
+    "usage": "Poultice or salve for external use. Internal use is controversial due to pyrrolizidine alkaloids."
+  },
+  {
+    "id": "corn_silk",
+    "name": "Corn Silk",
+    "type": "Silk",
+    "pregnancy_friendly": true,
+    "description": "A very gentle, soothing diuretic for the urinary tract.",
+    "known_to_treat": ["Cystitis", "Prostate irritation", "Bedwetting", "Kidney stones"],
+    "usage": "Infusion of fresh or dried silk; very safe for children and the elderly."
+  },
+  {
+    "id": "cramp_bark",
+    "name": "Cramp Bark",
+    "type": "Bark",
+    "pregnancy_friendly": false,
+    "description": "The specific remedy for smooth muscle cramps, especially in the uterus.",
+    "known_to_treat": ["Menstrual cramps", "Threatened miscarriage", "Leg cramps", "Asthma"],
+    "usage": "Decoction or tincture; acts quickly to relax muscle spasms."
+  },
+  {
+    "id": "damiana",
+    "name": "Damiana",
+    "type": "Leaf",
+    "pregnancy_friendly": false,
+    "description": "A traditional Mexican aphrodisiac and tonic for the nervous system.",
+    "known_to_treat": ["Low libido", "Depression", "Sexual dysfunction", "Anxiety"],
+    "usage": "Infusion or tincture; has a slightly euphoric and warming effect."
+  },
+  {
+    "id": "dandelion_leaf",
+    "name": "Dandelion Leaf",
+    "type": "Leaf",
+    "pregnancy_friendly": true,
+    "description": "One of the best natural diuretics; unlike drugs, it is rich in potassium, so it doesn't deplete the body.",
+    "known_to_treat": ["Water retention", "High blood pressure", "Kidney stones"],
+    "usage": "Fresh in salads or steeped as a tea."
+  },
+  {
+    "id": "dandelion_root",
+    "name": "Dandelion Root",
+    "type": "Root",
+    "pregnancy_friendly": true,
+    "description": "The premier liver tonic; it stimulates bile production and clears 'dampness'.",
+    "known_to_treat": ["Liver congestion", "Jaundice", "Constipation", "Skin issues"],
+    "usage": "Roasted root as coffee; decoction for medicinal strength."
+  },
+  {
+    "id": "dong_quai",
+    "name": "Dong Quai",
+    "type": "Root",
+    "pregnancy_friendly": false,
+    "description": "The 'female ginseng'; it builds blood and regulates the menstrual cycle.",
+    "known_to_treat": ["Anemia", "Irregular periods", "Menopause symptoms", "Painful menses"],
+    "usage": "Decoction of the root; used to 'invigorate' and nourish the blood."
   },
   {
     "id": "echinacea",
-    "name": "Echinacea",
-    "images": "",
-    "description": "A group of flowering plants used to boost the immune system.",
-    "type": "Root/Leaf/Flower",
-    "known_to_treat": ["common cold", "upper respiratory infections", "immune support"],
-    "usage": "Tea, tincture, capsules.",
-    "pregnancy_friendly": true
+    "name": "Echinacea (Purple Coneflower)",
+    "type": "Root/Aerial",
+    "pregnancy_friendly": true,
+    "description": "A premier immune stimulant that increases white blood cell count and activity.",
+    "known_to_treat": ["Common cold", "Flu", "Blood poisoning", "Snake bites"],
+    "usage": "Tincture or decoction; most effective when taken at the very first sign of illness."
+  },
+  {
+    "id": "elderberry",
+    "name": "Elderberry",
+    "type": "Berry",
+    "pregnancy_friendly": true,
+    "description": "Contains powerful antiviral compounds that prevent viruses from entering cells.",
+    "known_to_treat": ["Influenza", "Sinusitis", "Herpes", "Chronic fatigue"],
+    "usage": "Syrup or tea; berries must be cooked before consumption to avoid toxicity."
+  },
+  {
+    "id": "elderflower",
+    "name": "Elderflower",
+    "type": "Flower",
+    "pregnancy_friendly": true,
+    "description": "A gentle diaphoretic that helps the body 'sweat out' a fever.",
+    "known_to_treat": ["Fever", "Sinus congestion", "Allergies", "Colds"],
+    "usage": "Infusion; often combined with Peppermint and Yarrow for flu."
+  },
+  {
+    "id": "eleuthero",
+    "name": "Eleuthero (Siberian Ginseng)",
+    "type": "Root",
+    "pregnancy_friendly": true,
+    "description": "A powerful adaptogen that increases physical endurance and mental resilience.",
+    "known_to_treat": ["Adrenal burnout", "Radiation exposure", "Fatigue", "Weak immunity"],
+    "usage": "Tincture or decoction; safer for long-term use than Panax Ginseng."
+  },
+  {
+    "id": "eyebright",
+    "name": "Eyebright",
+    "type": "Aerial",
+    "pregnancy_friendly": true,
+    "description": "Specifically targets the mucous membranes of the eyes and sinuses.",
+    "known_to_treat": ["Conjunctivitis (pink eye)", "Allergies", "Sinusitis", "Styes"],
+    "usage": "Internal tea or carefully filtered external eye wash."
+  },
+  {
+    "id": "fennel_seed",
+    "name": "Fennel Seed",
+    "type": "Seed",
+    "pregnancy_friendly": true,
+    "description": "A cooling carminative that relaxes the digestive tract and dispels gas.",
+    "known_to_treat": ["Bloating", "Colic", "Low milk supply", "Indigestion"],
+    "usage": "Chewed raw or steeped as a tea."
+  },
+  {
+    "id": "feverfew",
+    "name": "Feverfew",
+    "type": "Leaf",
+    "pregnancy_friendly": false,
+    "description": "The specific remedy for migraines; it inhibits the release of inflammatory prostaglandins.",
+    "known_to_treat": ["Migraines", "Arthritis", "Menstrual pain"],
+    "usage": "Fresh leaf eaten daily (with bread) or capsules; must be taken long-term for migraine prevention."
   },
   {
     "id": "garlic",
     "name": "Garlic",
-    "images": "",
-    "description": "A plant in the onion family used for flavoring and medicine.",
     "type": "Bulb",
-    "known_to_treat": ["colds", "high blood pressure", "infections"],
-    "usage": "Raw, cooked, supplements.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": true,
+    "description": "Nature's most powerful antibiotic; it contains allicin which is active against bacteria, fungi, and viruses.",
+    "known_to_treat": ["High blood pressure", "Infections", "Parasites", "High cholesterol"],
+    "usage": "Raw cloves crushed and eaten (allicin forms when crushed); oil for ear infections."
+  },
+  {
+    "id": "gentian",
+    "name": "Gentian",
+    "type": "Root",
+    "pregnancy_friendly": false,
+    "description": "The strongest digestive bitter; it 'wakes up' the entire digestive system.",
+    "known_to_treat": ["Anorexia", "Sluggish digestion", "Liver weakness", "Anemia"],
+    "usage": "Tincture or tea taken 20 minutes before meals."
+  },
+  {
+    "id": "ginger",
+    "name": "Ginger",
+    "type": "Root",
+    "pregnancy_friendly": true,
+    "description": "A warming, pungent rhizome known for its potent anti-inflammatory and circulatory stimulating properties.",
+    "known_to_treat": ["Nausea", "Indigestion", "Osteoarthritis", "Motion sickness", "Poor circulation"],
+    "usage": "Fresh juice for poultices, tea from sliced root, or grated into warm water for digestive support."
+  },
+  {
+    "id": "ginkgo_biloba",
+    "name": "Ginkgo Biloba",
+    "type": "Leaf",
+    "pregnancy_friendly": true,
+    "description": "Increases micro-circulation to the brain and extremities; acts as a potent antioxidant.",
+    "known_to_treat": ["Dementia", "Tinnitus", "Raynaud's disease", "Memory loss"],
+    "usage": "Standardized extract (24% ginkgosides) is most effective."
+  },
+  {
+    "id": "goldenseal",
+    "name": "Goldenseal",
+    "type": "Root",
+    "pregnancy_friendly": false,
+    "description": "Contains berberine; a powerful 'natural antibiotic' that tones mucous membranes.",
+    "known_to_treat": ["Staph infections", "UTIs", "Sinusitis", "Giardia"],
+    "usage": "Tincture or powder; should only be used for short periods (7-10 days)."
+  },
+  {
+    "id": "gotu_kola",
+    "name": "Gotu Kola",
+    "type": "Aerial",
+    "pregnancy_friendly": true,
+    "description": "The 'herb of longevity' that repairs connective tissue and enhances brain function without caffeine.",
+    "known_to_treat": ["Varicose veins", "Stretch marks", "Poor memory", "Wound healing"],
+    "usage": "Fresh leaves in salad or dried as tea; excellent for repairing skin and blood vessels."
+  },
+  {
+    "id": "gravel_root",
+    "name": "Gravel Root (Joe Pye Weed)",
+    "type": "Root",
+    "pregnancy_friendly": false,
+    "description": "A premier kidney and bladder herb used specifically to dissolve 'gravel' or stones by improving mineral metabolism.",
+    "known_to_treat": ["Kidney stones", "Gallstones", "Gout", "Cystitis"],
+    "usage": "Decoction of the root. Best used in combination with Marshmallow root to soothe the passage of dissolved minerals."
+  },
+  {
+    "id": "ground_ivy",
+    "name": "Ground Ivy",
+    "type": "Aerial",
+    "pregnancy_friendly": true,
+    "description": "A gentle but effective expectorant that helps clear heavy metal toxicity and chronic catarrh.",
+    "known_to_treat": ["Lead poisoning support", "Tinnitus", "Sinusitis", "Bronchial congestion"],
+    "usage": "Infusion of the leaves; particularly useful for drying up chronic 'runny' conditions in the head."
+  },
+  {
+    "id": "guaiacum",
+    "name": "Guaiacum",
+    "type": "Wood/Resin",
+    "pregnancy_friendly": false,
+    "description": "A powerful stimulant and anti-inflammatory used to clear metabolic acid buildup from the joints.",
+    "known_to_treat": ["Rheumatoid arthritis", "Gout", "Syphilis symptoms", "Tonsillitis"],
+    "usage": "Tincture or decoction of the wood; acts as a 'cleansing' agent for the blood and joints."
+  },
+  {
+    "id": "hawthorn_berry",
+    "name": "Hawthorn Berry",
+    "type": "Berry",
+    "pregnancy_friendly": true,
+    "description": "The premier heart tonic; it strengthens the cardiac muscle and improves blood flow to the heart.",
+    "known_to_treat": ["Congestive heart failure", "Angina", "High/Low blood pressure", "Arrhythmia"],
+    "usage": "Long-term use is necessary. Eaten as a berry, taken as a tea, or concentrated extract."
+  },
+  {
+    "id": "hawthorn_leaf_and_flower",
+    "name": "Hawthorn Leaf & Flower",
+    "type": "Leaf/Flower",
+    "pregnancy_friendly": true,
+    "description": "Similar to the berry but more potent in its ability to dilate coronary arteries and reduce peripheral resistance.",
+    "known_to_treat": ["Hypertension", "Palpitations", "Anxiety-related heart issues"],
+    "usage": "Steeped as a gentle tea; often combined with the berries for full cardiovascular support."
+  },
+  {
+    "id": "hibiscus",
+    "name": "Hibiscus",
+    "type": "Flower",
+    "pregnancy_friendly": true,
+    "description": "A cooling, sour herb rich in Vitamin C and anthocyanins that acts as a natural ACE inhibitor.",
+    "known_to_treat": ["High blood pressure", "Metabolic syndrome", "Kidney inflammation"],
+    "usage": "Cold or hot infusion; a refreshing 'refrigerant' tea that cools the body down in summer."
+  },
+  {
+    "id": "holy_basil",
+    "name": "Holy Basil (Tulsi)",
+    "type": "Aerial",
+    "pregnancy_friendly": false,
+    "description": "An 'elixir of life' that protects the body against chemical, physical, and emotional stress.",
+    "known_to_treat": ["Cortisol imbalance", "Brain fog", "Respiratory infections", "Radiation protection"],
+    "usage": "Taken as a tea or tincture; used daily to support resilience and spiritual clarity."
+  },
+  {
+    "id": "hops",
+    "name": "Hops",
+    "type": "Strobile",
+    "pregnancy_friendly": false,
+    "description": "A powerful sedative and bitter that slows down a hyperactive nervous system.",
+    "known_to_treat": ["Insomnia", "Nervous stomach", "Restless Leg Syndrome", "Excessive libido"],
+    "usage": "Tea (very bitter) or a 'sleep pillow' stuffed with dried hops to inhale the volatile oils."
+  },
+  {
+    "id": "horehound",
+    "name": "Horehound (White)",
+    "type": "Aerial",
+    "pregnancy_friendly": false,
+    "description": "A traditional remedy for coughs; it thins the mucus so it can be coughed up easily.",
+    "known_to_treat": ["Wet cough", "Bronchitis", "Whooping cough", "Poor appetite"],
+    "usage": "Often prepared as a syrup or candy; its bitter action also aids digestion."
+  },
+  {
+    "id": "horse_chestnut",
+    "name": "Horse Chestnut",
+    "type": "Seed",
+    "pregnancy_friendly": false,
+    "description": "Contains aescin, which 'plugs' tiny holes in the capillaries to stop fluid leakage.",
+    "known_to_treat": ["Varicose veins", "Hemorrhoids", "Leg ulcers", "Venous insufficiency"],
+    "usage": "Topical cream or standardized oral extract; raw seeds are toxic and must be processed."
+  },
+  {
+    "id": "horsetail",
+    "name": "Horsetail",
+    "type": "Aerial",
+    "pregnancy_friendly": true,
+    "description": "Highest plant source of silica; it acts as a 'biological glue' for connective tissue and bone.",
+    "known_to_treat": ["Osteoporosis", "Brittle nails", "Hair loss", "Internal bleeding"],
+    "usage": "Long decoction (20 mins) to extract minerals; also used as a tea for kidney support."
+  },
+  {
+    "id": "huckleberry_leaf",
+    "name": "Huckleberry Leaf",
+    "type": "Leaf",
+    "pregnancy_friendly": true,
+    "description": "Contains myrtillin, a compound that stabilizes blood sugar and supports the pancreas.",
+    "known_to_treat": ["Diabetes support", "Pancreatitis", "Urinary tract infections"],
+    "usage": "Infusion of the leaves; a classic folk remedy for 'blood sugar balance'."
+  },
+  {
+    "id": "hydrangea_root",
+    "name": "Hydrangea Root",
+    "type": "Root",
+    "pregnancy_friendly": false,
+    "description": "A solvent root used specifically to dissolve calcium deposits in the kidneys and joints.",
+    "known_to_treat": ["Kidney stones", "Prostate enlargement", "Arthritic spurs"],
+    "usage": "Decoction; works effectively when combined with Gravel Root and Marshmallow."
+  },
+  {
+    "id": "hyssop",
+    "name": "Hyssop",
+    "type": "Aerial",
+    "pregnancy_friendly": false,
+    "description": "A sacred herb for clearing the lungs and head; it possesses powerful antiviral properties.",
+    "known_to_treat": ["Viral bronchitis", "Common cold", "Herpes", "Bloating"],
+    "usage": "Tea or steam inhalation; particularly useful for 'hot' respiratory infections."
+  },
+  {
+    "id": "irish_moss",
+    "name": "Irish Moss (Sea Moss)",
+    "type": "Seaweed",
+    "pregnancy_friendly": true,
+    "description": "A nutrient-dense seaweed providing 92 of the 102 minerals the body needs.",
+    "known_to_treat": ["Thyroid dysfunction", "Malnutrition", "Ulcers", "Chronic cough"],
+    "usage": "Prepared as a gel and added to smoothies or used as a thickening agent in food."
+  },
+  {
+    "id": "jamaican_dogwood",
+    "name": "Jamaican Dogwood",
+    "type": "Bark",
+    "pregnancy_friendly": false,
+    "description": "A very powerful pain reliever and sedative; it acts on the central nervous system.",
+    "known_to_treat": ["Neuralgia", "Severe insomnia", "Toothache", "Migraines"],
+    "usage": "Used in very small doses (tincture) for acute pain management; should be monitored."
+  },
+  {
+    "id": "juniper_berry",
+    "name": "Juniper Berry",
+    "type": "Berry",
+    "pregnancy_friendly": false,
+    "description": "A powerful urinary disinfectant and diuretic that increases the glomerular filtration rate.",
+    "known_to_treat": ["Cystitis", "Bloating", "Rheumatism", "Diabetes"],
+    "usage": "Infusion or chewing 3-5 berries daily; avoid in cases of acute kidney inflammation."
+  },
+  {
+    "id": "kava_kava",
+    "name": "Kava Kava",
+    "type": "Root",
+    "pregnancy_friendly": false,
+    "description": "A traditional Pacific island herb that induces deep physical relaxation without clouding the mind.",
+    "known_to_treat": ["Social anxiety", "Muscle tension", "Insomnia", "Anxiety disorders"],
+    "usage": "Traditionally prepared as a cold-water maceration or taken as a standardized extract."
+  },
+  {
+    "id": "kelp",
+    "name": "Kelp",
+    "type": "Seaweed",
+    "pregnancy_friendly": true,
+    "description": "A rich source of organic iodine and minerals essential for thyroid hormone production.",
+    "known_to_treat": ["Hypothyroidism", "Slow metabolism", "Goiter", "Mineral deficiency"],
+    "usage": "Consumed as powder, tablets, or added to food as a salt substitute."
+  },
+  {
+    "id": "kudzu",
+    "name": "Kudzu",
+    "type": "Root",
+    "pregnancy_friendly": true,
+    "description": "A fast-growing vine whose root is used to treat addiction and cardiovascular issues.",
+    "known_to_treat": ["Alcoholism support", "Smoking cessation", "Clustered headaches", "Hypertension"],
+    "usage": "Decoction or standardized capsules; effectively reduces the 'reward' associated with addictive substances."
+  },
+  {
+    "id": "lady_slipper",
+    "name": "Lady's Slipper",
+    "type": "Root",
+    "pregnancy_friendly": false,
+    "description": "A rare and powerful nervine for extreme nervous exhaustion and hysteria.",
+    "known_to_treat": ["Panic attacks", "Nervous breakdown", "Tremors", "Severe neuralgia"],
+    "usage": "Used sparingly as a tincture for acute nervous system crises."
+  },
+  {
+    "id": "lavender",
+    "name": "Lavender",
+    "type": "Flower",
+    "pregnancy_friendly": true,
+    "description": "A versatile aromatic that calms the central nervous system and heals burned skin.",
+    "known_to_treat": ["Insomnia", "Burns", "Headaches", "Anxiety"],
+    "usage": "Essential oil inhaled or applied (diluted) topically; flowers steeped for a calming tea."
+  },
+  {
+    "id": "lemon_balm",
+    "name": "Lemon Balm (Melissa)",
+    "type": "Leaf",
+    "pregnancy_friendly": true,
+    "description": "A 'gladdening' herb that calms a hyperactive thyroid and inhibits viral replication.",
+    "known_to_treat": ["Hyperthyroidism", "Cold sores (Herpes)", "Anxiety", "Childhood ADHD"],
+    "usage": "Infusion of fresh leaves is most potent; used topically for cold sores."
+  },
+  {
+    "id": "lemongrass",
+    "name": "Lemongrass",
+    "type": "Leaf",
+    "pregnancy_friendly": true,
+    "description": "A cooling, antifungal grass used to lower fevers and improve digestion.",
+    "known_to_treat": ["Fungal infections", "Fever", "Bloating", "Stomach cramps"],
+    "usage": "Refreshing tea taken to support the immune system and cool the body."
+  },
+  {
+    "id": "licorice_root",
+    "name": "Licorice Root",
+    "type": "Root",
+    "pregnancy_friendly": false,
+    "description": "A potent adrenal support and anti-viral that mimics the effect of corticosteroids without the side effects.",
+    "known_to_treat": ["Adrenal fatigue", "Gastric ulcers", "Sore throat", "Viral hepatitis"],
+    "usage": "Decoction or chew sticks. Caution: Can raise blood pressure in sensitive individuals if used excessively."
+  },
+  {
+    "id": "lobelia",
+    "name": "Lobelia (Indian Tobacco)",
+    "type": "Aerial",
+    "pregnancy_friendly": false,
+    "description": "The 'thinking herb' that relaxes smooth muscle spasms and opens the respiratory tract.",
+    "known_to_treat": ["Asthma", "Whooping cough", "Epilepsy", "Lockjaw"],
+    "usage": "Often used as a tincture in very small 'catalytic' amounts with other herbs to increase their efficacy."
+  },
+  {
+    "id": "maca_root",
+    "name": "Maca Root",
+    "type": "Root",
+    "pregnancy_friendly": true,
+    "description": "A Peruvian adaptogen that balances the endocrine system and increases stamina.",
+    "known_to_treat": ["Menopause symptoms", "Low libido", "Chronic fatigue", "Hormonal acne"],
+    "usage": "Root powder added to food; improves energy levels by nourishing the adrenal glands."
+  },
+  {
+    "id": "marshmallow_root",
+    "name": "Marshmallow Root",
+    "type": "Root",
+    "pregnancy_friendly": true,
+    "description": "Highly mucilaginous; it coats and protects inflamed mucous membranes throughout the body.",
+    "known_to_treat": ["Acid reflux", "Leaky gut", "Dry cough", "Bladder irritation"],
+    "usage": "Cold water infusion (steeped overnight) is best to extract the mucilage without destroying it with heat."
+  },
+  {
+    "id": "milk_thistle",
+    "name": "Milk Thistle",
+    "type": "Seed",
+    "pregnancy_friendly": true,
+    "description": "Contains silymarin, which protects the liver from toxins and stimulates the regeneration of liver cells.",
+    "known_to_treat": ["Fatty liver", "Cirrhosis", "Mushroom poisoning", "Environmental toxicity"],
+    "usage": "Standardized extract (80% silymarin) or ground seeds taken in capsule form."
+  },
+  {
+    "id": "motherwort",
+    "name": "Motherwort",
+    "type": "Aerial",
+    "pregnancy_friendly": false,
+    "description": "The 'heart protector' for mothers; it calms heart palpitations and strengthens the uterus.",
+    "known_to_treat": ["Tachycardia", "Anxiety", "Delayed menstruation", "Postpartum depression"],
+    "usage": "Tincture or tea; acts quickly to calm a 'pounding' heart caused by emotional distress."
+  },
+  {
+    "id": "mullein",
+    "name": "Mullein",
+    "type": "Leaf/Flower",
+    "pregnancy_friendly": true,
+    "description": "A premier respiratory tonic that softens impacted mucus and heals the lung tissue.",
+    "known_to_treat": ["Bronchitis", "Ear infections", "Dry cough", "Swollen glands"],
+    "usage": "Leaf tea for lungs; flower-infused oil for earaches. Filter tea carefully to remove tiny irritating hairs."
+  },
+  {
+    "id": "myrrh",
+    "name": "Myrrh",
+    "type": "Resin",
+    "pregnancy_friendly": false,
+    "description": "A powerful antiseptic and antimicrobial resin that stimulates white blood cell activity.",
+    "known_to_treat": ["Mouth ulcers", "Gingivitis", "Infected wounds", "Thrush"],
+    "usage": "Tincture used as a mouthwash or applied topically to infections. Highly effective for boggy, inflamed tissues."
+  },
+  {
+    "id": "nettle_leaf",
+    "name": "Nettle Leaf",
+    "type": "Leaf",
+    "pregnancy_friendly": true,
+    "description": "A nutrient powerhouse rich in iron and chlorophyll; it acts as a natural antihistamine.",
+    "known_to_treat": ["Anemia", "Seasonal allergies", "Eczema", "Arthritis"],
+    "usage": "Strong infusion. To treat hay fever, it should be taken regularly before the season begins."
+  },
+  {
+    "id": "nettle_root",
+    "name": "Nettle Root",
+    "type": "Root",
+    "pregnancy_friendly": false,
+    "description": "Specifically targets the male reproductive system by inhibiting the conversion of testosterone to DHT.",
+    "known_to_treat": ["Benign Prostatic Hyperplasia (BPH)", "Prostate inflammation", "Hair loss"],
+    "usage": "Decoction or standardized extract; used specifically for prostate health."
+  },
+  {
+    "id": "oat_straw",
+    "name": "Oat Straw",
+    "type": "Stem",
+    "pregnancy_friendly": true,
+    "description": "One of the best tonics for 'feeding' the nervous system, rich in calcium and magnesium.",
+    "known_to_treat": ["Nervous exhaustion", "Depression", "Osteoporosis", "Stress-related eczema"],
+    "usage": "Infusion of the green straw. It provides a steady, grounded energy rather than a stimulant spike."
+  },
+  {
+    "id": "olive_leaf",
+    "name": "Olive Leaf",
+    "type": "Leaf",
+    "pregnancy_friendly": true,
+    "description": "Contains oleuropein, a potent antiviral and hypotensive agent.",
+    "known_to_treat": ["High blood pressure", "Viral infections", "Candida", "Chronic Fatigue Syndrome"],
+    "usage": "Tea or extract. It is particularly effective at lowering blood pressure naturally without side effects."
+  },
+  {
+    "id": "oregano_oil",
+    "name": "Oregano Oil",
+    "type": "Oil",
+    "pregnancy_friendly": false,
+    "description": "A 'heavy hitter' in the herbal world; it is a broad-spectrum antifungal and antibiotic.",
+    "known_to_treat": ["SIBO", "Fungal infections", "Parasites", "Sinusitis"],
+    "usage": "Used in very small amounts (1-2 drops) diluted in oil or water. Short-term use only."
+  },
+  {
+    "id": "oregon_grape_root",
+    "name": "Oregon Grape Root",
+    "type": "Root",
+    "pregnancy_friendly": false,
+    "description": "A berberine-containing herb that stimulates liver function and clears the skin.",
+    "known_to_treat": ["Psoriasis", "Acne", "Sluggish liver", "Giardia"],
+    "usage": "Decoction or tincture. Excellent alternative to Goldenseal for chronic skin conditions."
+  },
+  {
+    "id": "parsley",
+    "name": "Parsley",
+    "type": "Leaf/Seed/Root",
+    "pregnancy_friendly": false,
+    "description": "A strong diuretic and emmenagogue that flushes the kidneys and stimulates menstruation.",
+    "known_to_treat": ["Urinary stones", "Edema", "Delayed menses", "Halitosis"],
+    "usage": "Fresh juice or tea. Avoid large medicinal amounts during pregnancy as it can stimulate the uterus."
+  },
+  {
+    "id": "passionflower",
+    "name": "Passionflower",
+    "type": "Aerial",
+    "pregnancy_friendly": true,
+    "description": "The specific remedy for 'circular thinking' and insomnia where the mind won't shut off.",
+    "known_to_treat": ["Anxiety", "Insomnia", "Hysteria", "Opioid withdrawal support"],
+    "usage": "Infusion or tincture before bed. It calms the motor centers of the brain."
+  },
+  {
+    "id": "pau_darco",
+    "name": "Pau D'Arco",
+    "type": "Bark",
+    "pregnancy_friendly": false,
+    "description": "A rainforest bark with powerful anti-cancer and anti-fungal properties.",
+    "known_to_treat": ["Candida overgrowth", "Cancer support", "Inflammatory skin issues", "Weak immunity"],
+    "usage": "Decoction of the inner bark. It must be simmered for at least 15 minutes to be effective."
   },
   {
     "id": "peppermint",
     "name": "Peppermint",
-    "images": "",
-    "description": "A hybrid mint used for its cooling effect.",
     "type": "Leaf",
-    "known_to_treat": ["nausea", "IBS", "headaches"],
-    "usage": "Tea, essential oil.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": true,
+    "description": "A refreshing carminative that relaxes the stomach muscles and dispels gas.",
+    "known_to_treat": ["IBS", "Nausea", "Headaches", "Fever"],
+    "usage": "Tea or essential oil (diluted) on the temples. Drink as a tea after meals for digestion."
   },
   {
-    "id": "dandelion",
-    "name": "Dandelion",
-    "images": "",
-    "description": "A common weed with medicinal properties.",
-    "type": "Root/Leaf",
-    "known_to_treat": ["liver detox", "diuretic", "digestion"],
-    "usage": "Tea, salads.",
-    "pregnancy_friendly": true
-  },
-  {
-    "id": "lemon_balm",
-    "name": "Lemon Balm",
-    "images": "",
-    "description": "A herb in the mint family with a lemon scent.",
+    "id": "plantain",
+    "name": "Plantain (Broadleaf)",
     "type": "Leaf",
-    "known_to_treat": ["anxiety", "insomnia", "cold sores"],
-    "usage": "Tea, tincture.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": true,
+    "description": "The 'drawing' herb; it pulls out toxins, stingers, and infections from the skin.",
+    "known_to_treat": ["Bee stings", "Splinters", "Blood poisoning", "Gastritis"],
+    "usage": "Fresh 'spit poultice' for stings; tea for internal healing of the gut lining."
   },
   {
-    "id": "fenugreek",
-    "name": "Fenugreek",
-    "images": "",
-    "description": "An herb used in cooking and medicine.",
-    "type": "Seed",
-    "known_to_treat": ["milk production", "diabetes", "digestion"],
-    "usage": "Seeds in food, tea, capsules.",
-    "pregnancy_friendly": false
+    "id": "pokeweed",
+    "name": "Pokeweed",
+    "type": "Root",
+    "pregnancy_friendly": false,
+    "description": "A very powerful lymphatic stimulant; it 'kicks' the immune system into high gear.",
+    "known_to_treat": ["Swollen glands", "Cystic breasts", "Mastitis", "Chronic infections"],
+    "usage": "Use with extreme caution. One drop of tincture is often sufficient. Potentially toxic in high doses."
   },
   {
-    "id": "cranberry",
-    "name": "Cranberry",
-    "images": "",
-    "description": "A berry used for urinary health.",
-    "type": "Fruit",
-    "known_to_treat": ["UTI prevention"],
-    "usage": "Juice, capsules.",
-    "pregnancy_friendly": true
+    "id": "quassia",
+    "name": "Quassia",
+    "type": "Wood",
+    "pregnancy_friendly": false,
+    "description": "The most bitter plant known; it is an incredible digestive tonic and parasiticide.",
+    "known_to_treat": ["Threadworms", "Anorexia", "Sluggish digestion", "Lice"],
+    "usage": "Cold infusion of wood chips. Used as an enema for threadworms or taken orally to spark digestion."
+  },
+  {
+    "id": "raspberry_leaf",
+    "name": "Raspberry Leaf (Red)",
+    "type": "Leaf",
+    "pregnancy_friendly": true,
+    "description": "The premier 'female tonic' containing fragarine, which tones the uterine muscles.",
+    "known_to_treat": ["Morning sickness", "Labor preparation", "Heavy periods", "Diarrhea"],
+    "usage": "Infusion. Highly recommended in the third trimester to facilitate a smoother labor."
+  },
+  {
+    "id": "reishi_mushroom",
+    "name": "Reishi Mushroom",
+    "type": "Fungi",
+    "pregnancy_friendly": true,
+    "description": "The 'mushroom of immortality'; it modulates the immune system and calms the spirit.",
+    "known_to_treat": ["Autoimmune disorders", "Insomnia", "Allergies", "Cancer support"],
+    "usage": "Decoction (simmer for 1-2 hours) or extract. It balances an overactive immune response."
+  },
+  {
+    "id": "rhubarb_root",
+    "name": "Rhubarb Root (Turkey Rhubarb)",
+    "type": "Root",
+    "pregnancy_friendly": false,
+    "description": "A powerful anthraquinone laxative that also has astringent properties for the gut.",
+    "known_to_treat": ["Constipation", "Hemorrhoids", "Digestive sluggishness"],
+    "usage": "Decoction or powder. Use small doses for tonic effects or larger doses for a purge."
+  },
+  {
+    "id": "rosemary",
+    "name": "Rosemary",
+    "type": "Leaf",
+    "pregnancy_friendly": true,
+    "description": "Increases blood flow to the head and improves peripheral circulation and memory.",
+    "known_to_treat": ["Memory loss", "Low blood pressure", "Hair thinning", "Depression"],
+    "usage": "Infusion or culinary use. Using a rosemary rinse on the scalp stimulates hair follicles."
+  },
+  {
+    "id": "sage",
+    "name": "Sage",
+    "type": "Leaf",
+    "pregnancy_friendly": false,
+    "description": "A cooling herb that dries up secretions, including sweat and breast milk.",
+    "known_to_treat": ["Hot flashes", "Sore throat", "Excessive sweating", "Weaning"],
+    "usage": "Tea or gargle. Excellent for night sweats associated with menopause."
+  },
+  {
+    "id": "sarsaparilla",
+    "name": "Sarsaparilla",
+    "type": "Root",
+    "pregnancy_friendly": true,
+    "description": "A potent 'blood purifier' rich in plant steroids that help balance hormones.",
+    "known_to_treat": ["Psoriasis", "Syphilis", "Hormonal imbalance", "Eczema"],
+    "usage": "Decoction. It binds to endotoxins in the blood and carries them out of the body."
+  },
+  {
+    "id": "saw_palmetto",
+    "name": "Saw Palmetto",
+    "type": "Berry",
+    "pregnancy_friendly": false,
+    "description": "The specific remedy for the male reproductive system, particularly the prostate.",
+    "known_to_treat": ["BPH (Prostate enlargement)", "Low libido", "Urinary frequency"],
+    "usage": "Standardized extract of the fatty acids in the berries. Best for long-term prostate support."
+  },
+  {
+    "id": "schisandra",
+    "name": "Schisandra Berry",
+    "type": "Berry",
+    "pregnancy_friendly": false,
+    "description": "The 'five-flavor fruit' that supports all five yin organs and enhances liver detoxification.",
+    "known_to_treat": ["Liver damage", "Adrenal exhaustion", "Mental fatigue", "Asthma"],
+    "usage": "Decoction of the berries. It is a powerful adaptogen that improves physical endurance."
+  },
+  {
+    "id": "scullcap",
+    "name": "Scullcap (American)",
+    "type": "Aerial",
+    "pregnancy_friendly": true,
+    "description": "One of the best herbs for nervous tension and tremors; it 'renews' the nerves.",
+    "known_to_treat": ["Seizures", "Drug withdrawal", "Tics", "Extreme anxiety"],
+    "usage": "Infusion or tincture. It is a 'trophorestorative' for the nervous system."
+  },
+  {
+    "id": "self_heal",
+    "name": "Self-Heal (Heal-All)",
+    "type": "Aerial",
+    "pregnancy_friendly": true,
+    "description": "A humble mint-family herb that stimulates the lymphatic system and heals wounds.",
+    "known_to_treat": ["Sore throat", "Swollen lymph nodes", "Cold sores", "Minor wounds"],
+    "usage": "Infusion or poultice. It is highly effective against the herpes simplex virus."
+  },
+  {
+    "id": "senna",
+    "name": "Senna",
+    "type": "Leaf/Pod",
+    "pregnancy_friendly": false,
+    "description": "A powerful stimulant laxative that triggers peristalsis in the colon.",
+    "known_to_treat": ["Acute constipation", "Bowel clearance"],
+    "usage": "Infusion (short steep). Should not be used for more than 7-10 days to avoid dependency."
+  },
+  {
+    "id": "shepherds_purse",
+    "name": "Shepherd's Purse",
+    "type": "Aerial",
+    "pregnancy_friendly": false,
+    "description": "The premier herb for stopping internal and external hemorrhaging.",
+    "known_to_treat": ["Heavy menstrual bleeding", "Postpartum hemorrhage", "Bloody urine", "Wounds"],
+    "usage": "Fresh tincture is most effective. It acts as a powerful vasoconstrictor and styptic."
+  },
+  {
+    "id": "slippery_elm",
+    "name": "Slippery Elm",
+    "type": "Inner Bark",
+    "pregnancy_friendly": true,
+    "description": "Contains high levels of mucilage that creates a protective layer over the entire GI tract.",
+    "known_to_treat": ["Ulcerative colitis", "Gastritis", "Sore throat", "Diarrhea"],
+    "usage": "Powder mixed into a 'gruel' with water. It is so gentle it can be used as a primary food source during illness."
+  },
+  {
+    "id": "st_johns_wort",
+    "name": "St. John's Wort",
+    "type": "Flower",
+    "pregnancy_friendly": false,
+    "description": "Known as 'bottled sunshine,' it heals nerve damage and lifts mild to moderate depression.",
+    "known_to_treat": ["Depression", "Sciatica", "Shingles", "Neuralgia"],
+    "usage": "Infused oil for topical nerve pain; tincture for internal mood support. Caution: Interacts with many medications."
+  },
+  {
+    "id": "tea_tree",
+    "name": "Tea Tree",
+    "type": "Leaf",
+    "pregnancy_friendly": true,
+    "description": "A powerful external-only antimicrobial that destroys bacteria, fungi, and viruses on contact.",
+    "known_to_treat": ["Athlete's foot", "Acne", "Ringworm", "Dandruff"],
+    "usage": "Essential oil applied topically (diluted) for sensitive skin. NEVER ingest."
+  },
+  {
+    "id": "thyme",
+    "name": "Thyme",
+    "type": "Leaf",
+    "pregnancy_friendly": true,
+    "description": "Contains thymol, a potent disinfectant that helps expel worms and clears the respiratory tract.",
+    "known_to_treat": ["Chest infections", "Sore throat", "Parasites", "Digestive gas"],
+    "usage": "Strong infusion or steam inhalation. Effective for 'spasmodic' coughs."
+  },
+  {
+    "id": "turmeric",
+    "name": "Turmeric",
+    "type": "Root",
+    "pregnancy_friendly": true,
+    "description": "A premier anti-inflammatory that inhibits NF-kB and supports healthy liver detoxification.",
+    "known_to_treat": ["Arthritis", "Cancer prevention", "Liver congestion", "IBS"],
+    "usage": "Root powder taken with black pepper and fat to increase curcumin absorption."
+  },
+  {
+    "id": "uva_ursi",
+    "name": "Uva Ursi (Bearberry)",
+    "type": "Leaf",
+    "pregnancy_friendly": false,
+    "description": "Contains arbutin, which converts to hydroquinone in the urine to kill bacteria.",
+    "known_to_treat": ["UTIs", "Kidney infections", "Cystitis"],
+    "usage": "Short-term use only (7 days). Best used in alkaline urine; avoid with highly acidic foods."
+  },
+  {
+    "id": "valerian_root",
+    "name": "Valerian Root",
+    "type": "Root",
+    "pregnancy_friendly": false,
+    "description": "A strong sedative that improves sleep quality by increasing GABA levels in the brain.",
+    "known_to_treat": ["Insomnia", "Anxiety", "Muscle spasms", "Hysteria"],
+    "usage": "Decoction or tincture before bed. Note: Small percentage of people feel 'wired' instead of sleepy."
+  },
+  {
+    "id": "white_willow_bark",
+    "name": "White Willow Bark",
+    "type": "Bark",
+    "pregnancy_friendly": false,
+    "description": "The 'natural aspirin' containing salicin, which provides pain relief without gastric bleeding.",
+    "known_to_treat": ["Headaches", "Fever", "Osteoarthritis", "Bursitis"],
+    "usage": "Decoction. Slower acting than aspirin but the effects last much longer."
+  },
+  {
+    "id": "wild_cherry_bark",
+    "name": "Wild Cherry Bark",
+    "type": "Bark",
+    "pregnancy_friendly": true,
+    "description": "A powerful sedative for the respiratory nerves; it stops an unproductive, irritating cough.",
+    "known_to_treat": ["Hacking cough", "Asthmatic cough", "Bronchitis", "Digestive weakness"],
+    "usage": "Cold infusion or syrup. It 'quiets' the cough reflex to allow for rest."
+  },
+  {
+    "id": "wild_yam",
+    "name": "Wild Yam",
+    "type": "Root",
+    "pregnancy_friendly": true,
+    "description": "Contains diosgenin, which is a precursor to hormones and acts as a powerful antispasmodic.",
+    "known_to_treat": ["Menstrual cramps", "Morning sickness", "Gallbladder pain", "Diverticulitis"],
+    "usage": "Decoction or topical cream. Excellent for relaxing smooth muscle tension in the pelvis."
+  },
+  {
+    "id": "witch_hazel",
+    "name": "Witch Hazel",
+    "type": "Bark/Leaf",
+    "pregnancy_friendly": true,
+    "description": "A premier astringent that tightens distended veins and stops minor bleeding.",
+    "known_to_treat": ["Hemorrhoids", "Varicose veins", "Bruises", "Puffy eyes"],
+    "usage": "Topical extract or distilled water. Used as a compress to shrink inflamed tissues."
+  },
+  {
+    "id": "wood_betony",
+    "name": "Wood Betony",
+    "type": "Aerial",
+    "pregnancy_friendly": true,
+    "description": "A grounding herb that 'draws the energy out of the head' and back into the body.",
+    "known_to_treat": ["Tension headaches", "Facial neuralgia", "Anxiety", "Poor digestion"],
+    "usage": "Infusion. One of the best herbs for people who feel 'stuck in their head' or over-analytical."
+  },
+  {
+    "id": "wormwood",
+    "name": "Wormwood",
+    "type": "Aerial",
+    "pregnancy_friendly": false,
+    "description": "An extremely bitter herb used primarily to expel intestinal parasites and stimulate the liver.",
+    "known_to_treat": ["Roundworms", "Pinworms", "Giardia", "Lack of appetite"],
+    "usage": "Infusion (very short-term) or tincture. Its extreme bitterness sparks the entire digestive fire."
+  },
+  {
+    "id": "yarrow",
+    "name": "Yarrow",
+    "type": "Flower/Leaf",
+    "pregnancy_friendly": false,
+    "description": "The 'master of the blood'—it can stop a hemorrhage or move stagnant blood, as needed.",
+    "known_to_treat": ["Fevers", "Wounds", "Fibroids", "High blood pressure"],
+    "usage": "Hot tea to induce sweating for fevers; powder topically to stop bleeding; cold tea for kidneys."
+  },
+  {
+    "id": "yellow_dock",
+    "name": "Yellow Dock",
+    "type": "Root",
+    "pregnancy_friendly": true,
+    "description": "A blood tonic that improves iron absorption and stimulates bile flow from the liver.",
+    "known_to_treat": ["Anemia", "Constipation", "Chronic skin rashes", "Jaundice"],
+    "usage": "Decoction or syrup. It helps release iron stored in the tissues back into the bloodstream."
+  },
+  {
+    "id": "yohimbe",
+    "name": "Yohimbe",
+    "type": "Bark",
+    "pregnancy_friendly": false,
+    "description": "A powerful stimulant that increases blood flow to the extremities and pelvic region.",
+    "known_to_treat": ["Erectile dysfunction", "Low libido", "Depression"],
+    "usage": "Standardized extract. Caution: Can cause heart palpitations, anxiety, and high blood pressure."
+  },
+  {
+    "id": "yucca",
+    "name": "Yucca Root",
+    "type": "Root",
+    "pregnancy_friendly": true,
+    "description": "Contains high levels of steroid-like saponins that reduce joint inflammation.",
+    "known_to_treat": ["Osteoarthritis", "Rheumatoid arthritis", "Bursitis", "High cholesterol"],
+    "usage": "Decoction or capsules. It acts as a natural 'detergent' for the joints, clearing debris."
   }
 ]

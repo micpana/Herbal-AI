@@ -52,6 +52,7 @@ herbal-ai/
 │   │   └── utils/
 │   │       └── herbs_loader.py
 │   ├── herbs.json
+│   ├── herb-combinations.json
 │   ├── seed.py
 │   ├── requirements.txt
 │   ├── .env

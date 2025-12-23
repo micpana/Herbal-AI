@@ -1,0 +1,362 @@
+[
+  {
+    "id": "flu_bomb_classic",
+    "name": "The Ultimate Flu Bomb",
+    "description": "Barbara O'Neill's signature potent antimicrobial and immune-boosting tonic designed to halt respiratory infections at the onset.",
+    "ingredients": ["Garlic", "Ginger", "Lemon juice", "Honey", "Eucalyptus oil", "Cayenne pepper"],
+    "known_to_treat": ["Influenza", "Common cold", "Sinusitis", "Bronchitis", "Sore throat"],
+    "usage": "Crush 1 clove garlic, grate 1 tsp ginger, add juice of 1 lemon, 1 tsp honey, 1 drop eucalyptus oil, and a pinch of cayenne. Mix in half a cup of hot water. Take 3 times daily.",
+    "pregnancy_friendly": false
+  },
+  {
+    "id": "liver_detox_tea",
+    "name": "Liver Deep Cleanse Tea",
+    "description": "A combination of bitter and alterative herbs that stimulate bile flow and assist the liver in filtering metabolic waste.",
+    "ingredients": ["Dandelion root", "Milk thistle seed", "Burdock root", "Ginger"],
+    "known_to_treat": ["Fatty liver", "Sluggish digestion", "Skin eruptions", "Hormonal imbalance"],
+    "usage": "Simmer the roots (decoction) for 15 minutes, add crushed milk thistle seeds at the end. Drink 1 cup before breakfast for 30 days.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "anti_inflammatory_poultice",
+    "name": "The Anti-Inflammatory Poultice",
+    "description": "A topical treatment designed to draw out inflammation and heat from localized injuries or chronic joint pain.",
+    "ingredients": ["Ginger (grated)", "Comfrey leaf", "Turmeric powder", "Castor oil"],
+    "known_to_treat": ["Arthritis", "Sprains", "Swollen joints", "Muscle tears"],
+    "usage": "Mix ingredients into a thick paste. Apply to the affected area, cover with a cloth and plastic wrap. Leave for 2-4 hours or overnight.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "kidney_stone_dissolver",
+    "name": "The Kidney Stone Dissolver",
+    "description": "A lithotriptic blend that helps break down calcium deposits and flush the urinary tract.",
+    "ingredients": ["Chanca Piedra", "Marshmallow root", "Cornsilk", "Hydrangea root"],
+    "known_to_treat": ["Kidney stones", "Gravel", "Urinary tract inflammation"],
+    "usage": "Decoct the roots for 20 minutes. Drink 3-4 cups daily until the stones pass.",
+    "pregnancy_friendly": false
+  },
+  {
+    "id": "lung_congestion_clearer",
+    "name": "The Lung Congestion Clearer",
+    "description": "An expectorant formula that thins mucus and calms the bronchial tubes.",
+    "ingredients": ["Mullein leaf", "Elecampane root", "Thyme", "Licorice root"],
+    "known_to_treat": ["Asthma", "Wet cough", "Emphysema", "Pleurisy"],
+    "usage": "Infuse the leaves and decoct the roots. Drink warm with honey as needed for breathing ease.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "sleep_inducer_nervine",
+    "name": "The Sleep Inducer (Nervine)",
+    "description": "A sedative blend that calms the central nervous system without causing morning grogginess.",
+    "ingredients": ["Valerian root", "Passionflower", "Hops", "Lemon balm"],
+    "known_to_treat": ["Insomnia", "Anxiety", "Restless leg syndrome", "Panic attacks"],
+    "usage": "Prepare as a strong infusion 30 minutes before bed. For chronic cases, use a tincture.",
+    "pregnancy_friendly": false
+  },
+  {
+    "id": "heart_tonic_classic",
+    "name": "The Heart Tonic",
+    "description": "A cardiotonic formula used to strengthen the heart muscle and regulate blood pressure.",
+    "ingredients": ["Hawthorn berry", "Motherwort", "Ginkgo biloba", "Cayenne"],
+    "known_to_treat": ["Hypertension", "Palpitations", "Congestive heart failure support", "Poor circulation"],
+    "usage": "Standard decoction of Hawthorn berries. Add Motherwort and Ginkgo as an infusion. Take daily for 3 months.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "joint_repair_decoction",
+    "name": "The Joint Repair Decoction",
+    "description": "High in minerals and silica, this blend supports the rebuilding of cartilage and connective tissue.",
+    "ingredients": ["Horsetail", "Nettle leaf", "Oatstraw", "Gotu Kola"],
+    "known_to_treat": ["Osteoporosis", "Degenerative joint disease", "Brittle nails", "Hair loss"],
+    "usage": "Long-steep infusion (4+ hours) to extract maximum mineral content. Drink 2 cups daily.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "parasite_purge_blend",
+    "name": "The Parasite Purge",
+    "description": "A powerful vermifuge designed to eliminate intestinal parasites and their eggs.",
+    "ingredients": ["Black walnut hulls", "Wormwood", "Clove", "Garlic"],
+    "known_to_treat": ["Intestinal worms", "Giardia", "Candida overgrowth"],
+    "usage": "Take as a tincture protocol: Increase dose gradually over 14 days, rest for 7 days, then repeat.",
+    "pregnancy_friendly": false
+  },
+  {
+    "id": "adrenal_revitalizer",
+    "name": "The Adrenal Revitalizer",
+    "description": "Adaptogenic support for those suffering from chronic stress and 'burnout'.",
+    "ingredients": ["Ashwagandha", "Siberian Ginseng", "Licorice root", "Holy Basil"],
+    "known_to_treat": ["Adrenal fatigue", "Chronic exhaustion", "Brain fog", "Cortisol imbalance"],
+    "usage": "Take in the morning and early afternoon. Avoid late evening use as it may provide too much energy for sleep.",
+    "pregnancy_friendly": false
+  },
+  {
+    "id": "lymphatic_flush_tonic",
+    "name": "The Lymphatic Flush",
+    "description": "Moves stagnant lymph fluid and reduces swelling in the glands.",
+    "ingredients": ["Cleavers", "Red Clover", "Calendula", "Poke root (trace amount)"],
+    "known_to_treat": ["Swollen glands", "Edema", "Cystic acne", "Sluggish immunity"],
+    "usage": "Mild infusion of the first three herbs. Use Poke root ONLY under professional guidance.",
+    "pregnancy_friendly": false
+  },
+  {
+    "id": "digestive_fire_builder",
+    "name": "The Digestive Fire Builder",
+    "description": "A bitter tonic to be taken before meals to stimulate hydrochloric acid and enzyme production.",
+    "ingredients": ["Gentian root", "Angelica root", "Orange peel", "Ginger"],
+    "known_to_treat": ["Hypochlorhydria (Low stomach acid)", "Bloating", "Acid reflux", "Anorexia"],
+    "usage": "Prepare as a bitter tincture. Take 5-10 drops on the tongue 15 minutes before eating.",
+    "pregnancy_friendly": false
+  },
+  {
+    "id": "skin_recovery_salve",
+    "name": "The Skin Recovery Salve",
+    "description": "A topical oil-based treatment for healing damaged skin tissue and reducing scarring.",
+    "ingredients": ["Calendula flowers", "Plantain leaf", "St. John's Wort", "Beeswax"],
+    "known_to_treat": ["Eczema", "Minor burns", "Psoriasis", "Cuts and scrapes"],
+    "usage": "Infuse herbs in olive oil for 4 weeks, strain, and thicken with melted beeswax. Apply liberally.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "thyroid_support_blend",
+    "name": "The Thyroid Support Blend",
+    "description": "Provides the raw materials (iodine and minerals) necessary for healthy thyroid function.",
+    "ingredients": ["Bladderwrack", "Irish Moss", "Nettle leaf", "Black Walnut"],
+    "known_to_treat": ["Hypothyroidism", "Goiter", "Metabolic sluggishness"],
+    "usage": "Incorporate into smoothies or take as a daily infusion. Monitor iodine levels.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "brain_fog_lifter",
+    "name": "The Brain Fog Lifter",
+    "description": "Cerebral stimulants that increase oxygenation and blood flow to the brain.",
+    "ingredients": ["Ginkgo biloba", "Rosemary", "Bacopa", "Gotu Kola"],
+    "known_to_treat": ["Poor memory", "Lack of focus", "Mental fatigue", "Early-stage cognitive decline"],
+    "usage": "Morning tea or tincture. Best used in conjunction with deep breathing exercises.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "blood_purifier_classic",
+    "name": "The Blood Purifier",
+    "description": "An alterative blend that cleanses the bloodstream of metabolic toxins and cellular waste.",
+    "ingredients": ["Burdock root", "Yellow dock", "Red clover", "Sarsaparilla"],
+    "known_to_treat": ["Skin disorders", "Chronic infections", "Gout"],
+    "usage": "Decoct the roots for 20 minutes. Drink 2 cups daily for a 3-week cleansing cycle.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "female_hormone_balancer",
+    "name": "The Female Hormone Balancer",
+    "description": "Supports the liver in processing excess estrogen and balances the progesterone-estrogen ratio.",
+    "ingredients": ["Vitex (Chaste Tree Berry)", "Dong Quai", "Wild Yam", "Dandelion root"],
+    "known_to_treat": ["PMS", "Menopausal flashes", "Irregular cycles", "PCOS support"],
+    "usage": "Take Vitex daily in the morning. Use the other herbs as a tea during the second half of the cycle.",
+    "pregnancy_friendly": false
+  },
+  {
+    "id": "iron_blood_builder",
+    "name": "The Iron-Rich Blood Builder",
+    "description": "A highly bioavailable herbal iron source that does not cause constipation.",
+    "ingredients": ["Nettle leaf", "Yellow dock", "Alfalfa", "Dandelion root"],
+    "known_to_treat": ["Iron-deficiency anemia", "Post-partum recovery", "Chronic fatigue"],
+    "usage": "Prepare as a strong infusion or a herbal syrup with molasses. Take 2 tablespoons daily.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "urinary_tract_defense",
+    "name": "The Urinary Tract Defense",
+    "description": "An antibacterial and soothing blend for the bladder and kidneys.",
+    "ingredients": ["Uva Ursi", "Cornsilk", "Cranberry", "Marshmallow root"],
+    "known_to_treat": ["Cystitis", "UTI", "Bladder irritation"],
+    "usage": "Drink 1 cup every 3 hours during acute infection. Do not use Uva Ursi for more than 7 days.",
+    "pregnancy_friendly": false
+  },
+  {
+    "id": "pancreatic_support_blend",
+    "name": "The Pancreatic Support",
+    "description": "Helps stabilize blood sugar and supports the endocrine function of the pancreas.",
+    "ingredients": ["Gymnema Sylvestre", "Fenugreek", "Cinnamon", "Cedar berries"],
+    "known_to_treat": ["Insulin resistance", "Sugar cravings", "Blood sugar spikes"],
+    "usage": "Take as a tea 20 minutes before meals. Gymnema can temporarily 'mask' the taste of sugar.",
+    "pregnancy_friendly": false
+  },
+  {
+    "id": "telomere_support_tonic",
+    "name": "The DNA Integrity Elixir",
+    "description": "A 'Master Series' blend designed to reduce oxidative stress at the chromosomal level and support cellular longevity.",
+    "ingredients": ["Astragalus root", "He Shou Wu", "Goji berries", "Pine bark extract"],
+    "known_to_treat": ["Premature aging", "Low vitality", "Chronic cellular exhaustion"],
+    "usage": "Decoct Astragalus and He Shou Wu for 30 minutes. Add Goji and Pine bark. Drink 1 cup every morning for 90 days.",
+    "pregnancy_friendly": false
+  },
+  {
+    "id": "pancreatic_juice_catalyst",
+    "name": "The Enzyme Production Boost",
+    "description": "Stimulates the exocrine function of the pancreas to improve the breakdown of fats and proteins.",
+    "ingredients": ["Gentian root", "Artichoke leaf", "Papaya leaf", "Fennel"],
+    "known_to_treat": ["Fat malabsorption", "Steatorrhea", "Chronic indigestion"],
+    "usage": "Prepare as a bitter tincture. Take 5-10 drops on the tongue 10 minutes before the heaviest meal of the day.",
+    "pregnancy_friendly": false
+  },
+  {
+    "id": "myelin_sheath_nourisher",
+    "name": "The Deep Nerve Insulator",
+    "description": "A high-lipid herbal protocol intended to provide the building blocks for nerve sheath repair.",
+    "ingredients": ["Lion's Mane mushroom", "Gotu Kola", "Lecithin (Sunflower)", "Evening Primrose Oil"],
+    "known_to_treat": ["Multiple Sclerosis support", "Severe neuropathy", "Demyelinating conditions"],
+    "usage": "Mix Lion's Mane and Lecithin into a fatty medium (like coconut milk). Take alongside Gotu Kola tea twice daily.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "pituitary_reset_infusion",
+    "name": "The Endocrine Master-Clock",
+    "description": "Helps reset the circadian rhythm and the master hormonal signaling from the brain.",
+    "ingredients": ["Chaste tree berry", "Sarsaparilla", "Ashwagandha", "Holy Basil"],
+    "known_to_treat": ["Menopause", "Delayed puberty", "Post-pill hormonal syndrome"],
+    "usage": "Standard infusion. Must be taken at the exact same time every morning to synchronize with the body's rhythms.",
+    "pregnancy_friendly": false
+  },
+  {
+    "id": "lymphatic_stagnation_sweep",
+    "name": "The Deep Tissue Drainage",
+    "description": "For 'woody' edema and chronic lymph blockages that do not respond to simple diuretics.",
+    "ingredients": ["Red root", "Cleavers", "Stillingia", "Blue flag root"],
+    "known_to_treat": ["Lymphedema", "Chronic swollen tonsils", "Hardened lymph nodes"],
+    "usage": "Use primarily as a tincture due to the potency of Stillingia and Blue Flag. 5 drops 3 times daily.",
+    "pregnancy_friendly": false
+  },
+  {
+    "id": "calcification_reversal_tea",
+    "name": "The Soft Tissue Decalcifier",
+    "description": "Targets calcium deposits in inappropriate places like joints, arteries, and kidneys.",
+    "ingredients": ["Hydrangea root", "Chanca Piedra", "Marshmallow root", "Lemon juice"],
+    "known_to_treat": ["Heel spurs", "Arterial plaque", "Kidney stones", "Bursitis"],
+    "usage": "Decoct roots for 20 minutes. Add fresh lemon juice to each cup. Drink 3 cups daily.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "cerebral_blood_flow_stimulant",
+    "name": "The Stroke Recovery & Prevention Blend",
+    "description": "A powerful circulatory stimulant that specifically targets the smaller capillaries of the brain.",
+    "ingredients": ["Ginkgo biloba", "Periwinkle (Vinca minor)", "Butcher's broom", "Rosemary"],
+    "known_to_treat": ["Post-stroke recovery", "Vascular dementia", "Chronic dizziness"],
+    "usage": "Prepare as a tincture or tea. Take in the morning. Note: Monitor blood pressure as it increases peripheral flow.",
+    "pregnancy_friendly": false
+  },
+  {
+    "id": "marrow_replenishment_syrup",
+    "name": "The Red Cell Foundation",
+    "description": "Deeply nourishing formula for the bone marrow to stimulate blood cell production.",
+    "ingredients": ["Nettle root", "Yellow dock", "Alfalfa", "Blackstrap molasses"],
+    "known_to_treat": ["Chronic anemia", "Low white blood cell count", "Recovery from bone injury"],
+    "usage": "Simmer roots into a concentrated decoction, strain, and mix with molasses. 1 tbsp twice daily.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "adrenal_cortex_support",
+    "name": "The Cortisol Balancer",
+    "description": "Specifically targets the adrenal cortex to modulate the output of stress hormones.",
+    "ingredients": ["Licorice root", "Reishi", "Cordyceps", "Siberian Ginseng"],
+    "known_to_treat": ["Addison’s support", "Burnout stage 3", "Chronic low blood pressure"],
+    "usage": "Best taken as a dual-extract (tincture and tea combination). Take before 12 PM to avoid sleep disruption.",
+    "pregnancy_friendly": false
+  },
+  {
+    "id": "interstitial_fluid_cleanse",
+    "name": "The Cellular 'Sea' Wash",
+    "description": "Cleanses the fluid surrounding the cells (interstitial fluid) to improve waste removal.",
+    "ingredients": ["Burdock root", "Dandelion leaf", "Sarsaparilla", "Nettle"],
+    "known_to_treat": ["Systemic toxicity", "Unexplained puffiness", "Chronic skin dullness"],
+    "usage": "A 'long-haul' tea. Drink 1 liter of this mild infusion daily for 6 weeks.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "ocular_pressure_regulator",
+    "name": "The Glaucoma Support Wash",
+    "description": "A rare external wash used to help reduce intraocular pressure through osmosis and cooling.",
+    "ingredients": ["Eyebright", "Coleus forskohlii", "Fennel seed", "Sea salt (trace)"],
+    "known_to_treat": ["High eye pressure", "Glaucoma symptoms", "Ocular inflammation"],
+    "usage": "Boil, filter perfectly through a coffee filter. Use in an eye-cup once daily.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "gut_microbiome_re-seeding",
+    "name": "The Post-Antibiotic Restoration",
+    "description": "A prebiotic-rich herbal liquid to help 're-grow' the internal garden.",
+    "ingredients": ["Inulin (Chicory root)", "Dandelion root", "Marshmallow root", "Slippery elm"],
+    "known_to_treat": ["Dysbiosis", "Post-antibiotic diarrhea", "Food sensitivities"],
+    "usage": "Decoct roots. The mucilage and inulin act as a 'scaffold' for beneficial bacteria to latch onto.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "heavy_metal_chelation_clay_drink",
+    "name": "The Internal Magnet",
+    "description": "A binding protocol for deep-seated industrial toxins and heavy metals.",
+    "ingredients": ["Bentonite clay (Food grade)", "Psyllium husk", "Activated charcoal", "Coriander"],
+    "known_to_treat": ["Mercury poisoning", "Lead exposure", "Amalgam filling detox"],
+    "usage": "Mix 1 tsp of clay and husks in a large glass of water. Drink fast. Follow with another glass of water immediately.",
+    "pregnancy_friendly": false
+  },
+  {
+    "id": "thyroid_nodule_reduction",
+    "name": "The Glandular Softener",
+    "description": "An iodine-rich and lymphatic-stimulating protocol for benign thyroid nodules.",
+    "ingredients": ["Bladderwrack", "Self-heal (Prunella)", "Scrophularia", "Castor oil (external)"],
+    "known_to_treat": ["Thyroid nodules", "Goiter", "Lymphatic congestion in neck"],
+    "usage": "Drink the tea blend daily. Apply Castor oil packs to the thyroid area for 30 mins, 3 times a week.",
+    "pregnancy_friendly": false
+  },
+  {
+    "id": "spine_disc_rehydration",
+    "name": "The Vertebral Fluid Support",
+    "description": "A mineral-heavy blend designed to encourage the hydration of spinal discs.",
+    "ingredients": ["Horsetail", "Oatstraw", "Gotu Kola", "Hydrangea root"],
+    "known_to_treat": ["Herniated discs", "Spinal stiffness", "Degenerative joint disease"],
+    "usage": "Long-infusion (4-8 hours). The silica and minerals are essential for collagen cross-linking in the discs.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "vascular_scaffolding_tea",
+    "name": "The Aneurysm Prevention Blend",
+    "description": "Strengthens the connective tissue layers of the major arteries.",
+    "ingredients": ["Hawthorn berry", "Horsetail", "White Oak Bark", "Bilberry"],
+    "known_to_treat": ["Weak arterial walls", "Easy bruising", "Varicose veins"],
+    "usage": "Simmer berries and bark for 20 mins. Add leaves. Drink 2 cups daily long-term.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "acute_lung_abscess_poultice",
+    "name": "The Deep Infection Drawer",
+    "description": "A very powerful external application for deep-seated pulmonary infections.",
+    "ingredients": ["Garlic", "Onion", "Eucalyptus oil", "Flaxseed meal"],
+    "known_to_treat": ["Lung abscess", "Pneumonia", "Severe bronchitis"],
+    "usage": "Apply over the back (lung area) as a warm poultice. Must be kept warm with a heating pad or hot water bottle.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "mitochondrial_biogenesis_elixir",
+    "name": "The Cell-Power Multiplier",
+    "description": "Herbs that stimulate the body to create new mitochondria and improve oxygen usage.",
+    "ingredients": ["PQQ (from Green Pepper/Kiwi)", "Resveratrol (Japanese Knotweed)", "CoQ10 sources", "Rhodiola"],
+    "known_to_treat": ["Chronic fatigue", "Muscle wasting", "Aging"],
+    "usage": "Combine Japanese Knotweed and Rhodiola as a tea. Consume alongside fresh green pepper juice.",
+    "pregnancy_friendly": false
+  },
+  {
+    "id": "vagus_nerve_tonifier",
+    "name": "The Gut-Brain Axis Repair",
+    "description": "Targets the physical health of the vagus nerve to improve digestive and cardiac signaling.",
+    "ingredients": ["Skullcap", "Passionflower", "Chamomile", "Bacopa"],
+    "known_to_treat": ["IBS", "Anxiety-induced tachycardia", "Poor digestion"],
+    "usage": "Drink as a warm tea 30 minutes before sleep or during high-stress periods.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "geriatric_cognitive_rescue",
+    "name": "The Mental Sharpness Blend",
+    "description": "Specifically for age-related cognitive decline where circulation and plaque are factors.",
+    "ingredients": ["Sage", "Rosemary", "Ginkgo", "Lion's Mane"],
+    "known_to_treat": ["Early-stage dementia", "Memory loss", "Mental slowing"],
+    "usage": "Infuse Sage and Rosemary. Take Lion's Mane as a concentrate. Use daily without fail.",
+    "pregnancy_friendly": false
+  }
+]
