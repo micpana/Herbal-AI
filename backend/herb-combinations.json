@@ -6,7 +6,8 @@
     "ingredients": ["Garlic", "Ginger", "Lemon juice", "Honey", "Eucalyptus oil", "Cayenne pepper"],
     "known_to_treat": ["Influenza", "Common cold", "Sinusitis", "Bronchitis", "Sore throat"],
     "usage": "Crush 1 clove garlic, grate 1 tsp ginger, add juice of 1 lemon, 1 tsp honey, 1 drop eucalyptus oil, and a pinch of cayenne. Mix in half a cup of hot water. Take 3 times daily.",
-    "pregnancy_friendly": false
+    "pregnancy_friendly": false,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "liver_detox_tea",
@@ -15,7 +16,8 @@
     "ingredients": ["Dandelion root", "Milk thistle seed", "Burdock root", "Ginger"],
     "known_to_treat": ["Fatty liver", "Sluggish digestion", "Skin eruptions", "Hormonal imbalance"],
     "usage": "Simmer the roots (decoction) for 15 minutes, add crushed milk thistle seeds at the end. Drink 1 cup before breakfast for 30 days.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": true,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "anti_inflammatory_poultice",
@@ -24,7 +26,8 @@
     "ingredients": ["Ginger (grated)", "Comfrey leaf", "Turmeric powder", "Castor oil"],
     "known_to_treat": ["Arthritis", "Sprains", "Swollen joints", "Muscle tears"],
     "usage": "Mix ingredients into a thick paste. Apply to the affected area, cover with a cloth and plastic wrap. Leave for 2-4 hours or overnight.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": true,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "kidney_stone_dissolver",
@@ -33,7 +36,8 @@
     "ingredients": ["Chanca Piedra", "Marshmallow root", "Cornsilk", "Hydrangea root"],
     "known_to_treat": ["Kidney stones", "Gravel", "Urinary tract inflammation"],
     "usage": "Decoct the roots for 20 minutes. Drink 3-4 cups daily until the stones pass.",
-    "pregnancy_friendly": false
+    "pregnancy_friendly": false,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "lung_congestion_clearer",
@@ -42,7 +46,8 @@
     "ingredients": ["Mullein leaf", "Elecampane root", "Thyme", "Licorice root"],
     "known_to_treat": ["Asthma", "Wet cough", "Emphysema", "Pleurisy"],
     "usage": "Infuse the leaves and decoct the roots. Drink warm with honey as needed for breathing ease.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": true,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "sleep_inducer_nervine",
@@ -51,7 +56,8 @@
     "ingredients": ["Valerian root", "Passionflower", "Hops", "Lemon balm"],
     "known_to_treat": ["Insomnia", "Anxiety", "Restless leg syndrome", "Panic attacks"],
     "usage": "Prepare as a strong infusion 30 minutes before bed. For chronic cases, use a tincture.",
-    "pregnancy_friendly": false
+    "pregnancy_friendly": false,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "heart_tonic_classic",
@@ -60,7 +66,8 @@
     "ingredients": ["Hawthorn berry", "Motherwort", "Ginkgo biloba", "Cayenne"],
     "known_to_treat": ["Hypertension", "Palpitations", "Congestive heart failure support", "Poor circulation"],
     "usage": "Standard decoction of Hawthorn berries. Add Motherwort and Ginkgo as an infusion. Take daily for 3 months.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": true,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "joint_repair_decoction",
@@ -69,7 +76,8 @@
     "ingredients": ["Horsetail", "Nettle leaf", "Oatstraw", "Gotu Kola"],
     "known_to_treat": ["Osteoporosis", "Degenerative joint disease", "Brittle nails", "Hair loss"],
     "usage": "Long-steep infusion (4+ hours) to extract maximum mineral content. Drink 2 cups daily.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": true,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "parasite_purge_blend",
@@ -78,7 +86,8 @@
     "ingredients": ["Black walnut hulls", "Wormwood", "Clove", "Garlic"],
     "known_to_treat": ["Intestinal worms", "Giardia", "Candida overgrowth"],
     "usage": "Take as a tincture protocol: Increase dose gradually over 14 days, rest for 7 days, then repeat.",
-    "pregnancy_friendly": false
+    "pregnancy_friendly": false,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "adrenal_revitalizer",
@@ -87,7 +96,8 @@
     "ingredients": ["Ashwagandha", "Siberian Ginseng", "Licorice root", "Holy Basil"],
     "known_to_treat": ["Adrenal fatigue", "Chronic exhaustion", "Brain fog", "Cortisol imbalance"],
     "usage": "Take in the morning and early afternoon. Avoid late evening use as it may provide too much energy for sleep.",
-    "pregnancy_friendly": false
+    "pregnancy_friendly": false,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "lymphatic_flush_tonic",
@@ -96,7 +106,8 @@
     "ingredients": ["Cleavers", "Red Clover", "Calendula", "Poke root (trace amount)"],
     "known_to_treat": ["Swollen glands", "Edema", "Cystic acne", "Sluggish immunity"],
     "usage": "Mild infusion of the first three herbs. Use Poke root ONLY under professional guidance.",
-    "pregnancy_friendly": false
+    "pregnancy_friendly": false,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "digestive_fire_builder",
@@ -105,7 +116,8 @@
     "ingredients": ["Gentian root", "Angelica root", "Orange peel", "Ginger"],
     "known_to_treat": ["Hypochlorhydria (Low stomach acid)", "Bloating", "Acid reflux", "Anorexia"],
     "usage": "Prepare as a bitter tincture. Take 5-10 drops on the tongue 15 minutes before eating.",
-    "pregnancy_friendly": false
+    "pregnancy_friendly": false,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "skin_recovery_salve",
@@ -114,7 +126,8 @@
     "ingredients": ["Calendula flowers", "Plantain leaf", "St. John's Wort", "Beeswax"],
     "known_to_treat": ["Eczema", "Minor burns", "Psoriasis", "Cuts and scrapes"],
     "usage": "Infuse herbs in olive oil for 4 weeks, strain, and thicken with melted beeswax. Apply liberally.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": true,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "thyroid_support_blend",
@@ -123,7 +136,8 @@
     "ingredients": ["Bladderwrack", "Irish Moss", "Nettle leaf", "Black Walnut"],
     "known_to_treat": ["Hypothyroidism", "Goiter", "Metabolic sluggishness"],
     "usage": "Incorporate into smoothies or take as a daily infusion. Monitor iodine levels.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": true,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "brain_fog_lifter",
@@ -132,7 +146,8 @@
     "ingredients": ["Ginkgo biloba", "Rosemary", "Bacopa", "Gotu Kola"],
     "known_to_treat": ["Poor memory", "Lack of focus", "Mental fatigue", "Early-stage cognitive decline"],
     "usage": "Morning tea or tincture. Best used in conjunction with deep breathing exercises.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": true,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "blood_purifier_classic",
@@ -141,7 +156,8 @@
     "ingredients": ["Burdock root", "Yellow dock", "Red clover", "Sarsaparilla"],
     "known_to_treat": ["Skin disorders", "Chronic infections", "Gout"],
     "usage": "Decoct the roots for 20 minutes. Drink 2 cups daily for a 3-week cleansing cycle.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": true,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "female_hormone_balancer",
@@ -150,7 +166,8 @@
     "ingredients": ["Vitex (Chaste Tree Berry)", "Dong Quai", "Wild Yam", "Dandelion root"],
     "known_to_treat": ["PMS", "Menopausal flashes", "Irregular cycles", "PCOS support"],
     "usage": "Take Vitex daily in the morning. Use the other herbs as a tea during the second half of the cycle.",
-    "pregnancy_friendly": false
+    "pregnancy_friendly": false,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "iron_blood_builder",
@@ -159,7 +176,8 @@
     "ingredients": ["Nettle leaf", "Yellow dock", "Alfalfa", "Dandelion root"],
     "known_to_treat": ["Iron-deficiency anemia", "Post-partum recovery", "Chronic fatigue"],
     "usage": "Prepare as a strong infusion or a herbal syrup with molasses. Take 2 tablespoons daily.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": true,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "urinary_tract_defense",
@@ -168,7 +186,8 @@
     "ingredients": ["Uva Ursi", "Cornsilk", "Cranberry", "Marshmallow root"],
     "known_to_treat": ["Cystitis", "UTI", "Bladder irritation"],
     "usage": "Drink 1 cup every 3 hours during acute infection. Do not use Uva Ursi for more than 7 days.",
-    "pregnancy_friendly": false
+    "pregnancy_friendly": false,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "pancreatic_support_blend",
@@ -177,7 +196,8 @@
     "ingredients": ["Gymnema Sylvestre", "Fenugreek", "Cinnamon", "Cedar berries"],
     "known_to_treat": ["Insulin resistance", "Sugar cravings", "Blood sugar spikes"],
     "usage": "Take as a tea 20 minutes before meals. Gymnema can temporarily 'mask' the taste of sugar.",
-    "pregnancy_friendly": false
+    "pregnancy_friendly": false,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "telomere_support_tonic",
@@ -186,7 +206,8 @@
     "ingredients": ["Astragalus root", "He Shou Wu", "Goji berries", "Pine bark extract"],
     "known_to_treat": ["Premature aging", "Low vitality", "Chronic cellular exhaustion"],
     "usage": "Decoct Astragalus and He Shou Wu for 30 minutes. Add Goji and Pine bark. Drink 1 cup every morning for 90 days.",
-    "pregnancy_friendly": false
+    "pregnancy_friendly": false,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "pancreatic_juice_catalyst",
@@ -195,7 +216,8 @@
     "ingredients": ["Gentian root", "Artichoke leaf", "Papaya leaf", "Fennel"],
     "known_to_treat": ["Fat malabsorption", "Steatorrhea", "Chronic indigestion"],
     "usage": "Prepare as a bitter tincture. Take 5-10 drops on the tongue 10 minutes before the heaviest meal of the day.",
-    "pregnancy_friendly": false
+    "pregnancy_friendly": false,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "myelin_sheath_nourisher",
@@ -204,7 +226,8 @@
     "ingredients": ["Lion's Mane mushroom", "Gotu Kola", "Lecithin (Sunflower)", "Evening Primrose Oil"],
     "known_to_treat": ["Multiple Sclerosis support", "Severe neuropathy", "Demyelinating conditions"],
     "usage": "Mix Lion's Mane and Lecithin into a fatty medium (like coconut milk). Take alongside Gotu Kola tea twice daily.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": true,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "pituitary_reset_infusion",
@@ -213,7 +236,8 @@
     "ingredients": ["Chaste tree berry", "Sarsaparilla", "Ashwagandha", "Holy Basil"],
     "known_to_treat": ["Menopause", "Delayed puberty", "Post-pill hormonal syndrome"],
     "usage": "Standard infusion. Must be taken at the exact same time every morning to synchronize with the body's rhythms.",
-    "pregnancy_friendly": false
+    "pregnancy_friendly": false,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "lymphatic_stagnation_sweep",
@@ -222,7 +246,8 @@
     "ingredients": ["Red root", "Cleavers", "Stillingia", "Blue flag root"],
     "known_to_treat": ["Lymphedema", "Chronic swollen tonsils", "Hardened lymph nodes"],
     "usage": "Use primarily as a tincture due to the potency of Stillingia and Blue Flag. 5 drops 3 times daily.",
-    "pregnancy_friendly": false
+    "pregnancy_friendly": false,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "calcification_reversal_tea",
@@ -231,7 +256,8 @@
     "ingredients": ["Hydrangea root", "Chanca Piedra", "Marshmallow root", "Lemon juice"],
     "known_to_treat": ["Heel spurs", "Arterial plaque", "Kidney stones", "Bursitis"],
     "usage": "Decoct roots for 20 minutes. Add fresh lemon juice to each cup. Drink 3 cups daily.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": true,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "cerebral_blood_flow_stimulant",
@@ -240,7 +266,8 @@
     "ingredients": ["Ginkgo biloba", "Periwinkle (Vinca minor)", "Butcher's broom", "Rosemary"],
     "known_to_treat": ["Post-stroke recovery", "Vascular dementia", "Chronic dizziness"],
     "usage": "Prepare as a tincture or tea. Take in the morning. Note: Monitor blood pressure as it increases peripheral flow.",
-    "pregnancy_friendly": false
+    "pregnancy_friendly": false,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "marrow_replenishment_syrup",
@@ -249,7 +276,8 @@
     "ingredients": ["Nettle root", "Yellow dock", "Alfalfa", "Blackstrap molasses"],
     "known_to_treat": ["Chronic anemia", "Low white blood cell count", "Recovery from bone injury"],
     "usage": "Simmer roots into a concentrated decoction, strain, and mix with molasses. 1 tbsp twice daily.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": true,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "adrenal_cortex_support",
@@ -258,7 +286,8 @@
     "ingredients": ["Licorice root", "Reishi", "Cordyceps", "Siberian Ginseng"],
     "known_to_treat": ["Addison’s support", "Burnout stage 3", "Chronic low blood pressure"],
     "usage": "Best taken as a dual-extract (tincture and tea combination). Take before 12 PM to avoid sleep disruption.",
-    "pregnancy_friendly": false
+    "pregnancy_friendly": false,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "interstitial_fluid_cleanse",
@@ -267,7 +296,8 @@
     "ingredients": ["Burdock root", "Dandelion leaf", "Sarsaparilla", "Nettle"],
     "known_to_treat": ["Systemic toxicity", "Unexplained puffiness", "Chronic skin dullness"],
     "usage": "A 'long-haul' tea. Drink 1 liter of this mild infusion daily for 6 weeks.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": true,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "ocular_pressure_regulator",
@@ -276,7 +306,8 @@
     "ingredients": ["Eyebright", "Coleus forskohlii", "Fennel seed", "Sea salt (trace)"],
     "known_to_treat": ["High eye pressure", "Glaucoma symptoms", "Ocular inflammation"],
     "usage": "Boil, filter perfectly through a coffee filter. Use in an eye-cup once daily.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": true,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "gut_microbiome_re-seeding",
@@ -285,7 +316,8 @@
     "ingredients": ["Inulin (Chicory root)", "Dandelion root", "Marshmallow root", "Slippery elm"],
     "known_to_treat": ["Dysbiosis", "Post-antibiotic diarrhea", "Food sensitivities"],
     "usage": "Decoct roots. The mucilage and inulin act as a 'scaffold' for beneficial bacteria to latch onto.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": true,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "heavy_metal_chelation_clay_drink",
@@ -294,7 +326,8 @@
     "ingredients": ["Bentonite clay (Food grade)", "Psyllium husk", "Activated charcoal", "Coriander"],
     "known_to_treat": ["Mercury poisoning", "Lead exposure", "Amalgam filling detox"],
     "usage": "Mix 1 tsp of clay and husks in a large glass of water. Drink fast. Follow with another glass of water immediately.",
-    "pregnancy_friendly": false
+    "pregnancy_friendly": false,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "thyroid_nodule_reduction",
@@ -303,7 +336,8 @@
     "ingredients": ["Bladderwrack", "Self-heal (Prunella)", "Scrophularia", "Castor oil (external)"],
     "known_to_treat": ["Thyroid nodules", "Goiter", "Lymphatic congestion in neck"],
     "usage": "Drink the tea blend daily. Apply Castor oil packs to the thyroid area for 30 mins, 3 times a week.",
-    "pregnancy_friendly": false
+    "pregnancy_friendly": false,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "spine_disc_rehydration",
@@ -312,7 +346,8 @@
     "ingredients": ["Horsetail", "Oatstraw", "Gotu Kola", "Hydrangea root"],
     "known_to_treat": ["Herniated discs", "Spinal stiffness", "Degenerative joint disease"],
     "usage": "Long-infusion (4-8 hours). The silica and minerals are essential for collagen cross-linking in the discs.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": true,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "vascular_scaffolding_tea",
@@ -321,7 +356,8 @@
     "ingredients": ["Hawthorn berry", "Horsetail", "White Oak Bark", "Bilberry"],
     "known_to_treat": ["Weak arterial walls", "Easy bruising", "Varicose veins"],
     "usage": "Simmer berries and bark for 20 mins. Add leaves. Drink 2 cups daily long-term.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": true,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "acute_lung_abscess_poultice",
@@ -330,7 +366,8 @@
     "ingredients": ["Garlic", "Onion", "Eucalyptus oil", "Flaxseed meal"],
     "known_to_treat": ["Lung abscess", "Pneumonia", "Severe bronchitis"],
     "usage": "Apply over the back (lung area) as a warm poultice. Must be kept warm with a heating pad or hot water bottle.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": true,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "mitochondrial_biogenesis_elixir",
@@ -339,7 +376,8 @@
     "ingredients": ["PQQ (from Green Pepper/Kiwi)", "Resveratrol (Japanese Knotweed)", "CoQ10 sources", "Rhodiola"],
     "known_to_treat": ["Chronic fatigue", "Muscle wasting", "Aging"],
     "usage": "Combine Japanese Knotweed and Rhodiola as a tea. Consume alongside fresh green pepper juice.",
-    "pregnancy_friendly": false
+    "pregnancy_friendly": false,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "vagus_nerve_tonifier",
@@ -348,7 +386,8 @@
     "ingredients": ["Skullcap", "Passionflower", "Chamomile", "Bacopa"],
     "known_to_treat": ["IBS", "Anxiety-induced tachycardia", "Poor digestion"],
     "usage": "Drink as a warm tea 30 minutes before sleep or during high-stress periods.",
-    "pregnancy_friendly": true
+    "pregnancy_friendly": true,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
   },
   {
     "id": "geriatric_cognitive_rescue",
@@ -357,6 +396,262 @@
     "ingredients": ["Sage", "Rosemary", "Ginkgo", "Lion's Mane"],
     "known_to_treat": ["Early-stage dementia", "Memory loss", "Mental slowing"],
     "usage": "Infuse Sage and Rosemary. Take Lion's Mane as a concentrate. Use daily without fail.",
-    "pregnancy_friendly": false
+    "pregnancy_friendly": false,
+    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+  },
+  {
+    "id": "garlic_ginger_lemon_honey_syrup",
+    "name": "Garlic + Ginger + Lemon Juice + Honey Syrup",
+    "description": "A syrup for treating tuberculosis and other respiratory issues.",
+    "ingredients": ["Garlic", "Ginger", "Lemon juice", "Honey"],
+    "known_to_treat": ["tuberculosis", "cold", "flu", "low immunity", "arthritis", "pneumonia", "bronchitis", "sore throat", "fever", "cough", "high cholesterol"],
+    "usage": "Get equal quantities of garlic and ginger. Blend them together with lemon juice, honey and a little bit of water. Sieve to get the extract. Drink 2 tablespoons twice daily.",
+    "pregnancy_friendly": true,
+    "_comment": "Source: @HerbalistChief X/Twitter"
+  },
+  {
+    "id": "aidan_lime_hibiscus_tea",
+    "name": "Aidan Fruit + Lime Juice + Hibiscus Flowers Tea",
+    "description": "A mixture to increase the body's defenses system.",
+    "ingredients": ["Aidan fruit", "Lime juice", "Hibiscus flowers"],
+    "known_to_treat": ["immune support"],
+    "usage": "Boil this combo and drink a teacupful once daily.",
+    "pregnancy_friendly": true,
+    "_comment": "Source: @HerbalistChief X/Twitter"
+  },
+  {
+    "id": "turmeric_carrot_onion_lime_smoothie",
+    "name": "Turmeric Roots + Carrots + Red Onion + Lime Juice Smoothie",
+    "description": "A smoothie for health support.",
+    "ingredients": ["Turmeric roots", "Carrots", "Red onion", "Lime juice"],
+    "known_to_treat": ["general health"],
+    "usage": "Blend 2 turmeric roots, 2 carrots, one red onion and add lime juice to it. Drink this smoothie once daily for 7-14 days.",
+    "pregnancy_friendly": true,
+    "_comment": "Source: @HerbalistChief X/Twitter"
+  },
+  {
+    "id": "coconut_lime_ginger_drink",
+    "name": "Coconut Water + Lime + Ginger Drink",
+    "description": "A drink for enhanced benefits over coconut water alone.",
+    "ingredients": ["Coconut water", "Lime", "Ginger"],
+    "known_to_treat": ["general health"],
+    "usage": "Combine coconut water, lime, and ginger.",
+    "pregnancy_friendly": true,
+    "_comment": "Source: @HerbalistChief X/Twitter"
+  },
+  {
+    "id": "cassava_ginger_tea",
+    "name": "Cassava Leaves + Ginger Tea",
+    "description": "A tea for treating migraine and other issues.",
+    "ingredients": ["Cassava leaves", "Ginger"],
+    "known_to_treat": ["migraine", "diarrhea", "blurred vision", "obesity", "arthritis", "stroke", "high blood pressure", "cancer"],
+    "usage": "Boil cassava leaves and sliced ginger with water for 15 minutes. Drink a cupful once a day.",
+    "pregnancy_friendly": true,
+    "_comment": "Source: @HerbalistChief X/Twitter"
+  },
+  {
+    "id": "cinnamon_ginger_turmeric_pepper_pineapple_tea",
+    "name": "Cinnamon + Ginger + Turmeric + Black Pepper + Pineapple Peel Tea",
+    "description": "A tea for pain relief.",
+    "ingredients": ["Cinnamon", "Ginger", "Turmeric", "Black pepper", "Pineapple peel"],
+    "known_to_treat": ["pain"],
+    "usage": "Combine and brew as tea.",
+    "pregnancy_friendly": true,
+    "_comment": "Source: @HerbalistChief X/Twitter"
+  },
+  {
+    "id": "cinnamon_ginger_turmeric_tea",
+    "name": "Cinnamon + Ginger + Turmeric Powder Tea",
+    "description": "A tea for various ailments.",
+    "ingredients": ["Cinnamon", "Ginger", "Turmeric powder"],
+    "known_to_treat": ["premature ejaculation", "cough", "cold", "asthma", "kidney stones", "depression", "nausea", "osteoarthritis", "mental stress", "menstrual pains"],
+    "usage": "Add a teaspoon of each into hot water and drink first thing in the morning.",
+    "pregnancy_friendly": true,
+    "_comment": "Source: @HerbalistChief X/Twitter"
+  },
+  {
+    "id": "pineapple_ginger_juice",
+    "name": "Pineapple + Ginger Juice",
+    "description": "A juice more effective than cough syrup.",
+    "ingredients": ["Pineapple", "Ginger"],
+    "known_to_treat": ["cough", "cold", "flu", "immune boost"],
+    "usage": "Blend pineapple with ginger and drink.",
+    "pregnancy_friendly": true,
+    "_comment": "Source: @HerbalistChief X/Twitter"
+  },
+  {
+    "id": "cotton_lime_tea",
+    "name": "Cotton Leaves + Lime Juice Tea",
+    "description": "A tea for treating herpes and other issues.",
+    "ingredients": ["Cotton leaves", "Lime juice"],
+    "known_to_treat": ["herpes", "malaria", "asthma", "diarrhoea", "candidiasis", "gonorrhoea", "painful menstruation", "irregular menstruation", "inadequate breast milk"],
+    "usage": "Boil a handful of the leaves with lime juice and drink 4 tablespoons 3x daily.",
+    "pregnancy_friendly": true,
+    "_comment": "Source: @HerbalistChief X/Twitter"
+  },
+  {
+    "id": "turmeric_pineapple_pepper_detox",
+    "name": "Turmeric Rhizome + Pineapple Peels + Black Pepper Detox",
+    "description": "A detox program for vaccine-related issues.",
+    "ingredients": ["Turmeric rhizome", "Pineapple peels", "Black pepper"],
+    "known_to_treat": ["spike proteins", "Covid 19 injury syndromes"],
+    "usage": "Blend together and drink this combo for a month.",
+    "pregnancy_friendly": true,
+    "_comment": "Source: @HerbalistChief X/Twitter"
+  },
+  {
+    "id": "charcoal_warm_water",
+    "name": "Powdered Charcoal + Warm Water",
+    "description": "Remedy to take before events for detox.",
+    "ingredients": ["Powdered charcoal", "Warm water"],
+    "known_to_treat": ["detox", "heavy metals"],
+    "usage": "Take 2 tablespoons of powdered charcoal with warm water before leaving for an event.",
+    "pregnancy_friendly": true,
+    "_comment": "Source: @HerbalistChief X/Twitter"
+  },
+  {
+    "id": "ginger_guava_leaves",
+    "name": "Ginger + Guava Leaves",
+    "description": "Remedy for rumbling in the abdomen.",
+    "ingredients": ["Ginger", "Guava leaves"],
+    "known_to_treat": ["rumbling in abdomen"],
+    "usage": "Boil ginger with guava leaves and drink a teacup once daily.",
+    "pregnancy_friendly": true,
+    "_comment": "Source: @HerbalistChief X/Twitter"
+  },
+  {
+    "id": "pawpaw_roots_negro_pepper",
+    "name": "Pawpaw Roots + Negro Pepper (Hwentia/Uda)",
+    "description": "Combo for treating multiple conditions.",
+    "ingredients": ["Pawpaw roots", "Negro pepper"],
+    "known_to_treat": ["piles", "malaria", "waist pain", "menstrual pains", "erectile dysfunction", "hormonal imbalance", "staphylococcus infections"],
+    "usage": "Boil for 20-30 minutes and drink one teacupful twice daily.",
+    "pregnancy_friendly": true,
+    "_comment": "Source: @HerbalistChief X/Twitter"
+  },
+  {
+    "id": "cucumber_pineapple",
+    "name": "Cucumber + Pineapple",
+    "description": "Remedy for severe constipation.",
+    "ingredients": ["Cucumber", "Pineapple"],
+    "known_to_treat": ["constipation"],
+    "usage": "Blend cucumber and pineapple together and drink a glass full for quick relief.",
+    "pregnancy_friendly": true,
+    "_comment": "Source: @HerbalistChief X/Twitter"
+  },
+  {
+    "id": "cloves_coconut_water_bitter_kola",
+    "name": "Cloves + Coconut Water + Bitter Kola",
+    "description": "Combination for extended performance.",
+    "ingredients": ["Cloves", "Coconut water", "Bitter kola"],
+    "known_to_treat": ["sexual health"],
+    "usage": "Combine cloves, coconut water, and bitter kola.",
+    "pregnancy_friendly": true,
+    "_comment": "Source: @HerbalistChief X/Twitter"
+  },
+  {
+    "id": "banana_honey",
+    "name": "Banana + Honey",
+    "description": "Remedy for hangover relief.",
+    "ingredients": ["Banana", "Honey"],
+    "known_to_treat": ["hangover"],
+    "usage": "Blend banana with honey and drink a cupful.",
+    "pregnancy_friendly": true,
+    "_comment": "Source: @HerbalistChief X/Twitter"
+  },
+  {
+    "id": "charcoal_aloe_vera",
+    "name": "Activated Charcoal + Aloe Vera Gel",
+    "description": "Combination for treating chronic wounds.",
+    "ingredients": ["Activated charcoal", "Aloe vera gel"],
+    "known_to_treat": ["chronic wounds"],
+    "usage": "Combine activated charcoal with aloe vera gel and mix till it forms a uniform mixture. Apply mixture to the affected wound.",
+    "pregnancy_friendly": true,
+    "_comment": "Source: @HerbalistChief X/Twitter"
+  },
+  {
+    "id": "coconut_water_lime",
+    "name": "Coconut Water + Lime Combo",
+    "description": "Combo for kidney detox and energy boost.",
+    "ingredients": ["Coconut water", "Lime"],
+    "known_to_treat": ["kidney detox", "energy levels", "high blood pressure", "heart protection", "blood cholesterol levels"],
+    "usage": "Combine coconut water and lime.",
+    "pregnancy_friendly": true,
+    "_comment": "Source: @HerbalistChief X/Twitter"
+  },
+  {
+    "id": "madagascar_mast_ginger",
+    "name": "Madagascar Plant + Mast Tree + Ginger",
+    "description": "Combo for treating pus on neck in a baby.",
+    "ingredients": ["Madagascar plant", "Mast tree", "Ginger"],
+    "known_to_treat": ["pus on neck", "infections"],
+    "usage": "Boil the Madagascar plant with the mast tree. Give 30 mls three times daily. Grind the Madagascar plant with a little bit of ginger and apply on affected part.",
+    "pregnancy_friendly": true,
+    "_comment": "Source: @HerbalistChief X/Twitter"
+  },
+  {
+    "id": "sponge_plant_garlic",
+    "name": "Sponge Plant Leaves + Garlic",
+    "description": "Remedy for stroke affecting speech.",
+    "ingredients": ["Sponge plant leaves", "Garlic"],
+    "known_to_treat": ["stroke", "speech restoration"],
+    "usage": "Boil the leaves of the sponge plant with garlic and let the person drink a teacupful twice daily.",
+    "pregnancy_friendly": true,
+    "_comment": "Source: @HerbalistChief X/Twitter"
+  },
+  {
+    "id": "pineapple_crown_ginger",
+    "name": "Pineapple Crown + Ginger",
+    "description": "Remedy for back pain.",
+    "ingredients": ["Pineapple crown", "Ginger"],
+    "known_to_treat": ["back pain"],
+    "usage": "Use the pineapple crown + ginger remedy.",
+    "pregnancy_friendly": true,
+    "_comment": "Source: @HerbalistChief X/Twitter"
+  },
+  {
+    "id": "pineapple_peels_pawpaw_leaves",
+    "name": "Pineapple Peels + Pawpaw Leaves Combo",
+    "description": "A combo for treating typhoid fever.",
+    "ingredients": ["Pineapple peels", "Pawpaw leaves"],
+    "known_to_treat": ["typhoid fever"],
+    "usage": "Boil a handful of pawpaw leaves with pineapple peels for 20-30 minutes. Drink a teacupful of the extract twice daily for 5 days.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "bitter_kola_honey",
+    "name": "Bitter Kola + Honey",
+    "description": "A remedy for cough.",
+    "ingredients": ["Bitter kola", "Honey"],
+    "known_to_treat": ["cough"],
+    "usage": "Combine bitter kola with honey and consume.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "dandelion_ginger_turmeric_tea",
+    "name": "Dandelion Leaves + Ginger + Turmeric Tea",
+    "description": "A tea for dealing with mental health conditions.",
+    "ingredients": ["Dandelion leaves", "Ginger", "Turmeric"],
+    "known_to_treat": ["mental health conditions"],
+    "usage": "Drink dandelion leaves + ginger + turmeric as tea each morning.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "pineapple_leaves_ginger",
+    "name": "Pineapple Leaves + Ginger",
+    "description": "A remedy more effective than Lozenges and Pro cold for healing.",
+    "ingredients": ["Pineapple leaves", "Ginger"],
+    "known_to_treat": ["cough", "cold", "flu"],
+    "usage": "Use Pineapple leaves + ginger remedy.",
+    "pregnancy_friendly": true
+  },
+  {
+    "id": "cnestis_scent_cloves_mast_tea",
+    "name": "Cnestis Plant + Scent Leaves + Cloves + Mast Tree Tea",
+    "description": "A tea for various conditions.",
+    "ingredients": ["Cnestis plant", "Scent leaves", "Cloves", "Mast tree"],
+    "known_to_treat": ["various conditions"],
+    "usage": "Boil all four plants together and drink a teacupful twice daily for 3-4 weeks.",
+    "pregnancy_friendly": true
   }
 ]
