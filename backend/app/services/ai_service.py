@@ -5,6 +5,7 @@ import os
 from sqlalchemy.orm import Session
 from ..models import UsageLog, Product
 from ..utils.herbs_loader import load_herbs
+from ..utils.herb_combinations_loader import load_herb_combinations
 from ..schemas import UserInput, RecommendationResponse
 from dotenv import load_dotenv
 from ..config import settings
@@ -23,9 +24,10 @@ model_name = "openai/gpt-oss-120b:fastest" # model_name:provider -> openai/gpt-o
 def get_products(db: Session):
     return db.query(Product).all()
 
-def build_prompt(user_input: UserInput, herbs: list, products: list):
+def build_prompt(user_input: UserInput, herbs: list, herb_combinations: list, products: list):
     user_str = json.dumps(user_input.dict())
     herbs_str = json.dumps(herbs)
+    herb_combinations_str = json.dumps(herb_combinations)
 
     # Serialize only the actual data (exclude _sa_instance_state)
     products_data = []
@@ -39,6 +41,7 @@ def build_prompt(user_input: UserInput, herbs: list, products: list):
     prompt = f"""
     User input: {user_str}
     Herbs info: {herbs_str}
+    Herb combinations info: {herb_combinations_str}
     Products list: {products_str}
 
     Make sure your response is in JSON format.
@@ -46,10 +49,20 @@ def build_prompt(user_input: UserInput, herbs: list, products: list):
     Provide a warm, empathetic explanation of why its given suggestions fit the user's input. Acknowledge the user's input, give the "Why" to your suggestions, and give a proper usage context.
     Give a disclaimer on the footer, and also state that this is not medical advice.
     Prioritize safety and contraindications (e.g., "Don't take X if you have high blood pressure").
-    Make its herbal part of the recommendations based ONLY on herbs available in the herbs info json.
+
+    ### Herb Combination Instructions:
+    - Always prioritize recommending herbal combinations from the "Herb combinations info" JSON when appropriate.
+    - You may also suggest single herbs from "Herbs info" if they fit better or if no suitable combination exists.
+    - ONLY use herbs and combinations from our provided "Herbs info" and "Herb combinations info" JSONs — do NOT recommend any external herbs, plants, or combinations not present in these files.
+    - If the "Herb combinations info" JSON is empty or has no relevant matches for the user's needs, improvise and recommend a logical single-herb remedy (or simple single-herb preparation) based ONLY on the herbs in "Herbs info".
+    - When recommending a combination, clearly specify which one you're using from the JSON and follow its usage instructions exactly.
+    - For combinations or teas/concoctions, always provide a clear step-by-step preparation guide.
+
+    Make its herbal part of the recommendations based ONLY on herbs and combinations available in the provided JSONs.
     Make its product part of the recommendations based ONLY on products available in our database.
     If herbs info json is empty, improvise, make your own relevant recommendations.
     If our product list / database is empty, do not make any product recommendations, respond with an empty list.
+
     Its JSON response should be in the format: {{
         "recommendation_title": "",
         "recommendations_markdown_string": "",
@@ -70,8 +83,9 @@ def build_prompt(user_input: UserInput, herbs: list, products: list):
 
 def get_recommendation(user_input: UserInput, db: Session) -> RecommendationResponse:
     herbs = load_herbs()
+    herb_combinations = load_herb_combinations()
     products = get_products(db)
-    prompt = build_prompt(user_input, herbs, products)
+    prompt = build_prompt(user_input, herbs, herb_combinations, products)
 
     response = client.chat.completions.create(
         model=model_name,
