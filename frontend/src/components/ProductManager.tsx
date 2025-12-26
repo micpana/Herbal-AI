@@ -71,15 +71,15 @@ const ProductManager: React.FC = () => {
     e.preventDefault();
     const data = new FormData();
     Object.keys(formData).forEach((key) => {
-      if (key !== 'id') data.append(key, String((formData as any)[key]));
+      if (key !== 'id' && key !== 'images') data.append(key, String((formData as any)[key]));
     });
-    files.forEach((file) => data.append('files', file));
+    files.forEach((file) => data.append('images', file));
 
     try {
       if (isEditing && formData.id) {
         await api.put(`/admins/products/${formData.id}`, data);
       } else {
-        await api.post('/admins/products/', data);
+        await api.post('/admins/products', data);
       }
       resetForm();
       fetchProducts();

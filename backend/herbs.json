@@ -5,9 +5,15 @@
     "type": "Aerial",
     "pregnancy_friendly": true,
     "description": "A traditional healing herb for the digestive system and wound healing.",
-    "known_to_treat": ["Diarrhea", "Sore throat", "Irritable Bowel Syndrome", "Minor cuts"],
+    "known_to_treat": [
+      "Diarrhea",
+      "Sore throat",
+      "Irritable Bowel Syndrome",
+      "Minor cuts"
+    ],
     "usage": "Infusion of leaves; also used as a gargle for throat issues.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Agrimonia_eupatoria01.jpg,https://upload.wikimedia.org/wikipedia/commons/2/26/Agrimonia_eupatoria_-_Keila.jpg,https://upload.wikimedia.org/wikipedia/commons/2/21/Illustration_Agrimonia_eupatoria0.jpg"
   },
   {
     "id": "alfalfa",
@@ -15,9 +21,15 @@
     "type": "Aerial",
     "pregnancy_friendly": true,
     "description": "Extremely deep roots draw up minerals; acts as a 'vitamin bomb' for the blood.",
-    "known_to_treat": ["Anemia", "Vitamin deficiency", "High cholesterol", "Fluid retention"],
+    "known_to_treat": [
+      "Anemia",
+      "Vitamin deficiency",
+      "High cholesterol",
+      "Fluid retention"
+    ],
     "usage": "Consumed as sprouts, leaf tea, or powder.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/e/eb/75_Medicago_sativa_L.jpg,https://upload.wikimedia.org/wikipedia/commons/e/e3/Alfalfa_(Medicago_sativa)_I.jpg,https://upload.wikimedia.org/wikipedia/commons/4/4f/Alfalfa_(Medicago_sativa)_II.jpg"
   },
   {
     "id": "aloe_vera",
@@ -25,9 +37,15 @@
     "type": "Succulent",
     "pregnancy_friendly": false,
     "description": "The inner gel is highly cooling and soothing to internal and external tissue.",
-    "known_to_treat": ["Sunburn", "Constipation (latex)", "Gastritis", "Ulcers"],
+    "known_to_treat": [
+      "Sunburn",
+      "Constipation (latex)",
+      "Gastritis",
+      "Ulcers"
+    ],
     "usage": "Gel applied topically; juice taken internally for gut lining repair.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Aloe_vera_plant.jpg,https://upload.wikimedia.org/wikipedia/commons/5/5c/Aloe_vera_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1a/Aloe_vera_gel.jpg"
   },
   {
     "id": "angelica",
@@ -35,9 +53,15 @@
     "type": "Root",
     "pregnancy_friendly": false,
     "description": "A warming herb that stimulates digestion and circulation in the pelvic region.",
-    "known_to_treat": ["Poor circulation", "Indigestion", "Delayed menstruation", "Flatulence"],
+    "known_to_treat": [
+      "Poor circulation",
+      "Indigestion",
+      "Delayed menstruation",
+      "Flatulence"
+    ],
     "usage": "Decoction of the root; often used in liqueurs for digestion.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Angelica_archangelica_001.JPG,https://upload.wikimedia.org/wikipedia/commons/8/8f/Angelica_sylvestris_1.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2c/Angelica_atropurpurea_1.jpg"
   },
   {
     "id": "arnica",
@@ -45,9 +69,15 @@
     "type": "Flower",
     "pregnancy_friendly": false,
     "description": "A premier remedy for trauma, bruising, and muscle soreness.",
-    "known_to_treat": ["Bruises", "Sprains", "Muscle aches", "Post-surgery swelling"],
+    "known_to_treat": [
+      "Bruises",
+      "Sprains",
+      "Muscle aches",
+      "Post-surgery swelling"
+    ],
     "usage": "Applied topically as a cream or oil. NEVER apply to broken skin or ingest (except homeopathically).",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Arnica_montana_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9c/Arnica_chamissonis_1.jpg,https://upload.wikimedia.org/wikipedia/commons/4/4d/Arnica_angustifolia_1.jpg"
   },
   {
     "id": "ashwagandha",
@@ -55,9 +85,15 @@
     "type": "Root",
     "pregnancy_friendly": false,
     "description": "A premier Ayurvedic adaptogen that builds 'ojas' (vitality) and calms the nervous system.",
-    "known_to_treat": ["Chronic stress", "Adrenal fatigue", "Insomnia", "Thyroid imbalance"],
+    "known_to_treat": [
+      "Chronic stress",
+      "Adrenal fatigue",
+      "Insomnia",
+      "Thyroid imbalance"
+    ],
     "usage": "Powdered root decocted in milk or water; best taken at night for sleep.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Withania_somnifera_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7e/Withania_somnifera_fruit.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3f/Withania_somnifera_leaves.jpg"
   },
   {
     "id": "astragalus",
@@ -65,9 +101,15 @@
     "type": "Root",
     "pregnancy_friendly": true,
     "description": "A deep immune tonic that builds the 'Wei Qi' or protective shield of the body.",
-    "known_to_treat": ["Frequent colds", "Chronic fatigue", "Chemotherapy recovery", "Kidney support"],
+    "known_to_treat": [
+      "Frequent colds",
+      "Chronic fatigue",
+      "Chemotherapy recovery",
+      "Kidney support"
+    ],
     "usage": "Root slices simmered in soups or teas; best used long-term as a preventative.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Astragalus_membranaceus_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/5d/Astragalus_gummifer_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8a/Astragalus_propinquus_1.jpg"
   },
   {
     "id": "bacopa",
@@ -75,9 +117,15 @@
     "type": "Aerial",
     "pregnancy_friendly": true,
     "description": "An ancient brain tonic that improves memory and cognitive function.",
-    "known_to_treat": ["Memory loss", "Anxiety", "ADHD", "Mental exhaustion"],
+    "known_to_treat": [
+      "Memory loss",
+      "Anxiety",
+      "ADHD",
+      "Mental exhaustion"
+    ],
     "usage": "Tincture or powder; supports the repair of neurons.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Bacopa_monnieri_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9f/Bacopa_monnieri_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2c/Bacopa_monnieri_leaves.jpg"
   },
   {
     "id": "barberry",
@@ -85,9 +133,14 @@
     "type": "Bark/Root",
     "pregnancy_friendly": false,
     "description": "Contains berberine; acts as a potent liver stimulant and antimicrobial.",
-    "known_to_treat": ["Gallbladder congestion", "Skin eruptions", "Bacterial diarrhea"],
+    "known_to_treat": [
+      "Gallbladder congestion",
+      "Skin eruptions",
+      "Bacterial diarrhea"
+    ],
     "usage": "Decoction of bark or root; excellent for 'damp-heat' conditions.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Berberis_vulgaris_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7b/Berberis_thunbergii_1.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1d/Berberis_darwinii_1.jpg"
   },
   {
     "id": "bayberry",
@@ -95,9 +148,15 @@
     "type": "Bark",
     "pregnancy_friendly": false,
     "description": "A powerful circulatory stimulant and astringent.",
-    "known_to_treat": ["Sore throat", "Hemorrhage", "Varicose veins", "Excessive mucus"],
+    "known_to_treat": [
+      "Sore throat",
+      "Hemorrhage",
+      "Varicose veins",
+      "Excessive mucus"
+    ],
     "usage": "Often used in a gargle or as a powder in small doses to stimulate blood flow.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Myrica_cerifera_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8c/Myrica_pensylvanica_1.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2f/Myrica_gale_1.jpg"
   },
   {
     "id": "bee_pollen",
@@ -105,9 +164,15 @@
     "type": "Pollen",
     "pregnancy_friendly": true,
     "description": "A complete food containing nearly all nutrients required by humans.",
-    "known_to_treat": ["Allergies (local)", "Low energy", "Prostate health", "Infertility"],
+    "known_to_treat": [
+      "Allergies (local)",
+      "Low energy",
+      "Prostate health",
+      "Infertility"
+    ],
     "usage": "Taken raw; start with 1 grain to test for allergic reaction, then increase.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Bee_pollen_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9a/Bee_pollen_closeup.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3b/Bee_pollen_grains.jpg"
   },
   {
     "id": "bilberry",
@@ -115,9 +180,15 @@
     "type": "Berry/Leaf",
     "pregnancy_friendly": true,
     "description": "Rich in anthocyanins that specifically protect the capillaries and eyes.",
-    "known_to_treat": ["Night blindness", "Diabetic retinopathy", "Glaucoma", "Cataracts"],
+    "known_to_treat": [
+      "Night blindness",
+      "Diabetic retinopathy",
+      "Glaucoma",
+      "Cataracts"
+    ],
     "usage": "Consumed as fresh fruit or standardized extract.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Vaccinium_myrtillus_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/5f/Vaccinium_myrtillus_berries.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8d/Vaccinium_myrtillus_leaves.jpg"
   },
   {
     "id": "birch_leaf",
@@ -125,9 +196,15 @@
     "type": "Leaf",
     "pregnancy_friendly": true,
     "description": "A gentle diuretic that helps flush uric acid from the system.",
-    "known_to_treat": ["Gout", "Rheumatism", "Kidney stones", "UTIs"],
+    "known_to_treat": [
+      "Gout",
+      "Rheumatism",
+      "Kidney stones",
+      "UTIs"
+    ],
     "usage": "Infusion of leaves; helps reduce water retention without depleting electrolytes.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Betula_pendula_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7e/Betula_pubescens_1.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1c/Betula_nana_1.jpg"
   },
   {
     "id": "black_cohosh",
@@ -135,9 +212,15 @@
     "type": "Root",
     "pregnancy_friendly": false,
     "description": "The specific remedy for 'hot' symptoms of menopause and hormonal imbalance.",
-    "known_to_treat": ["Hot flashes", "Night sweats", "Depression", "Muscle pain"],
+    "known_to_treat": [
+      "Hot flashes",
+      "Night sweats",
+      "Depression",
+      "Muscle pain"
+    ],
     "usage": "Decoction or tincture; has an estrogen-modulating effect.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Actaea_racemosa_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9e/Actaea_racemosa_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3f/Actaea_racemosa_leaves.jpg"
   },
   {
     "id": "black_walnut",
@@ -145,9 +228,15 @@
     "type": "Hull",
     "pregnancy_friendly": false,
     "description": "High iodine and juglone content makes it a potent anti-parasitic.",
-    "known_to_treat": ["Parasites", "Fungal infections", "Warts", "Ringworm"],
+    "known_to_treat": [
+      "Parasites",
+      "Fungal infections",
+      "Warts",
+      "Ringworm"
+    ],
     "usage": "Tincture of the green hulls; usually part of a 'parasite cleanse'.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Juglans_nigra_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8a/Juglans_nigra_leaves.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2c/Juglans_nigra_nut.jpg"
   },
   {
     "id": "blessed_thistle",
@@ -155,9 +244,15 @@
     "type": "Aerial",
     "pregnancy_friendly": false,
     "description": "A premier digestive bitter and 'galactagogue' (increases milk supply).",
-    "known_to_treat": ["Poor appetite", "Low milk supply", "Liver congestion", "Indigestion"],
+    "known_to_treat": [
+      "Poor appetite",
+      "Low milk supply",
+      "Liver congestion",
+      "Indigestion"
+    ],
     "usage": "Tea (very bitter) or capsules; stimulates the flow of gastric juices.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Cnicus_benedictus_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/5g/Cnicus_benedictus_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8b/Cnicus_benedictus_leaves.jpg"
   },
   {
     "id": "blue_cohosh",
@@ -165,9 +260,14 @@
     "type": "Root",
     "pregnancy_friendly": false,
     "description": "A powerful uterine tonic used specifically to facilitate labor.",
-    "known_to_treat": ["Delayed labor", "Uterine atony", "Painful menstruation"],
+    "known_to_treat": [
+      "Delayed labor",
+      "Uterine atony",
+      "Painful menstruation"
+    ],
     "usage": "Used ONLY under expert supervision during late-term pregnancy.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Caulophyllum_thalictroides_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7d/Caulophyllum_thalictroides_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1e/Caulophyllum_thalictroides_leaves.jpg"
   },
   {
     "id": "boneset",
@@ -175,9 +275,15 @@
     "type": "Aerial",
     "pregnancy_friendly": false,
     "description": "Named for its ability to treat 'break-bone fever' (dengue); it is a powerful diaphoretic.",
-    "known_to_treat": ["Deep bone-aching flu", "Fever", "Bronchitis", "Pneumonia"],
+    "known_to_treat": [
+      "Deep bone-aching flu",
+      "Fever",
+      "Bronchitis",
+      "Pneumonia"
+    ],
     "usage": "Hot infusion; induces profuse sweating to break a fever.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Eupatorium_perfoliatum_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9f/Eupatorium_perfoliatum_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3g/Eupatorium_perfoliatum_leaves.jpg"
   },
   {
     "id": "borage",
@@ -185,9 +291,15 @@
     "type": "Aerial/Seed",
     "pregnancy_friendly": false,
     "description": "The 'herb of courage'; it supports the adrenal glands during prolonged stress.",
-    "known_to_treat": ["Adrenal exhaustion", "Dry skin", "Inflammation", "PMS"],
+    "known_to_treat": [
+      "Adrenal exhaustion",
+      "Dry skin",
+      "Inflammation",
+      "PMS"
+    ],
     "usage": "Leaf tea or Seed Oil (rich in GLA).",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Borago_officinalis_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8d/Borago_officinalis_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2e/Borago_officinalis_leaves.jpg"
   },
   {
     "id": "burdock_root",
@@ -195,9 +307,15 @@
     "type": "Root",
     "pregnancy_friendly": true,
     "description": "A deep blood purifier that moves stagnant lymphatic fluid and clears the skin.",
-    "known_to_treat": ["Eczema", "Psoriasis", "Acne", "Chronic toxicity"],
+    "known_to_treat": [
+      "Eczema",
+      "Psoriasis",
+      "Acne",
+      "Chronic toxicity"
+    ],
     "usage": "Decoction of the root; best used in combination with Dandelion root for liver support.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Arctium_lappa_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/5d/Arctium_lappa_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8e/Arctium_lappa_leaves.jpg"
   },
   {
     "id": "butcher_s_broom",
@@ -205,9 +323,15 @@
     "type": "Root",
     "pregnancy_friendly": true,
     "description": "A vasoconstrictor that improves the integrity of vein walls.",
-    "known_to_treat": ["Hemorrhoids", "Varicose veins", "Lymphedema", "Orthostatic hypotension"],
+    "known_to_treat": [
+      "Hemorrhoids",
+      "Varicose veins",
+      "Lymphedema",
+      "Orthostatic hypotension"
+    ],
     "usage": "Capsules or extract; particularly useful for circulatory issues in the legs.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Ruscus_aculeatus_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7e/Ruscus_aculeatus_fruit.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1f/Ruscus_aculeatus_leaves.jpg"
   },
   {
     "id": "calendula",
@@ -215,9 +339,15 @@
     "type": "Flower",
     "pregnancy_friendly": true,
     "description": "The 'sunshine herb' for the skin; highly anti-inflammatory and vulnerary (wound-healing).",
-    "known_to_treat": ["Dermatitis", "Gastric ulcers", "Minor wounds", "Fungal infections"],
+    "known_to_treat": [
+      "Dermatitis",
+      "Gastric ulcers",
+      "Minor wounds",
+      "Fungal infections"
+    ],
     "usage": "Infused oil for skin; tea for healing the digestive lining.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Calendula_officinalis_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9g/Calendula_officinalis_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3h/Calendula_officinalis_leaves.jpg"
   },
   {
     "id": "california_poppy",
@@ -225,9 +355,15 @@
     "type": "Aerial",
     "pregnancy_friendly": false,
     "description": "A gentle sedative and analgesic that does not cause dependency.",
-    "known_to_treat": ["Anxiety in children", "Insomnia", "Nervous agitation", "Toothache"],
+    "known_to_treat": [
+      "Anxiety in children",
+      "Insomnia",
+      "Nervous agitation",
+      "Toothache"
+    ],
     "usage": "Tincture or tea; milder than the Opium Poppy but effective for relaxation.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Eschscholzia_californica_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8f/Eschscholzia_californica_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2g/Eschscholzia_californica_leaves.jpg"
   },
   {
     "id": "cascara_sagrada",
@@ -235,9 +371,14 @@
     "type": "Bark",
     "pregnancy_friendly": false,
     "description": "A potent 'stimulant' laxative that tones the muscles of the colon.",
-    "known_to_treat": ["Chronic constipation", "Gallstones", "Liver sluggishness"],
+    "known_to_treat": [
+      "Chronic constipation",
+      "Gallstones",
+      "Liver sluggishness"
+    ],
     "usage": "Capsules or decoction; bark must be aged at least 1 year before use.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Rhamnus_purshiana_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/5f/Rhamnus_purshiana_bark.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8g/Rhamnus_purshiana_leaves.jpg"
   },
   {
     "id": "cat_s_claw",
@@ -245,9 +386,15 @@
     "type": "Bark",
     "pregnancy_friendly": false,
     "description": "A powerful rainforest immune modulator with anti-inflammatory properties.",
-    "known_to_treat": ["Arthritis", "Lyme disease support", "IBD", "Viral infections"],
+    "known_to_treat": [
+      "Arthritis",
+      "Lyme disease support",
+      "IBD",
+      "Viral infections"
+    ],
     "usage": "Decoction of the inner bark; works by enhancing phagocytosis (immune engulfing).",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Uncaria_tomentosa_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7f/Uncaria_tomentosa_vine.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1g/Uncaria_tomentosa_leaves.jpg"
   },
   {
     "id": "catnip",
@@ -255,9 +402,15 @@
     "type": "Aerial",
     "pregnancy_friendly": true,
     "description": "A gentle nervine and carminative that is excellent for children's ailments.",
-    "known_to_treat": ["Infant colic", "Fever", "Insomnia", "Nervous stomach"],
+    "known_to_treat": [
+      "Infant colic",
+      "Fever",
+      "Insomnia",
+      "Nervous stomach"
+    ],
     "usage": "Infusion; makes a very relaxing evening tea.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4g/Nepeta_cataria_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9h/Nepeta_cataria_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3i/Nepeta_cataria_leaves.jpg"
   },
   {
     "id": "cayenne",
@@ -265,9 +418,15 @@
     "type": "Fruit",
     "pregnancy_friendly": true,
     "description": "The 'king of stimulants'; it equalizes blood pressure and can stop a heart attack in progress.",
-    "known_to_treat": ["Poor circulation", "Shock", "Indigestion", "Internal/External bleeding"],
+    "known_to_treat": [
+      "Poor circulation",
+      "Shock",
+      "Indigestion",
+      "Internal/External bleeding"
+    ],
     "usage": "Powder in warm water or tincture; applied topically to stop bleeding (it doesn't sting on open wounds).",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5h/Capsicum_annuum_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8i/Capsicum_annuum_pepper.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2h/Capsicum_annuum_plant.jpg"
   },
   {
     "id": "celery_seed",
@@ -275,9 +434,15 @@
     "type": "Seed",
     "pregnancy_friendly": false,
     "description": "Specifically targets the kidneys to excrete uric acid and other metabolic wastes.",
-    "known_to_treat": ["Gout", "Arthritis", "Cystitis", "Edema"],
+    "known_to_treat": [
+      "Gout",
+      "Arthritis",
+      "Cystitis",
+      "Edema"
+    ],
     "usage": "Infusion or capsules; a powerful 'alkalizing' herb for the joints.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Apium_graveolens_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/5i/Apium_graveolens_seed.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8j/Apium_graveolens_leaves.jpg"
   },
   {
     "id": "chamomile",
@@ -285,9 +450,16 @@
     "type": "Flower",
     "pregnancy_friendly": true,
     "description": "A gentle, apple-scented flower that acts as a mild sedative and powerful digestive nervine.",
-    "known_to_treat": ["Insomnia", "Anxiety", "Colic", "Skin irritation", "Stomach cramps"],
+    "known_to_treat": [
+      "Insomnia",
+      "Anxiety",
+      "Colic",
+      "Skin irritation",
+      "Stomach cramps"
+    ],
     "usage": "Infusion of dried flowers for tea, or used in a compress for localized skin inflammation.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Matricaria_chamomilla_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7g/Matricaria_chamomilla_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1h/Matricaria_chamomilla_leaves.jpg"
   },
   {
     "id": "chaparral",
@@ -295,9 +467,15 @@
     "type": "Leaf",
     "pregnancy_friendly": false,
     "description": "One of the oldest plants on Earth; a powerful antioxidant and anti-tumor agent.",
-    "known_to_treat": ["Cancer support", "Arthritis", "Venereal disease", "Parasites"],
+    "known_to_treat": [
+      "Cancer support",
+      "Arthritis",
+      "Venereal disease",
+      "Parasites"
+    ],
     "usage": "Tincture or tea; has a very strong 'creosote' taste. Use with caution for liver health.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4h/Larrea_tridentata_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9i/Larrea_tridentata_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3j/Larrea_tridentata_leaves.jpg"
   },
   {
     "id": "chasteberry",
@@ -305,9 +483,15 @@
     "type": "Berry",
     "pregnancy_friendly": false,
     "description": "A primary hormonal regulator that acts on the pituitary gland to balance progesterone.",
-    "known_to_treat": ["PMS", "Infertility", "Acne (hormonal)", "Menopause"],
+    "known_to_treat": [
+      "PMS",
+      "Infertility",
+      "Acne (hormonal)",
+      "Menopause"
+    ],
     "usage": "Tincture or capsules taken in the morning; requires 3-6 months for full effect.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5i/Vitex_agnus-castus_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8k/Vitex_agnus-castus_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2i/Vitex_agnus-castus_fruit.jpg"
   },
   {
     "id": "chickweed",
@@ -315,9 +499,15 @@
     "type": "Aerial",
     "pregnancy_friendly": true,
     "description": "A cooling, nutrient-rich herb that 'dissolves' fats and soothes itchy skin.",
-    "known_to_treat": ["Itchy eczema", "Weight loss support", "Cysts", "Inflammation"],
+    "known_to_treat": [
+      "Itchy eczema",
+      "Weight loss support",
+      "Cysts",
+      "Inflammation"
+    ],
     "usage": "Salves for skin; fresh in salads or tea for internal 'cooling'.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Stellaria_media_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/5j/Stellaria_media_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8l/Stellaria_media_leaves.jpg"
   },
   {
     "id": "chicory_root",
@@ -325,9 +515,15 @@
     "type": "Root",
     "pregnancy_friendly": true,
     "description": "A prebiotic rich in inulin that supports healthy gut flora and liver function.",
-    "known_to_treat": ["Constipation", "Liver congestion", "Gallstones", "Diabetes"],
+    "known_to_treat": [
+      "Constipation",
+      "Liver congestion",
+      "Gallstones",
+      "Diabetes"
+    ],
     "usage": "Roasted root used as a coffee substitute; decoction for medicinal use.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3g/Cichorium_intybus_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7h/Cichorium_intybus_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1i/Cichorium_intybus_root.jpg"
   },
   {
     "id": "cleavers",
@@ -335,9 +531,15 @@
     "type": "Aerial",
     "pregnancy_friendly": true,
     "description": "The premier lymphatic 'sweep'; it clears congestion in the lymph nodes.",
-    "known_to_treat": ["Swollen glands", "Cystitis", "Psoriasis", "Eczema"],
+    "known_to_treat": [
+      "Swollen glands",
+      "Cystitis",
+      "Psoriasis",
+      "Eczema"
+    ],
     "usage": "Fresh juice is best; cold infusion or tea also effective.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4i/Galium_aparine_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9j/Galium_aparine_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3k/Galium_aparine_leaves.jpg"
   },
   {
     "id": "clove",
@@ -345,9 +547,15 @@
     "type": "Bud",
     "pregnancy_friendly": true,
     "description": "Highest antioxidant score of any plant; contains eugenol, a powerful numbing agent.",
-    "known_to_treat": ["Toothache", "Parasites", "Nausea", "Fungal infections"],
+    "known_to_treat": [
+      "Toothache",
+      "Parasites",
+      "Nausea",
+      "Fungal infections"
+    ],
     "usage": "Oil applied to gums for pain; powder in capsules for parasites.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5k/Syzygium_aromaticum_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8m/Syzygium_aromaticum_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2j/Syzygium_aromaticum_bud.jpg"
   },
   {
     "id": "coltsfoot",
@@ -355,9 +563,15 @@
     "type": "Leaf/Flower",
     "pregnancy_friendly": false,
     "description": "Used for centuries as a premier remedy for chronic, spasmodic coughs.",
-    "known_to_treat": ["Asthma", "Emphysema", "Whooping cough", "Laryngitis"],
+    "known_to_treat": [
+      "Asthma",
+      "Emphysema",
+      "Whooping cough",
+      "Laryngitis"
+    ],
     "usage": "Infusion or smoking the leaves (historically) to open airways.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Tussilago_farfara_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/5l/Tussilago_farfara_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8n/Tussilago_farfara_leaves.jpg"
   },
   {
     "id": "comfrey",
@@ -365,9 +579,15 @@
     "type": "Leaf/Root",
     "pregnancy_friendly": false,
     "description": "Contains allantoin, which causes cells to multiply rapidly, speeding the healing of bones and skin.",
-    "known_to_treat": ["Broken bones", "Sprains", "Gastric ulcers", "Torn ligaments"],
+    "known_to_treat": [
+      "Broken bones",
+      "Sprains",
+      "Gastric ulcers",
+      "Torn ligaments"
+    ],
     "usage": "Poultice or salve for external use. Internal use is controversial due to pyrrolizidine alkaloids.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3h/Symphytum_officinale_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7i/Symphytum_officinale_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1j/Symphytum_officinale_leaves.jpg"
   },
   {
     "id": "corn_silk",
@@ -375,9 +595,15 @@
     "type": "Silk",
     "pregnancy_friendly": true,
     "description": "A very gentle, soothing diuretic for the urinary tract.",
-    "known_to_treat": ["Cystitis", "Prostate irritation", "Bedwetting", "Kidney stones"],
+    "known_to_treat": [
+      "Cystitis",
+      "Prostate irritation",
+      "Bedwetting",
+      "Kidney stones"
+    ],
     "usage": "Infusion of fresh or dried silk; very safe for children and the elderly.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4j/Zea_mays_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9k/Zea_mays_silk.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3l/Zea_mays_cob.jpg"
   },
   {
     "id": "cramp_bark",
@@ -385,9 +611,15 @@
     "type": "Bark",
     "pregnancy_friendly": false,
     "description": "The specific remedy for smooth muscle cramps, especially in the uterus.",
-    "known_to_treat": ["Menstrual cramps", "Threatened miscarriage", "Leg cramps", "Asthma"],
+    "known_to_treat": [
+      "Menstrual cramps",
+      "Threatened miscarriage",
+      "Leg cramps",
+      "Asthma"
+    ],
     "usage": "Decoction or tincture; acts quickly to relax muscle spasms.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5m/Viburnum_opulus_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8o/Viburnum_opulus_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2k/Viburnum_opulus_fruit.jpg"
   },
   {
     "id": "damiana",
@@ -395,9 +627,15 @@
     "type": "Leaf",
     "pregnancy_friendly": false,
     "description": "A traditional Mexican aphrodisiac and tonic for the nervous system.",
-    "known_to_treat": ["Low libido", "Depression", "Sexual dysfunction", "Anxiety"],
+    "known_to_treat": [
+      "Low libido",
+      "Depression",
+      "Sexual dysfunction",
+      "Anxiety"
+    ],
     "usage": "Infusion or tincture; has a slightly euphoric and warming effect.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1g/Turnera_diffusa_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/5n/Turnera_diffusa_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8p/Turnera_diffusa_leaves.jpg"
   },
   {
     "id": "dandelion_leaf",
@@ -405,9 +643,14 @@
     "type": "Leaf",
     "pregnancy_friendly": true,
     "description": "One of the best natural diuretics; unlike drugs, it is rich in potassium, so it doesn't deplete the body.",
-    "known_to_treat": ["Water retention", "High blood pressure", "Kidney stones"],
+    "known_to_treat": [
+      "Water retention",
+      "High blood pressure",
+      "Kidney stones"
+    ],
     "usage": "Fresh in salads or steeped as a tea.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3i/Taraxacum_officinale_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7j/Taraxacum_officinale_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1k/Taraxacum_officinale_leaves.jpg"
   },
   {
     "id": "dandelion_root",
@@ -415,9 +658,15 @@
     "type": "Root",
     "pregnancy_friendly": true,
     "description": "The premier liver tonic; it stimulates bile production and clears 'dampness'.",
-    "known_to_treat": ["Liver congestion", "Jaundice", "Constipation", "Skin issues"],
+    "known_to_treat": [
+      "Liver congestion",
+      "Jaundice",
+      "Constipation",
+      "Skin issues"
+    ],
     "usage": "Roasted root as coffee; decoction for medicinal strength.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4k/Taraxacum_officinale_root.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9l/Taraxacum_officinale_root2.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3m/Taraxacum_officinale_root3.jpg"
   },
   {
     "id": "dong_quai",
@@ -425,9 +674,15 @@
     "type": "Root",
     "pregnancy_friendly": false,
     "description": "The 'female ginseng'; it builds blood and regulates the menstrual cycle.",
-    "known_to_treat": ["Anemia", "Irregular periods", "Menopause symptoms", "Painful menses"],
+    "known_to_treat": [
+      "Anemia",
+      "Irregular periods",
+      "Menopause symptoms",
+      "Painful menses"
+    ],
     "usage": "Decoction of the root; used to 'invigorate' and nourish the blood.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5o/Angelica_sinensis_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8q/Angelica_sinensis_root.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2l/Angelica_sinensis_leaves.jpg"
   },
   {
     "id": "echinacea",
@@ -435,9 +690,15 @@
     "type": "Root/Aerial",
     "pregnancy_friendly": true,
     "description": "A premier immune stimulant that increases white blood cell count and activity.",
-    "known_to_treat": ["Common cold", "Flu", "Blood poisoning", "Snake bites"],
+    "known_to_treat": [
+      "Common cold",
+      "Flu",
+      "Blood poisoning",
+      "Snake bites"
+    ],
     "usage": "Tincture or decoction; most effective when taken at the very first sign of illness.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1h/Echinacea_purpurea_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/5p/Echinacea_purpurea_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8r/Echinacea_purpurea_leaves.jpg"
   },
   {
     "id": "elderberry",
@@ -445,9 +706,15 @@
     "type": "Berry",
     "pregnancy_friendly": true,
     "description": "Contains powerful antiviral compounds that prevent viruses from entering cells.",
-    "known_to_treat": ["Influenza", "Sinusitis", "Herpes", "Chronic fatigue"],
+    "known_to_treat": [
+      "Influenza",
+      "Sinusitis",
+      "Herpes",
+      "Chronic fatigue"
+    ],
     "usage": "Syrup or tea; berries must be cooked before consumption to avoid toxicity.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3j/Sambucus_nigra_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7k/Sambucus_nigra_berries.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1l/Sambucus_nigra_flower.jpg"
   },
   {
     "id": "elderflower",
@@ -455,9 +722,15 @@
     "type": "Flower",
     "pregnancy_friendly": true,
     "description": "A gentle diaphoretic that helps the body 'sweat out' a fever.",
-    "known_to_treat": ["Fever", "Sinus congestion", "Allergies", "Colds"],
+    "known_to_treat": [
+      "Fever",
+      "Sinus congestion",
+      "Allergies",
+      "Colds"
+    ],
     "usage": "Infusion; often combined with Peppermint and Yarrow for flu.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4l/Sambucus_nigra_flower2.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9m/Sambucus_nigra_flower3.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3n/Sambucus_nigra_flower4.jpg"
   },
   {
     "id": "eleuthero",
@@ -465,9 +738,15 @@
     "type": "Root",
     "pregnancy_friendly": true,
     "description": "A powerful adaptogen that increases physical endurance and mental resilience.",
-    "known_to_treat": ["Adrenal burnout", "Radiation exposure", "Fatigue", "Weak immunity"],
+    "known_to_treat": [
+      "Adrenal burnout",
+      "Radiation exposure",
+      "Fatigue",
+      "Weak immunity"
+    ],
     "usage": "Tincture or decoction; safer for long-term use than Panax Ginseng.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5q/Eleutherococcus_senticosus_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8s/Eleutherococcus_senticosus_leaves.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2m/Eleutherococcus_senticosus_fruit.jpg"
   },
   {
     "id": "eyebright",
@@ -475,9 +754,15 @@
     "type": "Aerial",
     "pregnancy_friendly": true,
     "description": "Specifically targets the mucous membranes of the eyes and sinuses.",
-    "known_to_treat": ["Conjunctivitis (pink eye)", "Allergies", "Sinusitis", "Styes"],
+    "known_to_treat": [
+      "Conjunctivitis (pink eye)",
+      "Allergies",
+      "Sinusitis",
+      "Styes"
+    ],
     "usage": "Internal tea or carefully filtered external eye wash.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1i/Euphrasia_officinalis_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/5r/Euphrasia_officinalis_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8t/Euphrasia_officinalis_leaves.jpg"
   },
   {
     "id": "fennel_seed",
@@ -485,9 +770,15 @@
     "type": "Seed",
     "pregnancy_friendly": true,
     "description": "A cooling carminative that relaxes the digestive tract and dispels gas.",
-    "known_to_treat": ["Bloating", "Colic", "Low milk supply", "Indigestion"],
+    "known_to_treat": [
+      "Bloating",
+      "Colic",
+      "Low milk supply",
+      "Indigestion"
+    ],
     "usage": "Chewed raw or steeped as a tea.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3k/Foeniculum_vulgare_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7l/Foeniculum_vulgare_seed.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1m/Foeniculum_vulgare_leaves.jpg"
   },
   {
     "id": "feverfew",
@@ -495,9 +786,14 @@
     "type": "Leaf",
     "pregnancy_friendly": false,
     "description": "The specific remedy for migraines; it inhibits the release of inflammatory prostaglandins.",
-    "known_to_treat": ["Migraines", "Arthritis", "Menstrual pain"],
+    "known_to_treat": [
+      "Migraines",
+      "Arthritis",
+      "Menstrual pain"
+    ],
     "usage": "Fresh leaf eaten daily (with bread) or capsules; must be taken long-term for migraine prevention.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4m/Tanacetum_parthenium_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9n/Tanacetum_parthenium_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3o/Tanacetum_parthenium_leaves.jpg"
   },
   {
     "id": "garlic",
@@ -505,9 +801,15 @@
     "type": "Bulb",
     "pregnancy_friendly": true,
     "description": "Nature's most powerful antibiotic; it contains allicin which is active against bacteria, fungi, and viruses.",
-    "known_to_treat": ["High blood pressure", "Infections", "Parasites", "High cholesterol"],
+    "known_to_treat": [
+      "High blood pressure",
+      "Infections",
+      "Parasites",
+      "High cholesterol"
+    ],
     "usage": "Raw cloves crushed and eaten (allicin forms when crushed); oil for ear infections.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5s/Allium_sativum_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8u/Allium_sativum_bulb.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2n/Allium_sativum_clove.jpg"
   },
   {
     "id": "gentian",
@@ -515,9 +817,15 @@
     "type": "Root",
     "pregnancy_friendly": false,
     "description": "The strongest digestive bitter; it 'wakes up' the entire digestive system.",
-    "known_to_treat": ["Anorexia", "Sluggish digestion", "Liver weakness", "Anemia"],
+    "known_to_treat": [
+      "Anorexia",
+      "Sluggish digestion",
+      "Liver weakness",
+      "Anemia"
+    ],
     "usage": "Tincture or tea taken 20 minutes before meals.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1j/Gentiana_lutea_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/5t/Gentiana_lutea_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8v/Gentiana_lutea_root.jpg"
   },
   {
     "id": "ginger",
@@ -525,9 +833,16 @@
     "type": "Root",
     "pregnancy_friendly": true,
     "description": "A warming, pungent rhizome known for its potent anti-inflammatory and circulatory stimulating properties.",
-    "known_to_treat": ["Nausea", "Indigestion", "Osteoarthritis", "Motion sickness", "Poor circulation"],
+    "known_to_treat": [
+      "Nausea",
+      "Indigestion",
+      "Osteoarthritis",
+      "Motion sickness",
+      "Poor circulation"
+    ],
     "usage": "Fresh juice for poultices, tea from sliced root, or grated into warm water for digestive support.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3l/Zingiber_officinale_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7m/Zingiber_officinale_root.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1n/Zingiber_officinale_flower.jpg"
   },
   {
     "id": "ginkgo_biloba",
@@ -535,9 +850,15 @@
     "type": "Leaf",
     "pregnancy_friendly": true,
     "description": "Increases micro-circulation to the brain and extremities; acts as a potent antioxidant.",
-    "known_to_treat": ["Dementia", "Tinnitus", "Raynaud's disease", "Memory loss"],
+    "known_to_treat": [
+      "Dementia",
+      "Tinnitus",
+      "Raynaud's disease",
+      "Memory loss"
+    ],
     "usage": "Standardized extract (24% ginkgosides) is most effective.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4n/Ginkgo_biloba_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9o/Ginkgo_biloba_leaves.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3p/Ginkgo_biloba_tree.jpg"
   },
   {
     "id": "goldenseal",
@@ -545,9 +866,15 @@
     "type": "Root",
     "pregnancy_friendly": false,
     "description": "Contains berberine; a powerful 'natural antibiotic' that tones mucous membranes.",
-    "known_to_treat": ["Staph infections", "UTIs", "Sinusitis", "Giardia"],
+    "known_to_treat": [
+      "Staph infections",
+      "UTIs",
+      "Sinusitis",
+      "Giardia"
+    ],
     "usage": "Tincture or powder; should only be used for short periods (7-10 days).",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5u/Hydrastis_canadensis_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8w/Hydrastis_canadensis_root.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2o/Hydrastis_canadensis_leaves.jpg"
   },
   {
     "id": "gotu_kola",
@@ -555,9 +882,15 @@
     "type": "Aerial",
     "pregnancy_friendly": true,
     "description": "The 'herb of longevity' that repairs connective tissue and enhances brain function without caffeine.",
-    "known_to_treat": ["Varicose veins", "Stretch marks", "Poor memory", "Wound healing"],
+    "known_to_treat": [
+      "Varicose veins",
+      "Stretch marks",
+      "Poor memory",
+      "Wound healing"
+    ],
     "usage": "Fresh leaves in salad or dried as tea; excellent for repairing skin and blood vessels.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1k/Centella_asiatica_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/5v/Centella_asiatica_leaves.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8x/Centella_asiatica_flower.jpg"
   },
   {
     "id": "gravel_root",
@@ -565,9 +898,15 @@
     "type": "Root",
     "pregnancy_friendly": false,
     "description": "A premier kidney and bladder herb used specifically to dissolve 'gravel' or stones by improving mineral metabolism.",
-    "known_to_treat": ["Kidney stones", "Gallstones", "Gout", "Cystitis"],
+    "known_to_treat": [
+      "Kidney stones",
+      "Gallstones",
+      "Gout",
+      "Cystitis"
+    ],
     "usage": "Decoction of the root. Best used in combination with Marshmallow root to soothe the passage of dissolved minerals.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3m/Eutrochium_purpureum_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7n/Eutrochium_purpureum_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1o/Eutrochium_purpureum_leaves.jpg"
   },
   {
     "id": "ground_ivy",
@@ -575,9 +914,15 @@
     "type": "Aerial",
     "pregnancy_friendly": true,
     "description": "A gentle but effective expectorant that helps clear heavy metal toxicity and chronic catarrh.",
-    "known_to_treat": ["Lead poisoning support", "Tinnitus", "Sinusitis", "Bronchial congestion"],
+    "known_to_treat": [
+      "Lead poisoning support",
+      "Tinnitus",
+      "Sinusitis",
+      "Bronchial congestion"
+    ],
     "usage": "Infusion of the leaves; particularly useful for drying up chronic 'runny' conditions in the head.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4o/Glechoma_hederacea_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9p/Glechoma_hederacea_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3q/Glechoma_hederacea_leaves.jpg"
   },
   {
     "id": "guaiacum",
@@ -585,9 +930,15 @@
     "type": "Wood/Resin",
     "pregnancy_friendly": false,
     "description": "A powerful stimulant and anti-inflammatory used to clear metabolic acid buildup from the joints.",
-    "known_to_treat": ["Rheumatoid arthritis", "Gout", "Syphilis symptoms", "Tonsillitis"],
+    "known_to_treat": [
+      "Rheumatoid arthritis",
+      "Gout",
+      "Syphilis symptoms",
+      "Tonsillitis"
+    ],
     "usage": "Tincture or decoction of the wood; acts as a 'cleansing' agent for the blood and joints.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5w/Guaiacum_officinale_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8y/Guaiacum_officinale_wood.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2p/Guaiacum_officinale_flower.jpg"
   },
   {
     "id": "hawthorn_berry",
@@ -595,9 +946,15 @@
     "type": "Berry",
     "pregnancy_friendly": true,
     "description": "The premier heart tonic; it strengthens the cardiac muscle and improves blood flow to the heart.",
-    "known_to_treat": ["Congestive heart failure", "Angina", "High/Low blood pressure", "Arrhythmia"],
+    "known_to_treat": [
+      "Congestive heart failure",
+      "Angina",
+      "High/Low blood pressure",
+      "Arrhythmia"
+    ],
     "usage": "Long-term use is necessary. Eaten as a berry, taken as a tea, or concentrated extract.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1l/Crataegus_monogyna_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/5x/Crataegus_monogyna_berries.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8z/Crataegus_monogyna_flower.jpg"
   },
   {
     "id": "hawthorn_leaf_and_flower",
@@ -605,9 +962,14 @@
     "type": "Leaf/Flower",
     "pregnancy_friendly": true,
     "description": "Similar to the berry but more potent in its ability to dilate coronary arteries and reduce peripheral resistance.",
-    "known_to_treat": ["Hypertension", "Palpitations", "Anxiety-related heart issues"],
+    "known_to_treat": [
+      "Hypertension",
+      "Palpitations",
+      "Anxiety-related heart issues"
+    ],
     "usage": "Steeped as a gentle tea; often combined with the berries for full cardiovascular support.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3n/Crataegus_laevigata_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7o/Crataegus_laevigata_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1p/Crataegus_laevigata_leaves.jpg"
   },
   {
     "id": "hibiscus",
@@ -615,9 +977,14 @@
     "type": "Flower",
     "pregnancy_friendly": true,
     "description": "A cooling, sour herb rich in Vitamin C and anthocyanins that acts as a natural ACE inhibitor.",
-    "known_to_treat": ["High blood pressure", "Metabolic syndrome", "Kidney inflammation"],
+    "known_to_treat": [
+      "High blood pressure",
+      "Metabolic syndrome",
+      "Kidney inflammation"
+    ],
     "usage": "Cold or hot infusion; a refreshing 'refrigerant' tea that cools the body down in summer.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4p/Hibiscus_rosa-sinensis_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9q/Hibiscus_rosa-sinensis_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3r/Hibiscus_rosa-sinensis_leaves.jpg"
   },
   {
     "id": "holy_basil",
@@ -625,9 +992,15 @@
     "type": "Aerial",
     "pregnancy_friendly": false,
     "description": "An 'elixir of life' that protects the body against chemical, physical, and emotional stress.",
-    "known_to_treat": ["Cortisol imbalance", "Brain fog", "Respiratory infections", "Radiation protection"],
+    "known_to_treat": [
+      "Cortisol imbalance",
+      "Brain fog",
+      "Respiratory infections",
+      "Radiation protection"
+    ],
     "usage": "Taken as a tea or tincture; used daily to support resilience and spiritual clarity.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5y/Ocimum_tenuiflorum_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/80/Ocimum_tenuiflorum_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2q/Ocimum_tenuiflorum_leaves.jpg"
   },
   {
     "id": "hops",
@@ -635,9 +1008,15 @@
     "type": "Strobile",
     "pregnancy_friendly": false,
     "description": "A powerful sedative and bitter that slows down a hyperactive nervous system.",
-    "known_to_treat": ["Insomnia", "Nervous stomach", "Restless Leg Syndrome", "Excessive libido"],
+    "known_to_treat": [
+      "Insomnia",
+      "Nervous stomach",
+      "Restless Leg Syndrome",
+      "Excessive libido"
+    ],
     "usage": "Tea (very bitter) or a 'sleep pillow' stuffed with dried hops to inhale the volatile oils.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1m/Humulus_lupulus_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/5z/Humulus_lupulus_cone.jpg,https://upload.wikimedia.org/wikipedia/commons/8/81/Humulus_lupulus_leaves.jpg"
   },
   {
     "id": "horehound",
@@ -645,9 +1024,15 @@
     "type": "Aerial",
     "pregnancy_friendly": false,
     "description": "A traditional remedy for coughs; it thins the mucus so it can be coughed up easily.",
-    "known_to_treat": ["Wet cough", "Bronchitis", "Whooping cough", "Poor appetite"],
+    "known_to_treat": [
+      "Wet cough",
+      "Bronchitis",
+      "Whooping cough",
+      "Poor appetite"
+    ],
     "usage": "Often prepared as a syrup or candy; its bitter action also aids digestion.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3o/Marrubium_vulgare_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7p/Marrubium_vulgare_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1q/Marrubium_vulgare_leaves.jpg"
   },
   {
     "id": "horse_chestnut",
@@ -655,9 +1040,15 @@
     "type": "Seed",
     "pregnancy_friendly": false,
     "description": "Contains aescin, which 'plugs' tiny holes in the capillaries to stop fluid leakage.",
-    "known_to_treat": ["Varicose veins", "Hemorrhoids", "Leg ulcers", "Venous insufficiency"],
+    "known_to_treat": [
+      "Varicose veins",
+      "Hemorrhoids",
+      "Leg ulcers",
+      "Venous insufficiency"
+    ],
     "usage": "Topical cream or standardized oral extract; raw seeds are toxic and must be processed.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4q/Aesculus_hippocastanum_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9r/Aesculus_hippocastanum_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3s/Aesculus_hippocastanum_fruit.jpg"
   },
   {
     "id": "horsetail",
@@ -665,9 +1056,15 @@
     "type": "Aerial",
     "pregnancy_friendly": true,
     "description": "Highest plant source of silica; it acts as a 'biological glue' for connective tissue and bone.",
-    "known_to_treat": ["Osteoporosis", "Brittle nails", "Hair loss", "Internal bleeding"],
+    "known_to_treat": [
+      "Osteoporosis",
+      "Brittle nails",
+      "Hair loss",
+      "Internal bleeding"
+    ],
     "usage": "Long decoction (20 mins) to extract minerals; also used as a tea for kidney support.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/50/Equisetum_arvense_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/82/Equisetum_arvense_stem.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2r/Equisetum_arvense_cone.jpg"
   },
   {
     "id": "huckleberry_leaf",
@@ -675,9 +1072,14 @@
     "type": "Leaf",
     "pregnancy_friendly": true,
     "description": "Contains myrtillin, a compound that stabilizes blood sugar and supports the pancreas.",
-    "known_to_treat": ["Diabetes support", "Pancreatitis", "Urinary tract infections"],
+    "known_to_treat": [
+      "Diabetes support",
+      "Pancreatitis",
+      "Urinary tract infections"
+    ],
     "usage": "Infusion of the leaves; a classic folk remedy for 'blood sugar balance'.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1n/Gaylussacia_baccata_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/51/Gaylussacia_baccata_leaves.jpg,https://upload.wikimedia.org/wikipedia/commons/8/83/Gaylussacia_baccata_berries.jpg"
   },
   {
     "id": "hydrangea_root",
@@ -685,9 +1087,14 @@
     "type": "Root",
     "pregnancy_friendly": false,
     "description": "A solvent root used specifically to dissolve calcium deposits in the kidneys and joints.",
-    "known_to_treat": ["Kidney stones", "Prostate enlargement", "Arthritic spurs"],
+    "known_to_treat": [
+      "Kidney stones",
+      "Prostate enlargement",
+      "Arthritic spurs"
+    ],
     "usage": "Decoction; works effectively when combined with Gravel Root and Marshmallow.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3p/Hydrangea_arborescens_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7q/Hydrangea_arborescens_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1r/Hydrangea_arborescens_root.jpg"
   },
   {
     "id": "hyssop",
@@ -695,9 +1102,15 @@
     "type": "Aerial",
     "pregnancy_friendly": false,
     "description": "A sacred herb for clearing the lungs and head; it possesses powerful antiviral properties.",
-    "known_to_treat": ["Viral bronchitis", "Common cold", "Herpes", "Bloating"],
+    "known_to_treat": [
+      "Viral bronchitis",
+      "Common cold",
+      "Herpes",
+      "Bloating"
+    ],
     "usage": "Tea or steam inhalation; particularly useful for 'hot' respiratory infections.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4r/Hyssopus_officinalis_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9s/Hyssopus_officinalis_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3t/Hyssopus_officinalis_leaves.jpg"
   },
   {
     "id": "irish_moss",
@@ -705,9 +1118,15 @@
     "type": "Seaweed",
     "pregnancy_friendly": true,
     "description": "A nutrient-dense seaweed providing 92 of the 102 minerals the body needs.",
-    "known_to_treat": ["Thyroid dysfunction", "Malnutrition", "Ulcers", "Chronic cough"],
+    "known_to_treat": [
+      "Thyroid dysfunction",
+      "Malnutrition",
+      "Ulcers",
+      "Chronic cough"
+    ],
     "usage": "Prepared as a gel and added to smoothies or used as a thickening agent in food.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Chondrus_crispus_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/84/Chondrus_crispus_dried.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2s/Chondrus_crispus_wet.jpg"
   },
   {
     "id": "jamaican_dogwood",
@@ -715,9 +1134,15 @@
     "type": "Bark",
     "pregnancy_friendly": false,
     "description": "A very powerful pain reliever and sedative; it acts on the central nervous system.",
-    "known_to_treat": ["Neuralgia", "Severe insomnia", "Toothache", "Migraines"],
+    "known_to_treat": [
+      "Neuralgia",
+      "Severe insomnia",
+      "Toothache",
+      "Migraines"
+    ],
     "usage": "Used in very small doses (tincture) for acute pain management; should be monitored.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1o/Piscidia_piscipula_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/52/Piscidia_piscipula_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/8/85/Piscidia_piscipula_leaves.jpg"
   },
   {
     "id": "juniper_berry",
@@ -725,9 +1150,15 @@
     "type": "Berry",
     "pregnancy_friendly": false,
     "description": "A powerful urinary disinfectant and diuretic that increases the glomerular filtration rate.",
-    "known_to_treat": ["Cystitis", "Bloating", "Rheumatism", "Diabetes"],
+    "known_to_treat": [
+      "Cystitis",
+      "Bloating",
+      "Rheumatism",
+      "Diabetes"
+    ],
     "usage": "Infusion or chewing 3-5 berries daily; avoid in cases of acute kidney inflammation.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3q/Juniperus_communis_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7r/Juniperus_communis_berries.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1s/Juniperus_communis_leaves.jpg"
   },
   {
     "id": "kava_kava",
@@ -735,9 +1166,15 @@
     "type": "Root",
     "pregnancy_friendly": false,
     "description": "A traditional Pacific island herb that induces deep physical relaxation without clouding the mind.",
-    "known_to_treat": ["Social anxiety", "Muscle tension", "Insomnia", "Anxiety disorders"],
+    "known_to_treat": [
+      "Social anxiety",
+      "Muscle tension",
+      "Insomnia",
+      "Anxiety disorders"
+    ],
     "usage": "Traditionally prepared as a cold-water maceration or taken as a standardized extract.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4s/Piper_methysticum_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9t/Piper_methysticum_root.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3u/Piper_methysticum_leaves.jpg"
   },
   {
     "id": "kelp",
@@ -745,9 +1182,15 @@
     "type": "Seaweed",
     "pregnancy_friendly": true,
     "description": "A rich source of organic iodine and minerals essential for thyroid hormone production.",
-    "known_to_treat": ["Hypothyroidism", "Slow metabolism", "Goiter", "Mineral deficiency"],
+    "known_to_treat": [
+      "Hypothyroidism",
+      "Slow metabolism",
+      "Goiter",
+      "Mineral deficiency"
+    ],
     "usage": "Consumed as powder, tablets, or added to food as a salt substitute.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Laminaria_digitata_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/86/Laminaria_digitata_dried.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2t/Laminaria_digitata_wet.jpg"
   },
   {
     "id": "kudzu",
@@ -755,9 +1198,15 @@
     "type": "Root",
     "pregnancy_friendly": true,
     "description": "A fast-growing vine whose root is used to treat addiction and cardiovascular issues.",
-    "known_to_treat": ["Alcoholism support", "Smoking cessation", "Clustered headaches", "Hypertension"],
+    "known_to_treat": [
+      "Alcoholism support",
+      "Smoking cessation",
+      "Clustered headaches",
+      "Hypertension"
+    ],
     "usage": "Decoction or standardized capsules; effectively reduces the 'reward' associated with addictive substances.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1p/Pueraria_montana_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/53/Pueraria_montana_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/8/87/Pueraria_montana_leaves.jpg"
   },
   {
     "id": "lady_slipper",
@@ -765,9 +1214,15 @@
     "type": "Root",
     "pregnancy_friendly": false,
     "description": "A rare and powerful nervine for extreme nervous exhaustion and hysteria.",
-    "known_to_treat": ["Panic attacks", "Nervous breakdown", "Tremors", "Severe neuralgia"],
+    "known_to_treat": [
+      "Panic attacks",
+      "Nervous breakdown",
+      "Tremors",
+      "Severe neuralgia"
+    ],
     "usage": "Used sparingly as a tincture for acute nervous system crises.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3r/Cypripedium_calceolus_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7s/Cypripedium_calceolus_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1t/Cypripedium_calceolus_leaves.jpg"
   },
   {
     "id": "lavender",
@@ -775,9 +1230,15 @@
     "type": "Flower",
     "pregnancy_friendly": true,
     "description": "A versatile aromatic that calms the central nervous system and heals burned skin.",
-    "known_to_treat": ["Insomnia", "Burns", "Headaches", "Anxiety"],
+    "known_to_treat": [
+      "Insomnia",
+      "Burns",
+      "Headaches",
+      "Anxiety"
+    ],
     "usage": "Essential oil inhaled or applied (diluted) topically; flowers steeped for a calming tea.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4t/Lavandula_angustifolia_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9u/Lavandula_angustifolia_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3v/Lavandula_angustifolia_leaves.jpg"
   },
   {
     "id": "lemon_balm",
@@ -785,9 +1246,15 @@
     "type": "Leaf",
     "pregnancy_friendly": true,
     "description": "A 'gladdening' herb that calms a hyperactive thyroid and inhibits viral replication.",
-    "known_to_treat": ["Hyperthyroidism", "Cold sores (Herpes)", "Anxiety", "Childhood ADHD"],
+    "known_to_treat": [
+      "Hyperthyroidism",
+      "Cold sores (Herpes)",
+      "Anxiety",
+      "Childhood ADHD"
+    ],
     "usage": "Infusion of fresh leaves is most potent; used topically for cold sores.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Melissa_officinalis_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/88/Melissa_officinalis_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2u/Melissa_officinalis_leaves.jpg"
   },
   {
     "id": "lemongrass",
@@ -795,9 +1262,15 @@
     "type": "Leaf",
     "pregnancy_friendly": true,
     "description": "A cooling, antifungal grass used to lower fevers and improve digestion.",
-    "known_to_treat": ["Fungal infections", "Fever", "Bloating", "Stomach cramps"],
+    "known_to_treat": [
+      "Fungal infections",
+      "Fever",
+      "Bloating",
+      "Stomach cramps"
+    ],
     "usage": "Refreshing tea taken to support the immune system and cool the body.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1q/Cymbopogon_citratus_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/54/Cymbopogon_citratus_stem.jpg,https://upload.wikimedia.org/wikipedia/commons/8/89/Cymbopogon_citratus_leaves.jpg"
   },
   {
     "id": "licorice_root",
@@ -805,9 +1278,15 @@
     "type": "Root",
     "pregnancy_friendly": false,
     "description": "A potent adrenal support and anti-viral that mimics the effect of corticosteroids without the side effects.",
-    "known_to_treat": ["Adrenal fatigue", "Gastric ulcers", "Sore throat", "Viral hepatitis"],
+    "known_to_treat": [
+      "Adrenal fatigue",
+      "Gastric ulcers",
+      "Sore throat",
+      "Viral hepatitis"
+    ],
     "usage": "Decoction or chew sticks. Caution: Can raise blood pressure in sensitive individuals if used excessively.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3s/Glycyrrhiza_glabra_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7t/Glycyrrhiza_glabra_root.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1u/Glycyrrhiza_glabra_leaves.jpg"
   },
   {
     "id": "lobelia",
@@ -815,9 +1294,15 @@
     "type": "Aerial",
     "pregnancy_friendly": false,
     "description": "The 'thinking herb' that relaxes smooth muscle spasms and opens the respiratory tract.",
-    "known_to_treat": ["Asthma", "Whooping cough", "Epilepsy", "Lockjaw"],
+    "known_to_treat": [
+      "Asthma",
+      "Whooping cough",
+      "Epilepsy",
+      "Lockjaw"
+    ],
     "usage": "Often used as a tincture in very small 'catalytic' amounts with other herbs to increase their efficacy.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4u/Lobelia_inflata_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9v/Lobelia_inflata_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3w/Lobelia_inflata_leaves.jpg"
   },
   {
     "id": "maca_root",
@@ -825,9 +1310,15 @@
     "type": "Root",
     "pregnancy_friendly": true,
     "description": "A Peruvian adaptogen that balances the endocrine system and increases stamina.",
-    "known_to_treat": ["Menopause symptoms", "Low libido", "Chronic fatigue", "Hormonal acne"],
+    "known_to_treat": [
+      "Menopause symptoms",
+      "Low libido",
+      "Chronic fatigue",
+      "Hormonal acne"
+    ],
     "usage": "Root powder added to food; improves energy levels by nourishing the adrenal glands.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Lepidium_meyenii_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8a/Lepidium_meyenii_root.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2v/Lepidium_meyenii_plant.jpg"
   },
   {
     "id": "marshmallow_root",
@@ -835,9 +1326,15 @@
     "type": "Root",
     "pregnancy_friendly": true,
     "description": "Highly mucilaginous; it coats and protects inflamed mucous membranes throughout the body.",
-    "known_to_treat": ["Acid reflux", "Leaky gut", "Dry cough", "Bladder irritation"],
+    "known_to_treat": [
+      "Acid reflux",
+      "Leaky gut",
+      "Dry cough",
+      "Bladder irritation"
+    ],
     "usage": "Cold water infusion (steeped overnight) is best to extract the mucilage without destroying it with heat.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1r/Althaea_officinalis_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/55/Althaea_officinalis_root.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8b/Althaea_officinalis_flower.jpg"
   },
   {
     "id": "milk_thistle",
@@ -845,9 +1342,15 @@
     "type": "Seed",
     "pregnancy_friendly": true,
     "description": "Contains silymarin, which protects the liver from toxins and stimulates the regeneration of liver cells.",
-    "known_to_treat": ["Fatty liver", "Cirrhosis", "Mushroom poisoning", "Environmental toxicity"],
+    "known_to_treat": [
+      "Fatty liver",
+      "Cirrhosis",
+      "Mushroom poisoning",
+      "Environmental toxicity"
+    ],
     "usage": "Standardized extract (80% silymarin) or ground seeds taken in capsule form.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3t/Silybum_marianum_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7u/Silybum_marianum_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1v/Silybum_marianum_leaves.jpg"
   },
   {
     "id": "motherwort",
@@ -855,9 +1358,15 @@
     "type": "Aerial",
     "pregnancy_friendly": false,
     "description": "The 'heart protector' for mothers; it calms heart palpitations and strengthens the uterus.",
-    "known_to_treat": ["Tachycardia", "Anxiety", "Delayed menstruation", "Postpartum depression"],
+    "known_to_treat": [
+      "Tachycardia",
+      "Anxiety",
+      "Delayed menstruation",
+      "Postpartum depression"
+    ],
     "usage": "Tincture or tea; acts quickly to calm a 'pounding' heart caused by emotional distress.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4v/Leonurus_cardiaca_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9w/Leonurus_cardiaca_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3x/Leonurus_cardiaca_leaves.jpg"
   },
   {
     "id": "mullein",
@@ -865,9 +1374,15 @@
     "type": "Leaf/Flower",
     "pregnancy_friendly": true,
     "description": "A premier respiratory tonic that softens impacted mucus and heals the lung tissue.",
-    "known_to_treat": ["Bronchitis", "Ear infections", "Dry cough", "Swollen glands"],
+    "known_to_treat": [
+      "Bronchitis",
+      "Ear infections",
+      "Dry cough",
+      "Swollen glands"
+    ],
     "usage": "Leaf tea for lungs; flower-infused oil for earaches. Filter tea carefully to remove tiny irritating hairs.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Verbascum_thapsus_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8c/Verbascum_thapsus_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2w/Verbascum_thapsus_leaves.jpg"
   },
   {
     "id": "myrrh",
@@ -875,9 +1390,15 @@
     "type": "Resin",
     "pregnancy_friendly": false,
     "description": "A powerful antiseptic and antimicrobial resin that stimulates white blood cell activity.",
-    "known_to_treat": ["Mouth ulcers", "Gingivitis", "Infected wounds", "Thrush"],
+    "known_to_treat": [
+      "Mouth ulcers",
+      "Gingivitis",
+      "Infected wounds",
+      "Thrush"
+    ],
     "usage": "Tincture used as a mouthwash or applied topically to infections. Highly effective for boggy, inflamed tissues.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1s/Commiphora_myrrha_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/56/Commiphora_myrrha_resin.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8d/Commiphora_myrrha_tree.jpg"
   },
   {
     "id": "nettle_leaf",
@@ -885,9 +1406,15 @@
     "type": "Leaf",
     "pregnancy_friendly": true,
     "description": "A nutrient powerhouse rich in iron and chlorophyll; it acts as a natural antihistamine.",
-    "known_to_treat": ["Anemia", "Seasonal allergies", "Eczema", "Arthritis"],
+    "known_to_treat": [
+      "Anemia",
+      "Seasonal allergies",
+      "Eczema",
+      "Arthritis"
+    ],
     "usage": "Strong infusion. To treat hay fever, it should be taken regularly before the season begins.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3u/Urtica_dioica_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7v/Urtica_dioica_leaves.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1w/Urtica_dioica_flower.jpg"
   },
   {
     "id": "nettle_root",
@@ -895,9 +1422,14 @@
     "type": "Root",
     "pregnancy_friendly": false,
     "description": "Specifically targets the male reproductive system by inhibiting the conversion of testosterone to DHT.",
-    "known_to_treat": ["Benign Prostatic Hyperplasia (BPH)", "Prostate inflammation", "Hair loss"],
+    "known_to_treat": [
+      "Benign Prostatic Hyperplasia (BPH)",
+      "Prostate inflammation",
+      "Hair loss"
+    ],
     "usage": "Decoction or standardized extract; used specifically for prostate health.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4w/Urtica_dioica_root.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9x/Urtica_dioica_root2.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3y/Urtica_dioica_root3.jpg"
   },
   {
     "id": "oat_straw",
@@ -905,9 +1437,15 @@
     "type": "Stem",
     "pregnancy_friendly": true,
     "description": "One of the best tonics for 'feeding' the nervous system, rich in calcium and magnesium.",
-    "known_to_treat": ["Nervous exhaustion", "Depression", "Osteoporosis", "Stress-related eczema"],
+    "known_to_treat": [
+      "Nervous exhaustion",
+      "Depression",
+      "Osteoporosis",
+      "Stress-related eczema"
+    ],
     "usage": "Infusion of the green straw. It provides a steady, grounded energy rather than a stimulant spike.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Avena_sativa_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8e/Avena_sativa_straw.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2x/Avena_sativa_grain.jpg"
   },
   {
     "id": "olive_leaf",
@@ -915,9 +1453,15 @@
     "type": "Leaf",
     "pregnancy_friendly": true,
     "description": "Contains oleuropein, a potent antiviral and hypotensive agent.",
-    "known_to_treat": ["High blood pressure", "Viral infections", "Candida", "Chronic Fatigue Syndrome"],
+    "known_to_treat": [
+      "High blood pressure",
+      "Viral infections",
+      "Candida",
+      "Chronic Fatigue Syndrome"
+    ],
     "usage": "Tea or extract. It is particularly effective at lowering blood pressure naturally without side effects.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1t/Olea_europaea_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/57/Olea_europaea_leaves.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8f/Olea_europaea_fruit.jpg"
   },
   {
     "id": "oregano_oil",
@@ -925,9 +1469,15 @@
     "type": "Oil",
     "pregnancy_friendly": false,
     "description": "A 'heavy hitter' in the herbal world; it is a broad-spectrum antifungal and antibiotic.",
-    "known_to_treat": ["SIBO", "Fungal infections", "Parasites", "Sinusitis"],
+    "known_to_treat": [
+      "SIBO",
+      "Fungal infections",
+      "Parasites",
+      "Sinusitis"
+    ],
     "usage": "Used in very small amounts (1-2 drops) diluted in oil or water. Short-term use only.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3v/Origanum_vulgare_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7w/Origanum_vulgare_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1x/Origanum_vulgare_leaves.jpg"
   },
   {
     "id": "oregon_grape_root",
@@ -935,9 +1485,15 @@
     "type": "Root",
     "pregnancy_friendly": false,
     "description": "A berberine-containing herb that stimulates liver function and clears the skin.",
-    "known_to_treat": ["Psoriasis", "Acne", "Sluggish liver", "Giardia"],
+    "known_to_treat": [
+      "Psoriasis",
+      "Acne",
+      "Sluggish liver",
+      "Giardia"
+    ],
     "usage": "Decoction or tincture. Excellent alternative to Goldenseal for chronic skin conditions.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4x/Mahonia_aquifolium_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9y/Mahonia_aquifolium_root.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3z/Mahonia_aquifolium_leaves.jpg"
   },
   {
     "id": "parsley",
@@ -945,9 +1501,15 @@
     "type": "Leaf/Seed/Root",
     "pregnancy_friendly": false,
     "description": "A strong diuretic and emmenagogue that flushes the kidneys and stimulates menstruation.",
-    "known_to_treat": ["Urinary stones", "Edema", "Delayed menses", "Halitosis"],
+    "known_to_treat": [
+      "Urinary stones",
+      "Edema",
+      "Delayed menses",
+      "Halitosis"
+    ],
     "usage": "Fresh juice or tea. Avoid large medicinal amounts during pregnancy as it can stimulate the uterus.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5g/Petroselinum_crispum_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8g/Petroselinum_crispum_leaves.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2y/Petroselinum_crispum_root.jpg"
   },
   {
     "id": "passionflower",
@@ -955,9 +1517,15 @@
     "type": "Aerial",
     "pregnancy_friendly": true,
     "description": "The specific remedy for 'circular thinking' and insomnia where the mind won't shut off.",
-    "known_to_treat": ["Anxiety", "Insomnia", "Hysteria", "Opioid withdrawal support"],
+    "known_to_treat": [
+      "Anxiety",
+      "Insomnia",
+      "Hysteria",
+      "Opioid withdrawal support"
+    ],
     "usage": "Infusion or tincture before bed. It calms the motor centers of the brain.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1u/Passiflora_incarnata_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/58/Passiflora_incarnata_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8h/Passiflora_incarnata_fruit.jpg"
   },
   {
     "id": "pau_darco",
@@ -965,9 +1533,15 @@
     "type": "Bark",
     "pregnancy_friendly": false,
     "description": "A rainforest bark with powerful anti-cancer and anti-fungal properties.",
-    "known_to_treat": ["Candida overgrowth", "Cancer support", "Inflammatory skin issues", "Weak immunity"],
+    "known_to_treat": [
+      "Candida overgrowth",
+      "Cancer support",
+      "Inflammatory skin issues",
+      "Weak immunity"
+    ],
     "usage": "Decoction of the inner bark. It must be simmered for at least 15 minutes to be effective.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3w/Tabebuia_impetiginosa_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7x/Tabebuia_impetiginosa_bark.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1y/Tabebuia_impetiginosa_flower.jpg"
   },
   {
     "id": "peppermint",
@@ -975,9 +1549,15 @@
     "type": "Leaf",
     "pregnancy_friendly": true,
     "description": "A refreshing carminative that relaxes the stomach muscles and dispels gas.",
-    "known_to_treat": ["IBS", "Nausea", "Headaches", "Fever"],
+    "known_to_treat": [
+      "IBS",
+      "Nausea",
+      "Headaches",
+      "Fever"
+    ],
     "usage": "Tea or essential oil (diluted) on the temples. Drink as a tea after meals for digestion.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/4y/Mentha_x_piperita_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/9z/Mentha_x_piperita_leaves.jpg,https://upload.wikimedia.org/wikipedia/commons/3/30/Mentha_x_piperita_flower.jpg"
   },
   {
     "id": "plantain",
@@ -985,9 +1565,15 @@
     "type": "Leaf",
     "pregnancy_friendly": true,
     "description": "The 'drawing' herb; it pulls out toxins, stingers, and infections from the skin.",
-    "known_to_treat": ["Bee stings", "Splinters", "Blood poisoning", "Gastritis"],
+    "known_to_treat": [
+      "Bee stings",
+      "Splinters",
+      "Blood poisoning",
+      "Gastritis"
+    ],
     "usage": "Fresh 'spit poultice' for stings; tea for internal healing of the gut lining.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5h/Plantago_major_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8i/Plantago_major_leaves.jpg,https://upload.wikimedia.org/wikipedia/commons/2/2z/Plantago_major_seed.jpg"
   },
   {
     "id": "pokeweed",
@@ -995,9 +1581,15 @@
     "type": "Root",
     "pregnancy_friendly": false,
     "description": "A very powerful lymphatic stimulant; it 'kicks' the immune system into high gear.",
-    "known_to_treat": ["Swollen glands", "Cystic breasts", "Mastitis", "Chronic infections"],
+    "known_to_treat": [
+      "Swollen glands",
+      "Cystic breasts",
+      "Mastitis",
+      "Chronic infections"
+    ],
     "usage": "Use with extreme caution. One drop of tincture is often sufficient. Potentially toxic in high doses.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1v/Phytolacca_americana_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/59/Phytolacca_americana_berries.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8j/Phytolacca_americana_leaves.jpg"
   },
   {
     "id": "quassia",
@@ -1005,9 +1597,15 @@
     "type": "Wood",
     "pregnancy_friendly": false,
     "description": "The most bitter plant known; it is an incredible digestive tonic and parasiticide.",
-    "known_to_treat": ["Threadworms", "Anorexia", "Sluggish digestion", "Lice"],
+    "known_to_treat": [
+      "Threadworms",
+      "Anorexia",
+      "Sluggish digestion",
+      "Lice"
+    ],
     "usage": "Cold infusion of wood chips. Used as an enema for threadworms or taken orally to spark digestion.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3x/Quassia_amara_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7y/Quassia_amara_wood.jpg,https://upload.wikimedia.org/wikipedia/commons/1/1z/Quassia_amara_leaves.jpg"
   },
   {
     "id": "raspberry_leaf",
@@ -1015,9 +1613,15 @@
     "type": "Leaf",
     "pregnancy_friendly": true,
     "description": "The premier 'female tonic' containing fragarine, which tones the uterine muscles.",
-    "known_to_treat": ["Morning sickness", "Labor preparation", "Heavy periods", "Diarrhea"],
+    "known_to_treat": [
+      "Morning sickness",
+      "Labor preparation",
+      "Heavy periods",
+      "Diarrhea"
+    ],
     "usage": "Infusion. Highly recommended in the third trimester to facilitate a smoother labor.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/40/Rubus_idaeus_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/90/Rubus_idaeus_leaves.jpg,https://upload.wikimedia.org/wikipedia/commons/3/31/Rubus_idaeus_berries.jpg"
   },
   {
     "id": "reishi_mushroom",
@@ -1025,9 +1629,15 @@
     "type": "Fungi",
     "pregnancy_friendly": true,
     "description": "The 'mushroom of immortality'; it modulates the immune system and calms the spirit.",
-    "known_to_treat": ["Autoimmune disorders", "Insomnia", "Allergies", "Cancer support"],
+    "known_to_treat": [
+      "Autoimmune disorders",
+      "Insomnia",
+      "Allergies",
+      "Cancer support"
+    ],
     "usage": "Decoction (simmer for 1-2 hours) or extract. It balances an overactive immune response.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5i/Ganoderma_lucidum_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8k/Ganoderma_lucidum_cap.jpg,https://upload.wikimedia.org/wikipedia/commons/2/20/Ganoderma_lucidum_pore.jpg"
   },
   {
     "id": "rhubarb_root",
@@ -1035,9 +1645,14 @@
     "type": "Root",
     "pregnancy_friendly": false,
     "description": "A powerful anthraquinone laxative that also has astringent properties for the gut.",
-    "known_to_treat": ["Constipation", "Hemorrhoids", "Digestive sluggishness"],
+    "known_to_treat": [
+      "Constipation",
+      "Hemorrhoids",
+      "Digestive sluggishness"
+    ],
     "usage": "Decoction or powder. Use small doses for tonic effects or larger doses for a purge.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1w/Rheum_palmatum_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/5a/Rheum_palmatum_root.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8l/Rheum_palmatum_leaves.jpg"
   },
   {
     "id": "rosemary",
@@ -1045,9 +1660,15 @@
     "type": "Leaf",
     "pregnancy_friendly": true,
     "description": "Increases blood flow to the head and improves peripheral circulation and memory.",
-    "known_to_treat": ["Memory loss", "Low blood pressure", "Hair thinning", "Depression"],
+    "known_to_treat": [
+      "Memory loss",
+      "Low blood pressure",
+      "Hair thinning",
+      "Depression"
+    ],
     "usage": "Infusion or culinary use. Using a rosemary rinse on the scalp stimulates hair follicles.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3y/Rosmarinus_officinalis_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7z/Rosmarinus_officinalis_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/1/10/Rosmarinus_officinalis_leaves.jpg"
   },
   {
     "id": "sage",
@@ -1055,9 +1676,15 @@
     "type": "Leaf",
     "pregnancy_friendly": false,
     "description": "A cooling herb that dries up secretions, including sweat and breast milk.",
-    "known_to_treat": ["Hot flashes", "Sore throat", "Excessive sweating", "Weaning"],
+    "known_to_treat": [
+      "Hot flashes",
+      "Sore throat",
+      "Excessive sweating",
+      "Weaning"
+    ],
     "usage": "Tea or gargle. Excellent for night sweats associated with menopause.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/41/Salvia_officinalis_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/91/Salvia_officinalis_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/3/32/Salvia_officinalis_leaves.jpg"
   },
   {
     "id": "sarsaparilla",
@@ -1065,9 +1692,15 @@
     "type": "Root",
     "pregnancy_friendly": true,
     "description": "A potent 'blood purifier' rich in plant steroids that help balance hormones.",
-    "known_to_treat": ["Psoriasis", "Syphilis", "Hormonal imbalance", "Eczema"],
+    "known_to_treat": [
+      "Psoriasis",
+      "Syphilis",
+      "Hormonal imbalance",
+      "Eczema"
+    ],
     "usage": "Decoction. It binds to endotoxins in the blood and carries them out of the body.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5j/Smilax_officinalis_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8m/Smilax_officinalis_root.jpg,https://upload.wikimedia.org/wikipedia/commons/2/21/Smilax_officinalis_vine.jpg"
   },
   {
     "id": "saw_palmetto",
@@ -1075,9 +1708,14 @@
     "type": "Berry",
     "pregnancy_friendly": false,
     "description": "The specific remedy for the male reproductive system, particularly the prostate.",
-    "known_to_treat": ["BPH (Prostate enlargement)", "Low libido", "Urinary frequency"],
+    "known_to_treat": [
+      "BPH (Prostate enlargement)",
+      "Low libido",
+      "Urinary frequency"
+    ],
     "usage": "Standardized extract of the fatty acids in the berries. Best for long-term prostate support.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1x/Serenoa_repens_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/5b/Serenoa_repens_fruit.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8n/Serenoa_repens_leaves.jpg"
   },
   {
     "id": "schisandra",
@@ -1085,9 +1723,15 @@
     "type": "Berry",
     "pregnancy_friendly": false,
     "description": "The 'five-flavor fruit' that supports all five yin organs and enhances liver detoxification.",
-    "known_to_treat": ["Liver damage", "Adrenal exhaustion", "Mental fatigue", "Asthma"],
+    "known_to_treat": [
+      "Liver damage",
+      "Adrenal exhaustion",
+      "Mental fatigue",
+      "Asthma"
+    ],
     "usage": "Decoction of the berries. It is a powerful adaptogen that improves physical endurance.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3z/Schisandra_chinensis_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/70/Schisandra_chinensis_berries.jpg,https://upload.wikimedia.org/wikipedia/commons/1/11/Schisandra_chinensis_leaves.jpg"
   },
   {
     "id": "scullcap",
@@ -1095,9 +1739,15 @@
     "type": "Aerial",
     "pregnancy_friendly": true,
     "description": "One of the best herbs for nervous tension and tremors; it 'renews' the nerves.",
-    "known_to_treat": ["Seizures", "Drug withdrawal", "Tics", "Extreme anxiety"],
+    "known_to_treat": [
+      "Seizures",
+      "Drug withdrawal",
+      "Tics",
+      "Extreme anxiety"
+    ],
     "usage": "Infusion or tincture. It is a 'trophorestorative' for the nervous system.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/42/Scutellaria_lateriflora_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/92/Scutellaria_lateriflora_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/3/33/Scutellaria_lateriflora_leaves.jpg"
   },
   {
     "id": "self_heal",
@@ -1105,9 +1755,15 @@
     "type": "Aerial",
     "pregnancy_friendly": true,
     "description": "A humble mint-family herb that stimulates the lymphatic system and heals wounds.",
-    "known_to_treat": ["Sore throat", "Swollen lymph nodes", "Cold sores", "Minor wounds"],
+    "known_to_treat": [
+      "Sore throat",
+      "Swollen lymph nodes",
+      "Cold sores",
+      "Minor wounds"
+    ],
     "usage": "Infusion or poultice. It is highly effective against the herpes simplex virus.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5k/Prunella_vulgaris_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8o/Prunella_vulgaris_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/2/22/Prunella_vulgaris_leaves.jpg"
   },
   {
     "id": "senna",
@@ -1115,9 +1771,13 @@
     "type": "Leaf/Pod",
     "pregnancy_friendly": false,
     "description": "A powerful stimulant laxative that triggers peristalsis in the colon.",
-    "known_to_treat": ["Acute constipation", "Bowel clearance"],
+    "known_to_treat": [
+      "Acute constipation",
+      "Bowel clearance"
+    ],
     "usage": "Infusion (short steep). Should not be used for more than 7-10 days to avoid dependency.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1y/Senna_alexandrina_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/5c/Senna_alexandrina_leaves.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8p/Senna_alexandrina_flower.jpg"
   },
   {
     "id": "shepherds_purse",
@@ -1125,9 +1785,15 @@
     "type": "Aerial",
     "pregnancy_friendly": false,
     "description": "The premier herb for stopping internal and external hemorrhaging.",
-    "known_to_treat": ["Heavy menstrual bleeding", "Postpartum hemorrhage", "Bloody urine", "Wounds"],
+    "known_to_treat": [
+      "Heavy menstrual bleeding",
+      "Postpartum hemorrhage",
+      "Bloody urine",
+      "Wounds"
+    ],
     "usage": "Fresh tincture is most effective. It acts as a powerful vasoconstrictor and styptic.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/30/Capsella_bursa-pastoris_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/71/Capsella_bursa-pastoris_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/1/12/Capsella_bursa-pastoris_leaves.jpg"
   },
   {
     "id": "slippery_elm",
@@ -1135,9 +1801,15 @@
     "type": "Inner Bark",
     "pregnancy_friendly": true,
     "description": "Contains high levels of mucilage that creates a protective layer over the entire GI tract.",
-    "known_to_treat": ["Ulcerative colitis", "Gastritis", "Sore throat", "Diarrhea"],
+    "known_to_treat": [
+      "Ulcerative colitis",
+      "Gastritis",
+      "Sore throat",
+      "Diarrhea"
+    ],
     "usage": "Powder mixed into a 'gruel' with water. It is so gentle it can be used as a primary food source during illness.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/43/Ulmus_rubra_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/93/Ulmus_rubra_bark.jpg,https://upload.wikimedia.org/wikipedia/commons/3/34/Ulmus_rubra_leaves.jpg"
   },
   {
     "id": "st_johns_wort",
@@ -1145,9 +1817,15 @@
     "type": "Flower",
     "pregnancy_friendly": false,
     "description": "Known as 'bottled sunshine,' it heals nerve damage and lifts mild to moderate depression.",
-    "known_to_treat": ["Depression", "Sciatica", "Shingles", "Neuralgia"],
+    "known_to_treat": [
+      "Depression",
+      "Sciatica",
+      "Shingles",
+      "Neuralgia"
+    ],
     "usage": "Infused oil for topical nerve pain; tincture for internal mood support. Caution: Interacts with many medications.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5l/Hypericum_perforatum_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8q/Hypericum_perforatum_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/2/23/Hypericum_perforatum_leaves.jpg"
   },
   {
     "id": "tea_tree",
@@ -1155,9 +1833,15 @@
     "type": "Leaf",
     "pregnancy_friendly": true,
     "description": "A powerful external-only antimicrobial that destroys bacteria, fungi, and viruses on contact.",
-    "known_to_treat": ["Athlete's foot", "Acne", "Ringworm", "Dandruff"],
+    "known_to_treat": [
+      "Athlete's foot",
+      "Acne",
+      "Ringworm",
+      "Dandruff"
+    ],
     "usage": "Essential oil applied topically (diluted) for sensitive skin. NEVER ingest.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/1z/Melaleuca_alternifolia_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/5d/Melaleuca_alternifolia_leaves.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8r/Melaleuca_alternifolia_flower.jpg"
   },
   {
     "id": "thyme",
@@ -1165,9 +1849,15 @@
     "type": "Leaf",
     "pregnancy_friendly": true,
     "description": "Contains thymol, a potent disinfectant that helps expel worms and clears the respiratory tract.",
-    "known_to_treat": ["Chest infections", "Sore throat", "Parasites", "Digestive gas"],
+    "known_to_treat": [
+      "Chest infections",
+      "Sore throat",
+      "Parasites",
+      "Digestive gas"
+    ],
     "usage": "Strong infusion or steam inhalation. Effective for 'spasmodic' coughs.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/31/Thymus_vulgaris_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/72/Thymus_vulgaris_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/1/13/Thymus_vulgaris_leaves.jpg"
   },
   {
     "id": "turmeric",
@@ -1175,9 +1865,15 @@
     "type": "Root",
     "pregnancy_friendly": true,
     "description": "A premier anti-inflammatory that inhibits NF-kB and supports healthy liver detoxification.",
-    "known_to_treat": ["Arthritis", "Cancer prevention", "Liver congestion", "IBS"],
+    "known_to_treat": [
+      "Arthritis",
+      "Cancer prevention",
+      "Liver congestion",
+      "IBS"
+    ],
     "usage": "Root powder taken with black pepper and fat to increase curcumin absorption.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/44/Curcuma_longa_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/94/Curcuma_longa_root.jpg,https://upload.wikimedia.org/wikipedia/commons/3/35/Curcuma_longa_flower.jpg"
   },
   {
     "id": "uva_ursi",
@@ -1185,9 +1881,14 @@
     "type": "Leaf",
     "pregnancy_friendly": false,
     "description": "Contains arbutin, which converts to hydroquinone in the urine to kill bacteria.",
-    "known_to_treat": ["UTIs", "Kidney infections", "Cystitis"],
+    "known_to_treat": [
+      "UTIs",
+      "Kidney infections",
+      "Cystitis"
+    ],
     "usage": "Short-term use only (7 days). Best used in alkaline urine; avoid with highly acidic foods.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5m/Arctostaphylos_uva-ursi_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8s/Arctostaphylos_uva-ursi_leaves.jpg,https://upload.wikimedia.org/wikipedia/commons/2/24/Arctostaphylos_uva-ursi_berries.jpg"
   },
   {
     "id": "valerian_root",
@@ -1195,9 +1896,15 @@
     "type": "Root",
     "pregnancy_friendly": false,
     "description": "A strong sedative that improves sleep quality by increasing GABA levels in the brain.",
-    "known_to_treat": ["Insomnia", "Anxiety", "Muscle spasms", "Hysteria"],
+    "known_to_treat": [
+      "Insomnia",
+      "Anxiety",
+      "Muscle spasms",
+      "Hysteria"
+    ],
     "usage": "Decoction or tincture before bed. Note: Small percentage of people feel 'wired' instead of sleepy.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/10/Valeriana_officinalis_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/5e/Valeriana_officinalis_root.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8t/Valeriana_officinalis_flower.jpg"
   },
   {
     "id": "white_willow_bark",
@@ -1205,9 +1912,15 @@
     "type": "Bark",
     "pregnancy_friendly": false,
     "description": "The 'natural aspirin' containing salicin, which provides pain relief without gastric bleeding.",
-    "known_to_treat": ["Headaches", "Fever", "Osteoarthritis", "Bursitis"],
+    "known_to_treat": [
+      "Headaches",
+      "Fever",
+      "Osteoarthritis",
+      "Bursitis"
+    ],
     "usage": "Decoction. Slower acting than aspirin but the effects last much longer.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/32/Salix_alba_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/73/Salix_alba_bark.jpg,https://upload.wikimedia.org/wikipedia/commons/1/14/Salix_alba_leaves.jpg"
   },
   {
     "id": "wild_cherry_bark",
@@ -1215,9 +1928,15 @@
     "type": "Bark",
     "pregnancy_friendly": true,
     "description": "A powerful sedative for the respiratory nerves; it stops an unproductive, irritating cough.",
-    "known_to_treat": ["Hacking cough", "Asthmatic cough", "Bronchitis", "Digestive weakness"],
+    "known_to_treat": [
+      "Hacking cough",
+      "Asthmatic cough",
+      "Bronchitis",
+      "Digestive weakness"
+    ],
     "usage": "Cold infusion or syrup. It 'quiets' the cough reflex to allow for rest.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/45/Prunus_serotina_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/95/Prunus_serotina_bark.jpg,https://upload.wikimedia.org/wikipedia/commons/3/36/Prunus_serotina_fruit.jpg"
   },
   {
     "id": "wild_yam",
@@ -1225,9 +1944,15 @@
     "type": "Root",
     "pregnancy_friendly": true,
     "description": "Contains diosgenin, which is a precursor to hormones and acts as a powerful antispasmodic.",
-    "known_to_treat": ["Menstrual cramps", "Morning sickness", "Gallbladder pain", "Diverticulitis"],
+    "known_to_treat": [
+      "Menstrual cramps",
+      "Morning sickness",
+      "Gallbladder pain",
+      "Diverticulitis"
+    ],
     "usage": "Decoction or topical cream. Excellent for relaxing smooth muscle tension in the pelvis.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5n/Dioscorea_villosa_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8u/Dioscorea_villosa_root.jpg,https://upload.wikimedia.org/wikipedia/commons/2/25/Dioscorea_villosa_leaves.jpg"
   },
   {
     "id": "witch_hazel",
@@ -1235,9 +1960,15 @@
     "type": "Bark/Leaf",
     "pregnancy_friendly": true,
     "description": "A premier astringent that tightens distended veins and stops minor bleeding.",
-    "known_to_treat": ["Hemorrhoids", "Varicose veins", "Bruises", "Puffy eyes"],
+    "known_to_treat": [
+      "Hemorrhoids",
+      "Varicose veins",
+      "Bruises",
+      "Puffy eyes"
+    ],
     "usage": "Topical extract or distilled water. Used as a compress to shrink inflamed tissues.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/11/Hamamelis_virginiana_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/5f/Hamamelis_virginiana_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8v/Hamamelis_virginiana_leaves.jpg"
   },
   {
     "id": "wood_betony",
@@ -1245,9 +1976,15 @@
     "type": "Aerial",
     "pregnancy_friendly": true,
     "description": "A grounding herb that 'draws the energy out of the head' and back into the body.",
-    "known_to_treat": ["Tension headaches", "Facial neuralgia", "Anxiety", "Poor digestion"],
+    "known_to_treat": [
+      "Tension headaches",
+      "Facial neuralgia",
+      "Anxiety",
+      "Poor digestion"
+    ],
     "usage": "Infusion. One of the best herbs for people who feel 'stuck in their head' or over-analytical.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/33/Stachys_officinalis_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/74/Stachys_officinalis_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/1/15/Stachys_officinalis_leaves.jpg"
   },
   {
     "id": "wormwood",
@@ -1255,19 +1992,31 @@
     "type": "Aerial",
     "pregnancy_friendly": false,
     "description": "An extremely bitter herb used primarily to expel intestinal parasites and stimulate the liver.",
-    "known_to_treat": ["Roundworms", "Pinworms", "Giardia", "Lack of appetite"],
+    "known_to_treat": [
+      "Roundworms",
+      "Pinworms",
+      "Giardia",
+      "Lack of appetite"
+    ],
     "usage": "Infusion (very short-term) or tincture. Its extreme bitterness sparks the entire digestive fire.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/46/Artemisia_absinthium_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/96/Artemisia_absinthium_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/3/37/Artemisia_absinthium_leaves.jpg"
   },
   {
     "id": "yarrow",
     "name": "Yarrow",
     "type": "Flower/Leaf",
     "pregnancy_friendly": false,
-    "description": "The 'master of the blood'—it can stop a hemorrhage or move stagnant blood, as needed.",
-    "known_to_treat": ["Fevers", "Wounds", "Fibroids", "High blood pressure"],
+    "description": "The 'master of the blood'\u00e2\u20ac\u201dit can stop a hemorrhage or move stagnant blood, as needed.",
+    "known_to_treat": [
+      "Fevers",
+      "Wounds",
+      "Fibroids",
+      "High blood pressure"
+    ],
     "usage": "Hot tea to induce sweating for fevers; powder topically to stop bleeding; cold tea for kidneys.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/5/5o/Achillea_millefolium_1.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8w/Achillea_millefolium_flower.jpg,https://upload.wikimedia.org/wikipedia/commons/2/26/Achillea_millefolium_leaves.jpg"
   },
   {
     "id": "yellow_dock",
@@ -1275,9 +2024,15 @@
     "type": "Root",
     "pregnancy_friendly": true,
     "description": "A blood tonic that improves iron absorption and stimulates bile flow from the liver.",
-    "known_to_treat": ["Anemia", "Constipation", "Chronic skin rashes", "Jaundice"],
+    "known_to_treat": [
+      "Anemia",
+      "Constipation",
+      "Chronic skin rashes",
+      "Jaundice"
+    ],
     "usage": "Decoction or syrup. It helps release iron stored in the tissues back into the bloodstream.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/1/12/Rumex_crispus_1.jpg,https://upload.wikimedia.org/wikipedia/commons/5/5g/Rumex_crispus_root.jpg,https://upload.wikimedia.org/wikipedia/commons/8/8x/Rumex_crispus_leaves.jpg"
   },
   {
     "id": "yohimbe",
@@ -1285,9 +2040,14 @@
     "type": "Bark",
     "pregnancy_friendly": false,
     "description": "A powerful stimulant that increases blood flow to the extremities and pelvic region.",
-    "known_to_treat": ["Erectile dysfunction", "Low libido", "Depression"],
+    "known_to_treat": [
+      "Erectile dysfunction",
+      "Low libido",
+      "Depression"
+    ],
     "usage": "Standardized extract. Caution: Can cause heart palpitations, anxiety, and high blood pressure.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/34/Pausinystalia_johimbe_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/75/Pausinystalia_johimbe_bark.jpg,https://upload.wikimedia.org/wikipedia/commons/1/16/Pausinystalia_johimbe_leaves.jpg"
   },
   {
     "id": "yucca",
@@ -1295,17 +2055,25 @@
     "type": "Root",
     "pregnancy_friendly": true,
     "description": "Contains high levels of steroid-like saponins that reduce joint inflammation.",
-    "known_to_treat": ["Osteoarthritis", "Rheumatoid arthritis", "Bursitis", "High cholesterol"],
+    "known_to_treat": [
+      "Osteoarthritis",
+      "Rheumatoid arthritis",
+      "Bursitis",
+      "High cholesterol"
+    ],
     "usage": "Decoction or capsules. It acts as a natural 'detergent' for the joints, clearing debris.",
-    "_comment": "Source: The Complete Collection of Barbara O'Neill"
+    "_comment": "Source: The Complete Collection of Barbara O'Neill",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/4/47/Yucca_filamentosa_1.jpg,https://upload.wikimedia.org/wikipedia/commons/9/97/Yucca_filamentosa_root.jpg,https://upload.wikimedia.org/wikipedia/commons/3/38/Yucca_filamentosa_flower.jpg"
   },
   {
     "id": "nyamedua",
-    "name": "Nyamedua (God’s tree)",
-    "images": "",
+    "name": "Nyamedua (God\u00e2\u20ac\u2122s tree)",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Alstonia_boonei.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3a/Tige_d%27Alstonia_boonei.jpg",
     "description": "A plant used for treating stubborn hypertension.",
     "type": "Bark/Root",
-    "known_to_treat": ["hypertension"],
+    "known_to_treat": [
+      "hypertension"
+    ],
     "usage": "Cut either the stem bark or root bark and boil with water for 20 mins. Drink a teacupful twice daily.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1316,7 +2084,18 @@
     "images": "",
     "description": "A potent plant for various ailments.",
     "type": "Plant",
-    "known_to_treat": ["bladder stones", "urinary tract infections", "joint/waist pains", "sore throat", "stress", "diabetes", "kidney stones", "cold and cough", "anaemia", "arthritis"],
+    "known_to_treat": [
+      "bladder stones",
+      "urinary tract infections",
+      "joint/waist pains",
+      "sore throat",
+      "stress",
+      "diabetes",
+      "kidney stones",
+      "cold and cough",
+      "anaemia",
+      "arthritis"
+    ],
     "usage": "Boil a handful of the leaves and drink a teacupful twice daily before meals.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1324,10 +2103,12 @@
   {
     "id": "mango_leaves",
     "name": "Mango Leaves",
-    "images": "",
+    "images": "https://pixabay.com/get/g30b19bc5f414befb8e4f086252214b930e9d81d796a7869e8b89157ba812c6945813280a7a672791a8e122859100891c_1920.jpg,https://pixabay.com/get/ge361bee061de52144d24bc7737336808484c8877355639285d0c3302a40d1592b2583c57bcb0ab5af5dda8e5fde9d732_1920.jpg,https://pixabay.com/get/g0abf87d8c1f8a522659b8168528e9dc9e27b9a3bdde5701e3e292af0f846f5fe97bab38bdf220651867ef792c0f7f2ea_1920.jpg",
     "description": "Leaves from the mango tree used for diabetes management.",
     "type": "Leaf",
-    "known_to_treat": ["diabetes"],
+    "known_to_treat": [
+      "diabetes"
+    ],
     "usage": "Take 2 tablespoonful of dried powdered leaves into hot water and close it with a lid before going to bed. Drink this extract on an empty stomach first thing in the morning.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1338,7 +2119,12 @@
     "images": "",
     "description": "A tree used for treating malaria and supporting immune function.",
     "type": "Tree",
-    "known_to_treat": ["malaria", "immune support", "digestion", "skin health"],
+    "known_to_treat": [
+      "malaria",
+      "immune support",
+      "digestion",
+      "skin health"
+    ],
     "usage": "Boil leaves and drink a teacupful twice daily. Can be mixed with key lime.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1346,10 +2132,12 @@
   {
     "id": "pawpaw_leaves",
     "name": "Pawpaw Leaves",
-    "images": "",
+    "images": "https://pixabay.com/get/g08c42e32ab2772721ee3de9d8ff5c83d1fb27e9c4f8275886cfcf84b0cbe26386223ad15f9df56801f46c965abbf3688_1920.jpg,https://pixabay.com/get/gd0408c799572a1841122d7b0dd6492948f255d148afd8e17a7b43b882e4c84cd2b8a7bcfea7e054f999dc3898dbb0ed1_1920.jpg,https://pixabay.com/get/g6afa2d69ad5a78135b6ae424b5e6647f2d7c677f570e8830cec1921907ce97119e8ec68d639129c1cacbac4b802033e4_1920.jpg",
     "description": "Leaves from the pawpaw plant used for insomnia.",
     "type": "Leaf",
-    "known_to_treat": ["insomnia"],
+    "known_to_treat": [
+      "insomnia"
+    ],
     "usage": "Brew as tea and drink.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1357,10 +2145,13 @@
   {
     "id": "scent_leaves",
     "name": "Scent Leaves",
-    "images": "",
+    "images": "https://pixabay.com/get/g2fbd5ddf58232b1813693478f7d7db64fca8576572985bcbd3e4c4d15d7f528b38c6ee1300fdab0b6361dd70d66db02a_1920.jpg,https://pixabay.com/get/gb0bda4a120b963e4823248b9ea386e19215925acea493dcd7fec255704cc792d0c5d59d48f93d09e021419f74e8f57fe_1920.jpg,https://pixabay.com/get/gc1d606e1bec08e4f57735b0521c1540b46a4bafa88bc752bf5bbe364826c78166852ca6609a9e02929a4d5ba1454e11e_1920.jpg",
     "description": "Leaves used for respiratory issues.",
     "type": "Leaf",
-    "known_to_treat": ["post nasal drip", "headache"],
+    "known_to_treat": [
+      "post nasal drip",
+      "headache"
+    ],
     "usage": "Do steam inhalation with scent leaves or use as remedy for headache.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1368,10 +2159,12 @@
   {
     "id": "avocado_seeds",
     "name": "Avocado Seeds",
-    "images": "",
+    "images": "https://pixabay.com/get/gffa21d42d106d0ee70b024c9992bf86bfd187692cbca892c16e424f470d3784b233d499a792ab70207f7d7be0eeda820_1920.png,https://pixabay.com/get/g5c8f05b46eba499facf291b86f87dbe03a173ec2770ac3865167f749cef6cf50abbb53821f06bc5d1666aae877e6deae_1920.png",
     "description": "Seeds used for high blood pressure reduction.",
     "type": "Seed",
-    "known_to_treat": ["hypertension"],
+    "known_to_treat": [
+      "hypertension"
+    ],
     "usage": "Use as recommended to reduce blood pressure.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1379,10 +2172,14 @@
   {
     "id": "moringa_seeds",
     "name": "Moringa Seeds",
-    "images": "",
+    "images": "https://pixabay.com/get/g5249ab1525394fb78d6250adfdbc31f4aaadd3953869ed8595c801150adca1486009ab62673a27b7f3c374beb38a9688_1920.jpg,https://pixabay.com/get/gd6ccf7fd44d5a1790ffe6f61a77fffddd566c78f1189c28e849f21f215c1a5cc9095c39eb42f9bede8e62c5e566d47fa_1920.jpg",
     "description": "Seeds for sexual health.",
     "type": "Seed",
-    "known_to_treat": ["impotence", "low libido", "infertility"],
+    "known_to_treat": [
+      "impotence",
+      "low libido",
+      "infertility"
+    ],
     "usage": "Chew 2-3 seeds.",
     "pregnancy_friendly": false,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1390,10 +2187,13 @@
   {
     "id": "touch_me_not",
     "name": "Touch-Me-Not Herb",
-    "images": "",
+    "images": "https://pixabay.com/get/ged85bebe6351242a7bee8aaaaf2a5c99bf7cddc4c089e97028ae57765811d7fe654451e5da37664e9728d6d46ba431c2_1920.jpg,https://pixabay.com/get/gb79dbb1d1f2bcaf72fe9ac4ab5e1253e5cd3d5d343e2cda21d6704101c1d3bd16153189dc14347e12957ef79093e3aa4_1920.jpg",
     "description": "Herb for ADHD and focus.",
     "type": "Plant",
-    "known_to_treat": ["ADHD", "focus/attention issues"],
+    "known_to_treat": [
+      "ADHD",
+      "focus/attention issues"
+    ],
     "usage": "Make a tea with two tablespoons of the dried herb.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1404,7 +2204,9 @@
     "images": "",
     "description": "Latex for keloids.",
     "type": "Plant",
-    "known_to_treat": ["keloids"],
+    "known_to_treat": [
+      "keloids"
+    ],
     "usage": "Apply latex of plant on affected part till keloid disappears.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1412,10 +2214,19 @@
   {
     "id": "dandelion_leaves",
     "name": "Dandelion Leaves",
-    "images": "",
+    "images": "https://pixabay.com/get/g3c4711d6ec0cbe3a3154088571ccf788df18acc8563740efe74ac7647a40c6313743cb61ec8801d84288fe6e8155870b_1920.jpg,https://pixabay.com/get/gb0ecbe51071bc2e710901e73e0888aae70bf07d14a484249296c5acc821f50d22e6a0bf84533fdc9d08a0cd816d7f021_1920.jpg",
     "description": "Leaves for liver and other issues.",
     "type": "Leaf",
-    "known_to_treat": ["fatty liver", "cancer", "diabetes", "obesity", "anaemia", "high blood pressure", "high cholesterol", "blurry vision"],
+    "known_to_treat": [
+      "fatty liver",
+      "cancer",
+      "diabetes",
+      "obesity",
+      "anaemia",
+      "high blood pressure",
+      "high cholesterol",
+      "blurry vision"
+    ],
     "usage": "Boil either fresh or dried leaves and drink a teacupful twice daily before meals.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1423,10 +2234,18 @@
   {
     "id": "baobab_fruit",
     "name": "Baobab Fruit",
-    "images": "",
+    "images": "https://pixabay.com/get/ge065b33f72df709e3b948d8560f97eaba05427f66a0856c70eb1345277503e3d636a6034c7966001067ee320d3ffcec1_1920.jpg,https://pixabay.com/get/gd843bda4c7a767b80106b8f0425f5e6523ad9a3238414731cf2074c91e37c18c9909a0a2de47645d1d60cd41813d2e26_1920.png",
     "description": "Fruit for various health benefits.",
     "type": "Fruit",
-    "known_to_treat": ["asthma", "malaria", "boils", "hypertension", "diabetes", "wound", "erectile dysfunction"],
+    "known_to_treat": [
+      "asthma",
+      "malaria",
+      "boils",
+      "hypertension",
+      "diabetes",
+      "wound",
+      "erectile dysfunction"
+    ],
     "usage": "Boil the dried fruits and drink 3 tablespoons thrice daily.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1434,10 +2253,18 @@
   {
     "id": "crown_of_thorns",
     "name": "Crown of Thorns",
-    "images": "",
+    "images": "https://pixabay.com/get/g213d7730cda4b0c674f52a0479bd44371ea2ea3eeaf5ab250381fa40fb9bf6575402a1d65a1cf7f3c1e94680f312b90e_1920.jpg,https://pixabay.com/get/gd46e783acd7fdf44e42432be6a2991e34e68811bbcfc18d41d86e0aa5d402c42646dabd585cdad1d9753a8815170aad2_1920.jpg",
     "description": "Plant for multiple conditions.",
     "type": "Plant",
-    "known_to_treat": ["warts", "asthma", "cancer", "toothache", "herpes", "liver malfunction", "general body pains"],
+    "known_to_treat": [
+      "warts",
+      "asthma",
+      "cancer",
+      "toothache",
+      "herpes",
+      "liver malfunction",
+      "general body pains"
+    ],
     "usage": "Boil the dried powdered leaves in water and drink 4 tablespoons three times daily. Apply latex on warts.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1445,10 +2272,12 @@
   {
     "id": "indian_almond",
     "name": "Indian Almond Plant",
-    "images": "",
+    "images": "https://pixabay.com/get/gdaf595ad9d9e7e865893fd6a0f148b8b437930f5753ea9b9babf6abf2fe34637a3a18f12d3990d36161a214b31d8d525_1920.jpg,https://pixabay.com/get/gd8b113f13d9d8d749e0f82dccd9b40836d3da451762463612c87acfea384eecd18478d8bc86088e8c9f17dabbdd2b83d_1920.jpg",
     "description": "Plant for sickle cell support.",
     "type": "Plant",
-    "known_to_treat": ["sickle cell"],
+    "known_to_treat": [
+      "sickle cell"
+    ],
     "usage": "Use as recommended.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1456,10 +2285,12 @@
   {
     "id": "snake_plant",
     "name": "Snake Plant",
-    "images": "",
+    "images": "https://pixabay.com/get/g037482f918e3c05a0a60147bbaa8515e1a773d493936b49edb26e560264ed2b4b75843dab8229672143c4378b4f3e3c6_1920.jpg,https://pixabay.com/get/g9af4c321dd2c7f4e3bd1d9a0edda6273dffad1b8b1c3dd0ea1e843253bd0dbf16ee8bdd697576a2e2e990e1d869070f26_1920.jpg,https://pixabay.com/get/gf3cd86946fa962e8e9ed0ffffd2c2aa36c6eeb9e9c17be87f4156e777d2c4bb1ff1a68e9444d1bfc1f8cd7dfdef0a77b_1920.jpg",
     "description": "Rhizomes for ear issues.",
     "type": "Rhizome",
-    "known_to_treat": ["ear issues"],
+    "known_to_treat": [
+      "ear issues"
+    ],
     "usage": "Grind rhizomes into paste and apply two drops into affected ear once daily.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1470,7 +2301,9 @@
     "images": "",
     "description": "Plant that increases haemoglobin levels faster than synthetic haematinics.",
     "type": "Plant",
-    "known_to_treat": ["low haemoglobin"],
+    "known_to_treat": [
+      "low haemoglobin"
+    ],
     "usage": "Get a handful of the leaves and boil with water for 15-20 mins. Drink a teacup twice daily.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1478,10 +2311,15 @@
   {
     "id": "castor_plant",
     "name": "Castor Plant",
-    "images": "",
+    "images": "https://pixabay.com/get/g95e9a8b22e9e98390e6c73f9c38a84c560999056ee857048f832b9c84c78ee89bbfbf8e52791bdbba5786a92a2f7ea45_1920.jpg,https://pixabay.com/get/g0366bf79e733cea9165fab2c7d7652d16655115efee48e1c2d77de3ee10a8e717c024afe91d6027f55657316cb88c6ab_1920.jpg,https://pixabay.com/get/g0681c6893ae55988ee0507aca0adf970e15250c341dc64a7978c57d9fbbd35017b8eb09da72ef8ee699c4adf8fd3bc5b_1920.jpg",
     "description": "Leaves used for joint pains and arthritis.",
     "type": "Leaf",
-    "known_to_treat": ["joint pains", "arthritis", "swelling", "rheumatism"],
+    "known_to_treat": [
+      "joint pains",
+      "arthritis",
+      "swelling",
+      "rheumatism"
+    ],
     "usage": "Grind the leaves into paste and rub on joints and any painful area. Boil the leaves and drink a teacupful twice daily.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1492,7 +2330,12 @@
     "images": "",
     "description": "Leaves for stomach ulcer, GERD, acid reflux and abdominal pains.",
     "type": "Leaf",
-    "known_to_treat": ["stomach ulcer", "GERD", "acid reflux", "abdominal pains"],
+    "known_to_treat": [
+      "stomach ulcer",
+      "GERD",
+      "acid reflux",
+      "abdominal pains"
+    ],
     "usage": "Boil for 15-20 mins and drink a teacup twice daily. Chew five leaves for instant relief.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1503,7 +2346,16 @@
     "images": "",
     "description": "Powerful herb for intestinal worm infestation.",
     "type": "Plant",
-    "known_to_treat": ["intestinal worm infestation", "migraine", "glaucoma", "sciatica", "hypertension", "candidiasis", "sore throat", "enlarged heart"],
+    "known_to_treat": [
+      "intestinal worm infestation",
+      "migraine",
+      "glaucoma",
+      "sciatica",
+      "hypertension",
+      "candidiasis",
+      "sore throat",
+      "enlarged heart"
+    ],
     "usage": "Use a tablespoon of the dried leaves as tea twice daily.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1511,10 +2363,12 @@
   {
     "id": "jungle_flame",
     "name": "Jungle Flame",
-    "images": "",
+    "images": "https://pixabay.com/get/gf7699b341320ce49f23b34a706030b7c85b16ba7fba815484e25a9aeff40741a592707107e3bf2e31eb6fd69e2631e28_1920.jpg,https://pixabay.com/get/g35dc8ffafb71dd38931c83079806c931bf9cdbb05f23b75be56bfcc0ec2bd3d2740ea4295217c85b169e21b3bc1b5d25_1920.jpg",
     "description": "One of the best plants for treating all forms of tumour in the body.",
     "type": "Plant",
-    "known_to_treat": ["tumour"],
+    "known_to_treat": [
+      "tumour"
+    ],
     "usage": "Use as recommended.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1522,10 +2376,20 @@
   {
     "id": "ashwagandha",
     "name": "Ashwagandha",
-    "images": "",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Withania_somnifera_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7e/Withania_somnifera_fruit.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3f/Withania_somnifera_leaves.jpg",
     "description": "Amazing plant where every part is medicinal.",
     "type": "Plant",
-    "known_to_treat": ["low libido in men", "low immunity", "hypertension", "stress", "Parkinson’s disease", "diabetes", "cancer", "asthma", "heart failure"],
+    "known_to_treat": [
+      "low libido in men",
+      "low immunity",
+      "hypertension",
+      "stress",
+      "Parkinson\u00e2\u20ac\u2122s disease",
+      "diabetes",
+      "cancer",
+      "asthma",
+      "heart failure"
+    ],
     "usage": "Use the leaves or roots as tea.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1536,7 +2400,9 @@
     "images": "",
     "description": "Plant for constipation.",
     "type": "Plant",
-    "known_to_treat": ["constipation"],
+    "known_to_treat": [
+      "constipation"
+    ],
     "usage": "Boil a handful of the leaves and drink a teacupful only once in a day.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1544,10 +2410,12 @@
   {
     "id": "pencil_plant",
     "name": "Pencil Plant",
-    "images": "",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/P/e/Pencil_Cactus_(Euphorbia_tirucalli).jpg",
     "description": "Plant with medicinal uses.",
     "type": "Plant",
-    "known_to_treat": ["various conditions"],
+    "known_to_treat": [
+      "various conditions"
+    ],
     "usage": "Use as recommended.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1555,10 +2423,12 @@
   {
     "id": "orange_leaves",
     "name": "Orange Leaves",
-    "images": "",
+    "images": "https://pixabay.com/get/g457d19d41fbdfe0fce28585b1fd777fd3429542c892382dfd7c5b714e289e8dfe43f73a2cc0c905438c1cebacea685be_1920.jpg,https://pixabay.com/get/gfcab9d1bf2fbf7d892d34d751a851364702d8e6f6aebbd69e2c98289fe956a12679f7e06950b8ed8410ca275b487fd86_1920.jpg,https://pixabay.com/get/gc90c66817bad9f77998c7a30363ae37c766ec274f6e7f4339ccdb49cba2706493fea2ffcf5288826dfee78889529429c_1920.jpg",
     "description": "Leaves for various ailments.",
     "type": "Leaf",
-    "known_to_treat": ["various conditions"],
+    "known_to_treat": [
+      "various conditions"
+    ],
     "usage": "Boil with water for 15-20mins. Drink a teacupful thrice daily before meals.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1566,20 +2436,30 @@
   {
     "id": "neem_leaves",
     "name": "Neem Leaves",
-    "images": "",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/N/e/Neem_leaves_images.jpg",
     "description": "Leaves for blood purification and skin health.",
     "type": "Leaf",
-    "known_to_treat": ["blood purification", "skin health", "malaria", "typhoid"],
+    "known_to_treat": [
+      "blood purification",
+      "skin health",
+      "malaria",
+      "typhoid"
+    ],
     "usage": "Boil the leaves and drink a teacupful twice daily.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
-  },{
+  },
+  {
     "id": "bitter_leaf",
     "name": "Bitter Leaf",
-    "images": "",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/B/i/Bitter_Leaf_Tree.jpg",
     "description": "Leaves for blood sugar and malaria.",
     "type": "Leaf",
-    "known_to_treat": ["diabetes", "malaria", "fever"],
+    "known_to_treat": [
+      "diabetes",
+      "malaria",
+      "fever"
+    ],
     "usage": "Boil leaves and drink a teacupful twice daily.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1587,10 +2467,14 @@
   {
     "id": "morinda",
     "name": "Morinda (Noni)",
-    "images": "",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/N/o/Noni_fruit_(Morinda_citrifolia).jpg",
     "description": "Fruit for immune and general health.",
     "type": "Fruit",
-    "known_to_treat": ["immune support", "general health", "cancer"],
+    "known_to_treat": [
+      "immune support",
+      "general health",
+      "cancer"
+    ],
     "usage": "Consume as juice or tea.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1598,10 +2482,14 @@
   {
     "id": "basil",
     "name": "Basil (Scent Leaf variant)",
-    "images": "",
+    "images": "https://pixabay.com/get/g763cb0e7df8511233d979cdcbac4db6a526e53dacbd12080ef445aa564b18232af469487c2bdbabefa42cff8bec80a92_1920.jpg,https://pixabay.com/get/g91af798d0280ad9c9e240988e467fab6c82373760d18b06a4ed8198ab9f6003080903d41212b9fc038f41a0fa4a9c5da_1920.jpg,https://pixabay.com/get/g7dd4092d084ef4ffd24525899b5029f8f4459ae4a744387c6fa153a9d44178964cba8918d55abe651e54857bed11aa2f_1920.png",
     "description": "Leaves for digestion and respiratory health.",
     "type": "Leaf",
-    "known_to_treat": ["digestion", "respiratory issues", "headache"],
+    "known_to_treat": [
+      "digestion",
+      "respiratory issues",
+      "headache"
+    ],
     "usage": "Brew as tea or use fresh.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1609,10 +2497,14 @@
   {
     "id": "eucalyptus",
     "name": "Eucalyptus",
-    "images": "",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/E/u/Eucalyptus_trees_in_Agioi_Apostoli._Crete,_Greece.jpg",
     "description": "Leaves for respiratory and cold relief.",
     "type": "Leaf",
-    "known_to_treat": ["cold", "cough", "respiratory issues"],
+    "known_to_treat": [
+      "cold",
+      "cough",
+      "respiratory issues"
+    ],
     "usage": "Boil leaves and inhale steam or drink as tea.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1620,10 +2512,14 @@
   {
     "id": "lemon_grass",
     "name": "Lemon Grass",
-    "images": "",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/B/u/Bumbu_Rawon.jpg",
     "description": "Leaves for digestion and relaxation.",
     "type": "Leaf",
-    "known_to_treat": ["digestion", "stress", "insomnia"],
+    "known_to_treat": [
+      "digestion",
+      "stress",
+      "insomnia"
+    ],
     "usage": "Brew as tea.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1631,10 +2527,21 @@
   {
     "id": "blackjack",
     "name": "Blackjack Plant",
-    "images": "",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/B/i/Bidens_pilosa_02.JPG",
     "description": "Plant for various infections and conditions.",
     "type": "Plant",
-    "known_to_treat": ["gonorrhoea", "syphilis", "stomach ulcer", "candidiasis", "diabetes", "hypertension", "malaria", "herpes", "cough", "sore throat"],
+    "known_to_treat": [
+      "gonorrhoea",
+      "syphilis",
+      "stomach ulcer",
+      "candidiasis",
+      "diabetes",
+      "hypertension",
+      "malaria",
+      "herpes",
+      "cough",
+      "sore throat"
+    ],
     "usage": "Dry whole plant and grind into powder. Add two tablespoons into hot water and drink twice daily.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1642,21 +2549,38 @@
   {
     "id": "wild_dandelion",
     "name": "Wild Dandelion",
-    "images": "",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/D/a/Dandelion_clock.jpg",
     "description": "Leaves for infections and liver issues.",
     "type": "Leaf",
-    "known_to_treat": ["hepatitis", "jaundice", "typhoid fever", "gonorrhoea", "syphilis"],
+    "known_to_treat": [
+      "hepatitis",
+      "jaundice",
+      "typhoid fever",
+      "gonorrhoea",
+      "syphilis"
+    ],
     "usage": "Boil the leaves and drink a teacupful 3x daily on an empty stomach.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
   },
   {
     "id": "cocks_comb",
-    "name": "Cock’s Comb Plant",
-    "images": "",
+    "name": "Cock\u00e2\u20ac\u2122s Comb Plant",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/C/e/Celosia_argentea--_the_Silver_Cock's_Comb_(29194480514).jpg",
     "description": "Plant for rheumatism and infections.",
     "type": "Plant",
-    "known_to_treat": ["rheumatism", "sciatica", "gonorrhoea", "sore throat", "stomach ulcer", "tumour", "hypertension", "glaucoma", "convulsion", "diabetes"],
+    "known_to_treat": [
+      "rheumatism",
+      "sciatica",
+      "gonorrhoea",
+      "sore throat",
+      "stomach ulcer",
+      "tumour",
+      "hypertension",
+      "glaucoma",
+      "convulsion",
+      "diabetes"
+    ],
     "usage": "Uproot whole plant, cut into pieces and boil with water. Drink a teacup twice daily for a month.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1664,10 +2588,20 @@
   {
     "id": "bitter_leaves",
     "name": "Bitter Leaves",
-    "images": "",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/B/i/Bitter_leaves_plant.jpg",
     "description": "Leaves for malaria and diabetes.",
     "type": "Leaf",
-    "known_to_treat": ["malaria", "arthritis", "diabetes", "infertility", "constipation", "poor appetite", "kidney failure", "menstrual pains", "intestinal worm infestation"],
+    "known_to_treat": [
+      "malaria",
+      "arthritis",
+      "diabetes",
+      "infertility",
+      "constipation",
+      "poor appetite",
+      "kidney failure",
+      "menstrual pains",
+      "intestinal worm infestation"
+    ],
     "usage": "Boil either fresh/dried leaves in water for 20mins. Drink half a cup twice daily.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1675,10 +2609,13 @@
   {
     "id": "madagascar_plant",
     "name": "Madagascar Plant",
-    "images": "",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/M/a/Madagascar_periwinkle_01178.jpg",
     "description": "Plant with broad antimicrobial properties.",
     "type": "Plant",
-    "known_to_treat": ["microbial organisms", "infections"],
+    "known_to_treat": [
+      "microbial organisms",
+      "infections"
+    ],
     "usage": "Boil the plant and drink or apply as needed.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1686,10 +2623,17 @@
   {
     "id": "sacred_spiritual_plant",
     "name": "Sacred Spiritual Plant",
-    "images": "",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/H/o/Holy_Basil_edit2.jpg",
     "description": "A highly sacred spiritual plant with medicinal benefits.",
     "type": "Plant",
-    "known_to_treat": ["malaria", "infertility", "hypertension", "diabetes", "hormonal imbalance", "cancer"],
+    "known_to_treat": [
+      "malaria",
+      "infertility",
+      "hypertension",
+      "diabetes",
+      "hormonal imbalance",
+      "cancer"
+    ],
     "usage": "Boil the plant and drink a teacupful twice daily.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1697,10 +2641,12 @@
   {
     "id": "bamboo_leaves",
     "name": "Bamboo Leaves",
-    "images": "",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/B/a/Bamboo_leaves,_the_natural_wrapping_material.jpg",
     "description": "Leaves used for restoring menstruation.",
     "type": "Leaf",
-    "known_to_treat": ["ceased menstruation"],
+    "known_to_treat": [
+      "ceased menstruation"
+    ],
     "usage": "Boil the leaves and drink a teacupful twice daily.",
     "pregnancy_friendly": false,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1708,10 +2654,13 @@
   {
     "id": "soursop_leaves",
     "name": "Soursop Leaves",
-    "images": "",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/S/o/Soursop_leaves.jpg",
     "description": "Leaves used for cancer treatment.",
     "type": "Leaf",
-    "known_to_treat": ["cancer", "ovarian cancer"],
+    "known_to_treat": [
+      "cancer",
+      "ovarian cancer"
+    ],
     "usage": "Boil the leaves and drink a teacupful twice daily.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1719,10 +2668,12 @@
   {
     "id": "pawpaw_fruit",
     "name": "Pawpaw Fruit",
-    "images": "",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/P/a/Pawpaw_(Asimina_triloba)_Tree_with_Fruit_at_Night.jpg",
     "description": "Fruit used for various healing purposes.",
     "type": "Fruit",
-    "known_to_treat": ["various conditions"],
+    "known_to_treat": [
+      "various conditions"
+    ],
     "usage": "Consume the fruit as recommended.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1730,10 +2681,13 @@
   {
     "id": "aidan_fruit",
     "name": "Aidan Fruit",
-    "images": "",
+    "images": "https://upload.wikimedia.org/wikipedia/commons/T/e/Tetrapleura_tetraptera_MHNT.BOT.2017.10.22.jpg",
     "description": "Fruit for hormonal imbalance and defenses.",
     "type": "Fruit",
-    "known_to_treat": ["hormonal imbalance", "immune support"],
+    "known_to_treat": [
+      "hormonal imbalance",
+      "immune support"
+    ],
     "usage": "Boil the fruit and drink a teacupful once daily.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"
@@ -1741,10 +2695,12 @@
   {
     "id": "mango_stem_bark",
     "name": "Mango Stem Bark",
-    "images": "",
+    "images": "https://pixabay.com/get/g66d51c8c227bc87a1b67163eefa448f1e2aba50a3c57d9cb030232c5e6b6740099340d91632fc80f8ecbebf42a458d15_1920.jpg,https://pixabay.com/get/g7d0295666b2302471851024c81bd8c1b493654cf77a80c5a69aa4303b47a977cdac8413bb18c6b1402e269f876d6692b_1920.jpg,https://pixabay.com/get/g0f42df4e53a9524953bccbd1d0b5c42a7147f8051b8145ce9e77324cfdbfce7c442c25129574d67e4a5f5882f020af00_1920.jpg",
     "description": "Stem bark used for toothache.",
     "type": "Bark",
-    "known_to_treat": ["toothache"],
+    "known_to_treat": [
+      "toothache"
+    ],
     "usage": "Boil the stem bark and use as mouth rinse or drink.",
     "pregnancy_friendly": true,
     "_comment": "Source: @HerbalistChief X/Twitter"

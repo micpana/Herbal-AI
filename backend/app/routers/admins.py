@@ -8,7 +8,7 @@ import shutil
 import uuid
 from ..database import get_db
 from ..models import Admin, Product, UsageLog
-from ..schemas import Admin, AdminBase, AdminLogin, Token, Product, ProductBase, UsageStat
+from ..schemas import Admin as _Admin, AdminBase as _AdminBase, AdminLogin as _AdminLogin, Token as _Token, Product as _Product, ProductBase as _ProductBase, UsageStat as _UsageStat
 from ..services.auth_service import verify_password, get_password_hash, create_access_token
 from ..config import settings
 import os
@@ -47,29 +47,32 @@ def get_current_admin(credentials: HTTPAuthorizationCredentials = Depends(securi
     except JWTError:
         raise HTTPException(status_code=401, detail="Invalid token")
 
-@router.post("/login", response_model=Token)
-def login(admin_login: AdminLogin, db: Session = Depends(get_db)):
+@router.post("/login", response_model=_Token)
+def login(admin_login: _AdminLogin, db: Session = Depends(get_db)):
     admin = db.query(Admin).filter(Admin.username == admin_login.username).first()
     if not admin or not verify_password(admin_login.password, admin.password):
         raise HTTPException(status_code=401, detail="Incorrect username or password")
     access_token = create_access_token(data={"sub": admin.username})
     return {"access_token": access_token, "token_type": "bearer"}
 
-@router.post("/", response_model=Admin)
-def create_admin(admin: AdminBase, current_admin: Admin = Depends(get_current_admin), db: Session = Depends(get_db)):
+@router.post("/", response_model=_Admin)
+def create_admin(admin: _AdminBase, current_admin: Admin = Depends(get_current_admin), db: Session = Depends(get_db)):
     hashed_password = get_password_hash(admin.password)
-    db_admin = Admin(**admin.dict(), password=hashed_password)
+    db_admin = Admin(
+        **admin.model_dump(exclude={'password'}),  # Pydantic v2: exclude password
+        password=hashed_password
+    )
     db.add(db_admin)
     db.commit()
     db.refresh(db_admin)
     return db_admin
 
-@router.get("/", response_model=List[Admin])
+@router.get("/", response_model=List[_Admin])
 def read_admins(current_admin: Admin = Depends(get_current_admin), db: Session = Depends(get_db)):
     return db.query(Admin).all()
 
-@router.put("/{admin_id}", response_model=Admin)
-def update_admin(admin_id: int, admin: AdminBase, current_admin: Admin = Depends(get_current_admin), db: Session = Depends(get_db)):
+@router.put("/{admin_id}", response_model=_Admin)
+def update_admin(admin_id: int, admin: _AdminBase, current_admin: Admin = Depends(get_current_admin), db: Session = Depends(get_db)):
     db_admin = db.query(Admin).filter(Admin.id == admin_id).first()
     if db_admin is None:
         raise HTTPException(status_code=404, detail="Admin not found")
@@ -90,11 +93,11 @@ def delete_admin(admin_id: int, current_admin: Admin = Depends(get_current_admin
     db.commit()
     return {"detail": "Admin deleted"}
 
-@router.get("/products", response_model=List[Product])
+@router.get("/products", response_model=List[_Product])
 def read_products(current_admin: Admin = Depends(get_current_admin), db: Session = Depends(get_db)):
     return db.query(Product).all()
 
-@router.post("/products", response_model=Product)
+@router.post("/products", response_model=_Product)
 async def create_product(
     name: str = Form(...),
     description: str = Form(...),
@@ -128,7 +131,7 @@ async def create_product(
     db.refresh(db_product)
     return db_product
 
-@router.put("/products/{product_id}", response_model=Product)
+@router.put("/products/{product_id}", response_model=_Product)
 async def update_product(
     product_id: int,
     name: str = Form(...),
@@ -175,7 +178,7 @@ def delete_product(product_id: int, current_admin: Admin = Depends(get_current_a
     db.commit()
     return {"detail": "Product deleted"}
 
-@router.get("/stats", response_model=UsageStat)
+@router.get("/stats", response_model=_UsageStat)
 def get_stats(current_admin: Admin = Depends(get_current_admin), db: Session = Depends(get_db)):
     total_calls = db.query(UsageLog).count()
     total_tokens = sum(log.tokens_used for log in db.query(UsageLog).all())
