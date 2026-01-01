@@ -33,8 +33,7 @@ const HerbCard: React.FC<HerbProps> = ({ herb }) => {
             {imageList.map((img, idx) => (
               <div key={idx} className="h-72">
                 <img
-                  // src={`http://localhost:8000/media/${img}`}
-                  src={img}
+                  src={`http://localhost:8000/media/${img}`}
                   alt={herb.name}
                   className="w-full h-full object-cover"
                 />
