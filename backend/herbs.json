@@ -2325,7 +2325,8 @@
   {
     "id": "touch_me_not",
     "name": "Touch-Me-Not Herb",
-    "images": "https://pixabay.com/get/ged85bebe6351242a7bee8aaaaf2a5c99bf7cddc4c089e97028ae57765811d7fe654451e5da37664e9728d6d46ba431c2_1920.jpg,https://pixabay.com/get/gb79dbb1d1f2bcaf72fe9ac4ab5e1253e5cd3d5d343e2cda21d6704101c1d3bd16153189dc14347e12957ef79093e3aa4_1920.jpg",
+    "images": "Touch-Me-Not Herb.webp",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.ugaoo.com%2Fblogs%2Fgardening-basics%2Fmimosa-plant-benefits-and-uses-of-the-famous-touch-me-not%3Fsrsltid%3DAfmBOor14FlkHOONj6Wb8nQcdfQDyWTofw4QOKPme9K3EwI5l6Ocre-q&ved=0CBkQjhxqFwoTCOCKrIDh95EDFQAAAAAdAAAAABAI&opi=89978449",
     "description": "Herb for ADHD and focus.",
     "type": "Plant",
     "known_to_treat": [
@@ -2339,7 +2340,8 @@
   {
     "id": "apple_of_sodom",
     "name": "Apple of Sodom",
-    "images": "",
+    "images": "Apple of Sodom.jpg",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fen.wiktionary.org%2Fwiki%2Fapple_of_Sodom&ved=0CBkQjhxqFwoTCKDe3ZTi95EDFQAAAAAdAAAAABAI&opi=89978449",
     "description": "Latex for keloids.",
     "type": "Plant",
     "known_to_treat": [
@@ -2352,7 +2354,8 @@
   {
     "id": "dandelion_leaves",
     "name": "Dandelion Leaves",
-    "images": "https://pixabay.com/get/g3c4711d6ec0cbe3a3154088571ccf788df18acc8563740efe74ac7647a40c6313743cb61ec8801d84288fe6e8155870b_1920.jpg,https://pixabay.com/get/gb0ecbe51071bc2e710901e73e0888aae70bf07d14a484249296c5acc821f50d22e6a0bf84533fdc9d08a0cd816d7f021_1920.jpg",
+    "images": "Dandelion Leaves.jpg",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.herbalreality.com%2Fherb%2Fdandelion%2F&ved=0CBkQjhxqFwoTCNiu9tni95EDFQAAAAAdAAAAABAI&opi=89978449",
     "description": "Leaves for liver and other issues.",
     "type": "Leaf",
     "known_to_treat": [
@@ -2372,7 +2375,8 @@
   {
     "id": "baobab_fruit",
     "name": "Baobab Fruit",
-    "images": "https://pixabay.com/get/ge065b33f72df709e3b948d8560f97eaba05427f66a0856c70eb1345277503e3d636a6034c7966001067ee320d3ffcec1_1920.jpg,https://pixabay.com/get/gd843bda4c7a767b80106b8f0425f5e6523ad9a3238414731cf2074c91e37c18c9909a0a2de47645d1d60cd41813d2e26_1920.png",
+    "images": "Baobab Fruit.webp",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.stylecraze.com%2Farticles%2Fbaobab-benefits%2F&ved=0CBkQjhxqFwoTCNCTzuLj95EDFQAAAAAdAAAAABBZ&opi=89978449",
     "description": "Fruit for various health benefits.",
     "type": "Fruit",
     "known_to_treat": [
@@ -2391,7 +2395,8 @@
   {
     "id": "crown_of_thorns",
     "name": "Crown of Thorns",
-    "images": "https://pixabay.com/get/g213d7730cda4b0c674f52a0479bd44371ea2ea3eeaf5ab250381fa40fb9bf6575402a1d65a1cf7f3c1e94680f312b90e_1920.jpg,https://pixabay.com/get/gd46e783acd7fdf44e42432be6a2991e34e68811bbcfc18d41d86e0aa5d402c42646dabd585cdad1d9753a8815170aad2_1920.jpg",
+    "images": "Crown of Thorns.jpg",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.farmyardnurseries.co.uk%2Fproduct%2Feuphorbia-milii-crown-of-thorns%2F&ved=0CBkQjhxqFwoTCJiJqIbl95EDFQAAAAAdAAAAABBV&opi=89978449",
     "description": "Plant for multiple conditions.",
     "type": "Plant",
     "known_to_treat": [
@@ -2410,7 +2415,8 @@
   {
     "id": "indian_almond",
     "name": "Indian Almond Plant",
-    "images": "https://pixabay.com/get/gdaf595ad9d9e7e865893fd6a0f148b8b437930f5753ea9b9babf6abf2fe34637a3a18f12d3990d36161a214b31d8d525_1920.jpg,https://pixabay.com/get/gd8b113f13d9d8d749e0f82dccd9b40836d3da451762463612c87acfea384eecd18478d8bc86088e8c9f17dabbdd2b83d_1920.jpg",
+    "images": "Indian Almond Plant.jpg",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.amazon.in%2FIndian-Almond-Kathbadam-Hybrid-Plant%2Fdp%2FB0C7Y5BC8B&ved=0CBkQjhxqFwoTCPiEzcrl95EDFQAAAAAdAAAAABAI&opi=89978449",
     "description": "Plant for sickle cell support.",
     "type": "Plant",
     "known_to_treat": [
@@ -2423,7 +2429,8 @@
   {
     "id": "snake_plant",
     "name": "Snake Plant",
-    "images": "https://pixabay.com/get/g037482f918e3c05a0a60147bbaa8515e1a773d493936b49edb26e560264ed2b4b75843dab8229672143c4378b4f3e3c6_1920.jpg,https://pixabay.com/get/g9af4c321dd2c7f4e3bd1d9a0edda6273dffad1b8b1c3dd0ea1e843253bd0dbf16ee8bdd697576a2e2e990e1d869070f26_1920.jpg,https://pixabay.com/get/gf3cd86946fa962e8e9ed0ffffd2c2aa36c6eeb9e9c17be87f4156e777d2c4bb1ff1a68e9444d1bfc1f8cd7dfdef0a77b_1920.jpg",
+    "images": "Snake Plant.jpg",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Ftxsmartscape.com%2Fplant-search%2Fsnake-herb&ved=0CBkQjhxqFwoTCJDQ5Zrm95EDFQAAAAAdAAAAABAI&opi=89978449",
     "description": "Rhizomes for ear issues.",
     "type": "Rhizome",
     "known_to_treat": [
@@ -2436,7 +2443,8 @@
   {
     "id": "jehovah_witness_blood_tonic",
     "name": "Jehovah Witness Blood Tonic Plant",
-    "images": "",
+    "images": "Jehovah Witness Blood Tonic Plant.jpg",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Flink.springer.com%2Farticle%2F10.1007%2Fs13596-023-00716-z&ved=0CBkQjhxqGAoTCNCEx93m95EDFQAAAAAdAAAAABCPAQ&opi=89978449",
     "description": "Plant that increases haemoglobin levels faster than synthetic haematinics.",
     "type": "Plant",
     "known_to_treat": [
@@ -2449,7 +2457,8 @@
   {
     "id": "castor_plant",
     "name": "Castor Plant",
-    "images": "https://pixabay.com/get/g95e9a8b22e9e98390e6c73f9c38a84c560999056ee857048f832b9c84c78ee89bbfbf8e52791bdbba5786a92a2f7ea45_1920.jpg,https://pixabay.com/get/g0366bf79e733cea9165fab2c7d7652d16655115efee48e1c2d77de3ee10a8e717c024afe91d6027f55657316cb88c6ab_1920.jpg,https://pixabay.com/get/g0681c6893ae55988ee0507aca0adf970e15250c341dc64a7978c57d9fbbd35017b8eb09da72ef8ee699c4adf8fd3bc5b_1920.jpg",
+    "images": "Castor Plant.jpg",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FRicinus&ved=0CBkQjhxqFwoTCOCgzNDn95EDFQAAAAAdAAAAABAI&opi=89978449",
     "description": "Leaves used for joint pains and arthritis.",
     "type": "Leaf",
     "known_to_treat": [
@@ -2465,7 +2474,8 @@
   {
     "id": "guava_leaves",
     "name": "Guava Leaves",
-    "images": "",
+    "images": "Guava Leaves.png",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fspecialtyproduce.com%2Fproduce%2FGuava_Leaves_8500.php&ved=0CBkQjhxqFwoTCKiWz5Po95EDFQAAAAAdAAAAABAH&opi=89978449",
     "description": "Leaves for stomach ulcer, GERD, acid reflux and abdominal pains.",
     "type": "Leaf",
     "known_to_treat": [
@@ -2481,7 +2491,8 @@
   {
     "id": "worm_grass",
     "name": "Worm Grass",
-    "images": "",
+    "images": "Worm Grass.jpg",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.facebook.com%2Fdansgarden.guesthouse.9%2Fposts%2Fworm-grass-or-simen-contwa-bush-thats-what-we-know-it-for-in-dominica-tomorrow-m%2F1059923242395524%2F&ved=0CBkQjhxqFwoTCJjG8qDp95EDFQAAAAAdAAAAABA6&opi=89978449",
     "description": "Powerful herb for intestinal worm infestation.",
     "type": "Plant",
     "known_to_treat": [
@@ -2501,7 +2512,8 @@
   {
     "id": "jungle_flame",
     "name": "Jungle Flame",
-    "images": "https://pixabay.com/get/gf7699b341320ce49f23b34a706030b7c85b16ba7fba815484e25a9aeff40741a592707107e3bf2e31eb6fd69e2631e28_1920.jpg,https://pixabay.com/get/g35dc8ffafb71dd38931c83079806c931bf9cdbb05f23b75be56bfcc0ec2bd3d2740ea4295217c85b169e21b3bc1b5d25_1920.jpg",
+    "images": "Jungle Flame.webp",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.mashtalegypt.com%2Fproduct%2Fjungle-flame%2F&ved=0CBkQjhxqFwoTCLjlzdbp95EDFQAAAAAdAAAAABAj&opi=89978449",
     "description": "One of the best plants for treating all forms of tumour in the body.",
     "type": "Plant",
     "known_to_treat": [
@@ -2514,7 +2526,8 @@
   {
     "id": "ashwagandha",
     "name": "Ashwagandha",
-    "images": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Withania_somnifera_1.jpg,https://upload.wikimedia.org/wikipedia/commons/7/7e/Withania_somnifera_fruit.jpg,https://upload.wikimedia.org/wikipedia/commons/3/3f/Withania_somnifera_leaves.jpg",
+    "images": "Ashwagandha.jpg",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fstudypages.com%2Fs%2Foral-absorption-and-safety-of-the-herb-ashwagandha-in-older-adults-506814%2F&ved=0CBkQjhxqFwoTCKDm0Lfq95EDFQAAAAAdAAAAABAj&opi=89978449",
     "description": "Amazing plant where every part is medicinal.",
     "type": "Plant",
     "known_to_treat": [
@@ -2535,7 +2548,8 @@
   {
     "id": "ringworm_plant",
     "name": "Ringworm Plant (Asunwon oyinbo / Osempe)",
-    "images": "",
+    "images": "Ringworm Plant.jpg",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fx.com%2FHerbalistChief%2Fstatus%2F1945776069962825889&ved=0CBkQjhxqFwoTCODqtf7q95EDFQAAAAAdAAAAABB0&opi=89978449",
     "description": "Plant for constipation.",
     "type": "Plant",
     "known_to_treat": [
@@ -2548,7 +2562,8 @@
   {
     "id": "pencil_plant",
     "name": "Pencil Plant",
-    "images": "https://upload.wikimedia.org/wikipedia/commons/P/e/Pencil_Cactus_(Euphorbia_tirucalli).jpg",
+    "images": "Pencil Plant.jpg",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fseedsandall.co.za%2Fproduct%2Fpencil-plant-rubber-hedge-euphorbia-kraalmelkbos-euphorbia-tirucallii-3-seed-pack%2F&ved=0CBkQjhxqFwoTCIjhgN7r95EDFQAAAAAdAAAAABAI&opi=89978449",
     "description": "Plant with medicinal uses.",
     "type": "Plant",
     "known_to_treat": [
@@ -2561,7 +2576,8 @@
   {
     "id": "orange_leaves",
     "name": "Orange Leaves",
-    "images": "https://pixabay.com/get/g457d19d41fbdfe0fce28585b1fd777fd3429542c892382dfd7c5b714e289e8dfe43f73a2cc0c905438c1cebacea685be_1920.jpg,https://pixabay.com/get/gfcab9d1bf2fbf7d892d34d751a851364702d8e6f6aebbd69e2c98289fe956a12679f7e06950b8ed8410ca275b487fd86_1920.jpg,https://pixabay.com/get/gc90c66817bad9f77998c7a30363ae37c766ec274f6e7f4339ccdb49cba2706493fea2ffcf5288826dfee78889529429c_1920.jpg",
+    "images": "Orange Leaves.avif",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fcrjheavytrucks.com%2Fdetail%2F%3Fquery%3DLeaf-Hojas-De-Naranja-Dry-Herb-Botanica-San-Lazaro%2F906898&ved=0CBkQjhxqFwoTCIiFqaDs95EDFQAAAAAdAAAAABAI&opi=89978449",
     "description": "Leaves for various ailments.",
     "type": "Leaf",
     "known_to_treat": [
@@ -2574,7 +2590,8 @@
   {
     "id": "neem_leaves",
     "name": "Neem Leaves",
-    "images": "https://upload.wikimedia.org/wikipedia/commons/N/e/Neem_leaves_images.jpg",
+    "images": "Neem Leaves.jpg",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.itoozhiayurveda.in%2Fgrow-neem-tree-bring-home-pharmacy%2F&ved=0CBkQjhxqFwoTCJCWq4Pt95EDFQAAAAAdAAAAABAI&opi=89978449",
     "description": "Leaves for blood purification and skin health.",
     "type": "Leaf",
     "known_to_treat": [
@@ -2590,7 +2607,8 @@
   {
     "id": "bitter_leaf",
     "name": "Bitter Leaf",
-    "images": "https://upload.wikimedia.org/wikipedia/commons/B/i/Bitter_Leaf_Tree.jpg",
+    "images": "Bitter Leaf.jpg",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Finfonet-biovision.org%2Fcrops-fruits-vegetables%2Fbitter-leaf-new&ved=0CBkQjhxqFwoTCOijkNbt95EDFQAAAAAdAAAAABAI&opi=89978449",
     "description": "Leaves for blood sugar and malaria.",
     "type": "Leaf",
     "known_to_treat": [
@@ -2605,7 +2623,8 @@
   {
     "id": "morinda",
     "name": "Morinda (Noni)",
-    "images": "https://upload.wikimedia.org/wikipedia/commons/N/o/Noni_fruit_(Morinda_citrifolia).jpg",
+    "images": "Morinda (Noni).jpg",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.utep.edu%2Fherbal-safety%2Fherbal-facts%2Fherbal%2520facts%2520sheet%2Fnoni.html&ved=0CBkQjhxqFwoTCJjW2Iru95EDFQAAAAAdAAAAABAI&opi=89978449",
     "description": "Fruit for immune and general health.",
     "type": "Fruit",
     "known_to_treat": [
@@ -2620,7 +2639,8 @@
   {
     "id": "basil",
     "name": "Basil (Scent Leaf variant)",
-    "images": "https://pixabay.com/get/g763cb0e7df8511233d979cdcbac4db6a526e53dacbd12080ef445aa564b18232af469487c2bdbabefa42cff8bec80a92_1920.jpg,https://pixabay.com/get/g91af798d0280ad9c9e240988e467fab6c82373760d18b06a4ed8198ab9f6003080903d41212b9fc038f41a0fa4a9c5da_1920.jpg,https://pixabay.com/get/g7dd4092d084ef4ffd24525899b5029f8f4459ae4a744387c6fa153a9d44178964cba8918d55abe651e54857bed11aa2f_1920.png",
+    "images": "Basil (Scent Leaf variant).jpg",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FBasil&ved=0CBkQjhxqFwoTCJDBoO7u95EDFQAAAAAdAAAAABAI&opi=89978449",
     "description": "Leaves for digestion and respiratory health.",
     "type": "Leaf",
     "known_to_treat": [
@@ -2635,7 +2655,8 @@
   {
     "id": "eucalyptus",
     "name": "Eucalyptus",
-    "images": "https://upload.wikimedia.org/wikipedia/commons/E/u/Eucalyptus_trees_in_Agioi_Apostoli._Crete,_Greece.jpg",
+    "images": "Eucalyptus.avif",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.healthline.com%2Fnutrition%2Feucalyptus-leaves&ved=0CBkQjhxqFwoTCMCw0b_v95EDFQAAAAAdAAAAABAI&opi=89978449",
     "description": "Leaves for respiratory and cold relief.",
     "type": "Leaf",
     "known_to_treat": [
@@ -2650,7 +2671,8 @@
   {
     "id": "lemon_grass",
     "name": "Lemon Grass",
-    "images": "https://upload.wikimedia.org/wikipedia/commons/B/u/Bumbu_Rawon.jpg",
+    "images": "Lemon Grass.webp",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fbeejwala.com%2Fproducts%2Flemon-grass-herb-seeds%3Fsrsltid%3DAfmBOorbKh2gQnJ15mi8yINmR-ZRQdyeZtgkUCv8_IUVu_e-fVUIMob3&ved=0CBkQjhxqFwoTCJC0iYLw95EDFQAAAAAdAAAAABAj&opi=89978449",
     "description": "Leaves for digestion and relaxation.",
     "type": "Leaf",
     "known_to_treat": [
@@ -2665,7 +2687,8 @@
   {
     "id": "blackjack",
     "name": "Blackjack Plant",
-    "images": "https://upload.wikimedia.org/wikipedia/commons/B/i/Bidens_pilosa_02.JPG",
+    "images": "Blackjack Plant.jpg",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.facebook.com%2Fagribusinesszw%2Fposts%2Fblack-jack-bidens-pilosathis-is-a-common-plant-in-our-farms-and-is-often-looked-%2F3229892133803769%2F&ved=0CBkQjhxqFwoTCICPnq7w95EDFQAAAAAdAAAAABAI&opi=89978449",
     "description": "Plant for various infections and conditions.",
     "type": "Plant",
     "known_to_treat": [
