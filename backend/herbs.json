@@ -2710,7 +2710,8 @@
   {
     "id": "wild_dandelion",
     "name": "Wild Dandelion",
-    "images": "https://upload.wikimedia.org/wikipedia/commons/D/a/Dandelion_clock.jpg",
+    "images": "Wild Dandelion.webp",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.plantgoodseed.com%2Fproducts%2Ftrue-common-wild-dandelion-seeds-taraxacum-officinale%3Fsrsltid%3DAfmBOorjxmpaEGoCMHa6lBgSsUiOUzGwh3HbxkAiwxw-ZngLpsU-hts-&ved=0CBkQjhxqFwoTCPinuPzU-ZEDFQAAAAAdAAAAABAI&opi=89978449",
     "description": "Leaves for infections and liver issues.",
     "type": "Leaf",
     "known_to_treat": [
@@ -2727,7 +2728,8 @@
   {
     "id": "cocks_comb",
     "name": "Cock\u00e2\u20ac\u2122s Comb Plant",
-    "images": "https://upload.wikimedia.org/wikipedia/commons/C/e/Celosia_argentea--_the_Silver_Cock's_Comb_(29194480514).jpg",
+    "images": "Cocks Comb Plant.jpg",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.gardeningknowhow.com%2Fornamental%2Fflowers%2Fcockscomb%2Fgrowing-cockscomb-flowers.htm&ved=0CBkQjhxqFwoTCMj24YjY-ZEDFQAAAAAdAAAAABAI&opi=89978449",
     "description": "Plant for rheumatism and infections.",
     "type": "Plant",
     "known_to_treat": [
@@ -2749,7 +2751,8 @@
   {
     "id": "bitter_leaves",
     "name": "Bitter Leaves",
-    "images": "https://upload.wikimedia.org/wikipedia/commons/B/i/Bitter_leaves_plant.jpg",
+    "images": "Bitter Leaves.jpg",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Finfonet-biovision.org%2Fcrops-fruits-vegetables%2Fbitter-leaf-new&ved=0CBkQjhxqFwoTCMD-6uHY-ZEDFQAAAAAdAAAAABAI&opi=89978449",
     "description": "Leaves for malaria and diabetes.",
     "type": "Leaf",
     "known_to_treat": [
@@ -2770,7 +2773,8 @@
   {
     "id": "madagascar_plant",
     "name": "Madagascar Plant",
-    "images": "https://upload.wikimedia.org/wikipedia/commons/M/a/Madagascar_periwinkle_01178.jpg",
+    "images": "Madagascar Plant.jpg",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.botanic.cam.ac.uk%2Flearning%2Ftrails%2Fmedicines%2Fmadagascar-periwinkle-catharanthus-roseus%2F&ved=0CBkQjhxqFwoTCJCwiJrZ-ZEDFQAAAAAdAAAAABAI&opi=89978449",
     "description": "Plant with broad antimicrobial properties.",
     "type": "Plant",
     "known_to_treat": [
@@ -2782,27 +2786,10 @@
     "_comment": "Source: @HerbalistChief X/Twitter"
   },
   {
-    "id": "sacred_spiritual_plant",
-    "name": "Sacred Spiritual Plant",
-    "images": "https://upload.wikimedia.org/wikipedia/commons/H/o/Holy_Basil_edit2.jpg",
-    "description": "A highly sacred spiritual plant with medicinal benefits.",
-    "type": "Plant",
-    "known_to_treat": [
-      "malaria",
-      "infertility",
-      "hypertension",
-      "diabetes",
-      "hormonal imbalance",
-      "cancer"
-    ],
-    "usage": "Boil the plant and drink a teacupful twice daily.",
-    "pregnancy_friendly": true,
-    "_comment": "Source: @HerbalistChief X/Twitter"
-  },
-  {
     "id": "bamboo_leaves",
     "name": "Bamboo Leaves",
-    "images": "https://upload.wikimedia.org/wikipedia/commons/B/a/Bamboo_leaves,_the_natural_wrapping_material.jpg",
+    "images": "Bamboo Leaves.webp",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.news-medical.net%2Fnews%2F20230613%2FBamboos-hidden-treasures-unveiling-the-possible-health-boosting-powers-of-leaf-and-sheath-extracts.aspx&ved=0CBkQjhxqFwoTCMiuzPzg-ZEDFQAAAAAdAAAAABAI&opi=89978449",
     "description": "Leaves used for restoring menstruation.",
     "type": "Leaf",
     "known_to_treat": [
@@ -2815,7 +2802,8 @@
   {
     "id": "soursop_leaves",
     "name": "Soursop Leaves",
-    "images": "https://upload.wikimedia.org/wikipedia/commons/S/o/Soursop_leaves.jpg",
+    "images": "Soursop Leaves.webp",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.tuasaude.com%2Fen%2Fsoursop-tea%2F&ved=0CBkQjhxqFwoTCPCHyY7k-ZEDFQAAAAAdAAAAABAI&opi=89978449",
     "description": "Leaves used for cancer treatment.",
     "type": "Leaf",
     "known_to_treat": [
@@ -2829,7 +2817,8 @@
   {
     "id": "pawpaw_fruit",
     "name": "Pawpaw Fruit",
-    "images": "https://upload.wikimedia.org/wikipedia/commons/P/a/Pawpaw_(Asimina_triloba)_Tree_with_Fruit_at_Night.jpg",
+    "images": "Pawpaw Fruit.jpg",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.yates.co.nz%2Fplants%2Ffruits-and-citrus%2Fpaw-paw%2Fhow-to-grow-paw-paw%2F&ved=0CBkQjhxqFwoTCIjV2MXk-ZEDFQAAAAAdAAAAABAI&opi=89978449",
     "description": "Fruit used for various healing purposes.",
     "type": "Fruit",
     "known_to_treat": [
@@ -2842,7 +2831,8 @@
   {
     "id": "aidan_fruit",
     "name": "Aidan Fruit",
-    "images": "https://upload.wikimedia.org/wikipedia/commons/T/e/Tetrapleura_tetraptera_MHNT.BOT.2017.10.22.jpg",
+    "images": "Aidan Fruit.avif",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwww.etsy.com%2Fin-en%2Flisting%2F1005728970%2Fprekese-aidan-fruit-tetrapleura&ved=0CBkQjhxqFwoTCPiMibLl-ZEDFQAAAAAdAAAAABAI&opi=89978449",
     "description": "Fruit for hormonal imbalance and defenses.",
     "type": "Fruit",
     "known_to_treat": [
@@ -2856,7 +2846,8 @@
   {
     "id": "mango_stem_bark",
     "name": "Mango Stem Bark",
-    "images": "https://pixabay.com/get/g66d51c8c227bc87a1b67163eefa448f1e2aba50a3c57d9cb030232c5e6b6740099340d91632fc80f8ecbebf42a458d15_1920.jpg,https://pixabay.com/get/g7d0295666b2302471851024c81bd8c1b493654cf77a80c5a69aa4303b47a977cdac8413bb18c6b1402e269f876d6692b_1920.jpg,https://pixabay.com/get/g0f42df4e53a9524953bccbd1d0b5c42a7147f8051b8145ce9e77324cfdbfce7c442c25129574d67e4a5f5882f020af00_1920.jpg",
+    "images": "Mango Stem Bark.jpg",
+    "image_credits": "https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fprakritisgarden.in%2Fshop%2Fmango-stem-bark-100g%2F&ved=0CBkQjhxqFwoTCIDr7_nl-ZEDFQAAAAAdAAAAABAI&opi=89978449",
     "description": "Stem bark used for toothache.",
     "type": "Bark",
     "known_to_treat": [
