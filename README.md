@@ -33,6 +33,7 @@
 
 ```
 herbal-ai/
+├── screenshots/
 ├── backend/                  # FastAPI backend
 │   ├── app/
 │   │   ├── __init__.py
