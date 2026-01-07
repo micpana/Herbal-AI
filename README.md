@@ -173,6 +173,12 @@ Change these immediately in production!
 2. Log in
 3. Manage products, admins, and view usage stats
 
+## Screenshots
+
+The `screenshots/` folder contains system screenshots demonstrating the application in action, including user interface views and admin panel functionalities.
+
+- 1.png to 15.png: Various screenshots of the app's features.
+
 ## Security Notes
 
 - Normal users are **completely anonymous** (no tracking)
